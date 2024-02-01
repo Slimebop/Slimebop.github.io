@@ -118,8 +118,10 @@ img {
 	min-height: 25px;
 	
 }
-element {
-	overflow-x: hidden
+html {
+	-ms-overflow-style: none; /* for Internet Explorer, Edge */
+	scrollbar-width: none; /* for Firefox */
+	overflow-x: hidden;
 }
 @keyframes test2 {
   0% {padding: 0%;}
