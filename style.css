@@ -118,6 +118,9 @@ img {
 	min-height: 25px;
 	
 }
+element {
+	overflow-x: hidden
+}
 @keyframes test2 {
   0% {padding: 0%;}
   25% {padding: 25%;}
