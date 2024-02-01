@@ -104,7 +104,10 @@ footer
 	background-color: #000000;
 	box-shadow: 2px 2px 3px;
 }
-
+img {
+	width: 50%;
+	height: 50%;
+  }
 #moving
 {
 	position: relative;
