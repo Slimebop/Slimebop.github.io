@@ -118,7 +118,7 @@ img {
 	min-height: 25px;
 	
 }
-html {
+div {
 	-ms-overflow-style: none; /* for Internet Explorer, Edge */
 	scrollbar-width: none; /* for Firefox */
 	overflow-x: hidden;
