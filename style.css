@@ -127,7 +127,11 @@ img {
   75% {padding: 100%;}
   100% {padding: 500%;}
 }
-
+@keyframes footer {
+	0% {left: 0px; right: 0px;}
+	50% {right: 13%;}
+	100% {left: 0px; right: 0px;}
+}
 @keyframes reappear {
   0% {opacity: 0;}
   50% {opacity: 0.5;}
