@@ -116,7 +116,7 @@ img {
 	position: relative;
 	animation: footer 5s infinite;
 	min-height: 25px;
-	
+	width: 5%
 }
 
 @keyframes test2 {
@@ -128,9 +128,9 @@ img {
   100% {padding: 500%;}
 }
 @keyframes footer {
-	0% {left: 0px; right: 0px;}
-	50% {right: 13%;}
-	100% {left: 0px; right: 0px;}
+	0% {left: 0px;}
+	50% {left: 87%;}
+	100% {left: 0px;}
 }
 @keyframes reappear {
   0% {opacity: 0;}
