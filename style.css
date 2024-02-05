@@ -28,7 +28,7 @@ ul {
 	color: #ffffff;
 	margin: 4%;
 	padding: 0;
-	list-style-type: circle;
+	list-style: square;
 }
 h1 {
 	color: #ffffff;
