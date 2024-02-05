@@ -92,12 +92,15 @@ a:hover {
 }
 #evil::marker {
 	color: red;
+	font-size: 23px;
 }
 #good::marker {
 	color: rgb(78, 255, 84);
+	font-size: 23px;
 }
 #neutral::marker {
 	color: rgb(198, 198, 198);
+	font-size: 23px;
 }
 footer
 {
