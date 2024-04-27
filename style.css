@@ -85,6 +85,9 @@ a:hover {
 
 	box-shadow: 2px 2px 3px;
 }
+#center {
+	text-align: center;
+}
 #evil::marker {
 	color: red;
 	font-size: 23px;
