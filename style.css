@@ -87,6 +87,7 @@ a:hover {
 }
 #center {
 	text-align: center;
+	display: inline;
 }
 #evil::marker {
 	color: red;
