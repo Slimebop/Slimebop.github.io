@@ -39,25 +39,25 @@ function RandomizeBoonNFlaw() {
     var temporaryBoons = Boons;
     var temporaryFlaws = Flaws;
     var temporary = get_random(Boons);
-    var index = array.indexOf(temporary);
+    var index = temporaryBoons.indexOf(temporary);
     if (index > -1) { // only splice array when item is found
         temporaryBoons.splice(index, 1); // 2nd parameter means remove one item only
     }
     var blehh = temporary
     temporary = get_random(temporaryBoons);
-    index = array.indexOf(temporary);
+    index = temporaryBoons.indexOf(temporary);
     if (index > -1) { // only splice array when item is found
         temporaryBoons.splice(index, 1); // 2nd parameter means remove one item only
     }
     blehh = blehh+" - "+temporary
     temporary = get_random(temporaryFlaws);
-    index = array.indexOf(temporary);
+    index = temporaryFlaws.indexOf(temporary);
     if (index > -1) { // only splice array when item is found
         temporaryFlaws.splice(index, 1); // 2nd parameter means remove one item only
     }
     blehh = blehh+" - "+temporary
     temporary = get_random(temporaryFlaws);
-    index = array.indexOf(temporary);
+    index = temporaryFlaws.indexOf(temporary);
     if (index > -1) { // only splice array when item is found
         temporaryFlaws.splice(index, 1); // 2nd parameter means remove one item only
     }
