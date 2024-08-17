@@ -1,5 +1,5 @@
 var gender = ['Masculine', 'Feminine'];
-
+aaweawe
 function Random() {
     document.getElementById('tb').innerText = gender.random();
     console.log(gender.random());
