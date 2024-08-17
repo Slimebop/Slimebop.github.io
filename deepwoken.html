@@ -5,10 +5,9 @@
 		<title>deepwoke</title>
 		<meta name="author" content="Lobban">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="depths.css">
         <script src = "script.js"></script>
 	</head>
-	
 	</body>
 		<div id="mainWrapper">
 		<nav><h1>Random Deepwoken Character Creator</h1>
@@ -17,8 +16,25 @@
 		<section>
 		<p>
 			<h3>Character Creation</h3>
-			<p>Gender:</p><p id="tb" name="tb">.</p>
-            <input type="button" value="Random Number!" onclick="Random();" />
+            <select name="Races" id="Races">
+                <option value="Adret">Adret</option>
+                <option value="Canor">Canor</option>
+                <option value="Capra">Capra</option>
+                <option value="Celtor">Celtor</option>
+                <option value="Chrysid">Chrysid</option>
+                <option value="Etrean">Etrean</option>
+                <option value="Felinor">Felinor</option>
+                <option value="Ganymede">Ganymede</option>
+                <option value="Gremor">Gremor</option>
+                <option value="Khan">Khan</option>
+                <option value="Tiran">Tiran</option>
+                <option value="Vesperian">Vesperian</option>
+            </select>
+            <input type="button" value="Random Class" onclick="Random();" />
+			<p>Gender:</p><p id="Gender" name="Gender">.</p>
+            <p>Body Type:</p><p id="BodyType" name="BodyType">.</p>
+            <p>Variant:</p><p id="Variant" name="Variant">.</p>
+            
 			
 		</p>
 		</section>
