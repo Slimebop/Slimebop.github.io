@@ -18,7 +18,6 @@ var AllAtunements = ['Attunement-less', 'Random', 'Flamecharm', 'Frostdraw', 'Th
 var Attunements = ['Flamecharm', 'Frostdraw', 'Thundercall', 'Galebreathe', 'Shadowcast', 'Ironsing']
 var Boons = ['Gourmet', 'Autodidact', 'Maverick', 'Survivalist', 'Steadfast', 'Scrapper', 'Packmule', 'Sly']
 var Flaws = ['Vegetarian', 'Squeamish', 'Obvious', 'Haemophilia', 'Deficient', 'Blind', 'Fugitive', 'Manic', 'Glutton']
-RandomizeCharacter();
 function get_random(list) {
     return list[Math.floor((Math.random()*list.length))];
   }
