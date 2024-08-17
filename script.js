@@ -36,35 +36,7 @@ function RandomizeAttunement() {
         document.getElementById('Attunement').innerText = "Attunement:"+firstattunement+"+"+secondattunement;
     }
 }
-function RandomizeBoonNFlaw() {
-    var temporaryBoons = Boons;
-    var temporaryFlaws = Flaws;
-    var temporary = get_random(Boons);
-    const index = array.indexOf(temporary);
-    if (index > -1) { // only splice array when item is found
-        temporaryBoons.splice(index, 1); // 2nd parameter means remove one item only
-    }
-    var blehh = temporary
-    temporary = get_random(temporaryBoons);
-    const index = array.indexOf(temporary);
-    if (index > -1) { // only splice array when item is found
-        temporaryBoons.splice(index, 1); // 2nd parameter means remove one item only
-    }
-    blehh = blehh+" - "+temporary
-    temporary = get_random(temporaryFlaws);
-    const index = array.indexOf(temporary);
-    if (index > -1) { // only splice array when item is found
-        temporaryFlaws.splice(index, 1); // 2nd parameter means remove one item only
-    }
-    blehh = blehh+" - "+temporary
-    temporary = get_random(temporaryFlaws);
-    const index = array.indexOf(temporary);
-    if (index > -1) { // only splice array when item is found
-        temporaryFlaws.splice(index, 1); // 2nd parameter means remove one item only
-    }
-    blehh = blehh+" - "+temporary
-    document.getElementById('Boons').innerText = "Boons And Flaws:"+temporary;
-}
+
 function RandomizeCharacter() {
     var Races = document.getElementById("Races");
     Race = Races.options[Races.selectedIndex].value;
