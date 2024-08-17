@@ -16,7 +16,8 @@ var Race = "Canor"
 var Weapons = ['Sword', 'Battleaxe', 'Stilleto', 'Way Of Navae', 'Quickfang', 'Irontusk', 'Silversix', 'Avenger', 'Jus Karita', 'Legion Kata']
 var AllAtunements = ['Attunement-less', 'Random', 'Flamecharm', 'Frostdraw', 'Thundercall', 'Galebreathe', 'Shadowcast', 'Ironsing']
 var Attunements = ['Flamecharm', 'Frostdraw', 'Thundercall', 'Galebreathe', 'Shadowcast', 'Ironsing']
-var Boons = ['Gourmet', 'Autodidact', 'Maverick', 'Survivalist',]
+var Boons = ['Gourmet', 'Autodidact', 'Maverick', 'Survivalist', 'Steadfast', 'Scrapper', 'Packmule', 'Sly']
+var Flaws = ['Vegetarian', 'Squeamish', 'Obvious', 'Haemophilia', 'Deficient', 'Blind', 'Fugitive', 'Manic', 'Glutton']
 RandomizeCharacter();
 function get_random(list) {
     return list[Math.floor((Math.random()*list.length))];
@@ -35,7 +36,35 @@ function RandomizeAttunement() {
         document.getElementById('Attunement').innerText = "Attunement:"+firstattunement+"+"+secondattunement;
     }
 }
-
+function RandomizeBoonNFlaw() {
+    var temporaryBoons = Boons;
+    var temporaryFlaws = Flaws;
+    var temporary = get_random(Boons);
+    const index = array.indexOf(temporary);
+    if (index > -1) { // only splice array when item is found
+        temporaryBoons.splice(index, 1); // 2nd parameter means remove one item only
+    }
+    var blehh = temporary
+    temporary = get_random(temporaryBoons);
+    const index = array.indexOf(temporary);
+    if (index > -1) { // only splice array when item is found
+        temporaryBoons.splice(index, 1); // 2nd parameter means remove one item only
+    }
+    blehh = blehh+" - "+temporary
+    temporary = get_random(temporaryFlaws);
+    const index = array.indexOf(temporary);
+    if (index > -1) { // only splice array when item is found
+        temporaryFlaws.splice(index, 1); // 2nd parameter means remove one item only
+    }
+    blehh = blehh+" - "+temporary
+    temporary = get_random(temporaryFlaws);
+    const index = array.indexOf(temporary);
+    if (index > -1) { // only splice array when item is found
+        temporaryFlaws.splice(index, 1); // 2nd parameter means remove one item only
+    }
+    blehh = blehh+" - "+temporary
+    document.getElementById('Boons').innerText = "Boons And Flaws:"+temporary;
+}
 function RandomizeCharacter() {
     var Races = document.getElementById("Races");
     Race = Races.options[Races.selectedIndex].value;
