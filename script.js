@@ -13,11 +13,28 @@ var Khan = ['Tamarin', 'Capuchin', 'Albino', 'Silverback', 'Hallowtide']
 var Tiran = ['Canary', 'Crow', 'Jay', 'Cardinal', 'Hallowtide']
 var Vesperian = ['Plackart', 'Sabaton', 'Besague', 'Hallowtide']
 var Race = "Canor"
+var Weapons = ['Sword', 'Battleaxe', 'Stilleto', 'Way Of Navae', 'Quickfang', 'Irontusk', 'Silversix', 'Avenger', 'Jus Karita', 'Legion Kata']
+var AllAtunements = ['Attunement-less', 'Random', 'Flamecharm', 'Frostdraw', 'Thundercall', 'Galebreathe', 'Shadowcast', 'Ironsing']
+var Attunement = ['Flamecharm', 'Frostdraw', 'Thundercall', 'Galebreathe', 'Shadowcast', 'Ironsing']
 RandomizeCharacter();
 function get_random(list) {
     return list[Math.floor((Math.random()*list.length))];
   }
-  
+function RandomizeWeapon() {
+    document.getElementById('Weapon').innerText = "Weapon:"+get_random(Weapons);
+}
+function RandomizeAttunement() {
+    var firstattunement = get_random(AllAtunements);
+    var secondattunement = get_random(Attunements);
+    var rand = math.floor(math.random)
+    console.log(firstattunement, secondattunement, rand)
+    if(firstattunement === 'Attunement-less' || rand == 1) {
+        document.getElementById('Attunement').innerText = "Attunement:"+firstattunement;
+    }else{
+
+    }
+}
+
 function RandomizeCharacter() {
     var Races = document.getElementById("Races");
     Race = Races.options[Races.selectedIndex].value;
