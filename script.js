@@ -18,6 +18,7 @@ var AllAtunements = ['Attunement-less', 'Random', 'Flamecharm', 'Frostdraw', 'Th
 var Attunements = ['Flamecharm', 'Frostdraw', 'Thundercall', 'Galebreathe', 'Shadowcast', 'Ironsing']
 var Boons = ['Gourmet', 'Autodidact', 'Maverick', 'Survivalist', 'Steadfast', 'Scrapper', 'Packmule', 'Sly']
 var Flaws = ['Vegetarian', 'Squeamish', 'Obvious', 'Haemophilia', 'Deficient', 'Blind', 'Fugitive', 'Manic', 'Glutton']
+var Modifiers = ['Fragile Heart', 'Crestfallen', 'Deep Champion', 'Dissonant', 'Hollow', 'Slowburn', 'Dealbreaker', 'Loose Change', 'High Velocity', 'Ironwoken', 'One Bit', 'Destined', 'Vow Of Thorns']
 function get_random(list) {
     return list[Math.floor((Math.random()*list.length))];
   }
@@ -62,7 +63,7 @@ function RandomizeBoonNFlaw() {
         temporaryFlaws.splice(index, 1); // 2nd parameter means remove one item only
     }
     blehh = blehh+" - "+temporary
-    document.getElementById('Boons').innerText = "Boons And Flaws:"+temporary;
+    document.getElementById('Boons').innerText = "Boons And Flaws:"+blehh;
 }
 function RandomizeCharacter() {
     var Races = document.getElementById("Races");
