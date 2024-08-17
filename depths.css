@@ -56,7 +56,7 @@ h3 {
 header {
 	display: flex;
 
-	background-color: #000000;
+	background-color: #22505e;
 	box-shadow: 2px 2px 3px;
 }
 main {
@@ -69,7 +69,7 @@ main {
 body {
 	font-family: "Lora","Courier New",monospace,serif;
 	font-weight: 700;
-	background-color: #000000;
+	background-color: #22505e;
 }
 
 
@@ -79,7 +79,7 @@ a:hover {
 }
 #mainWrapper
 {
-	background-color: #000000;
+	background-color: #22505e;
 	min-height: 25%;
 	width: 70%;
 	margin: auto;
@@ -103,7 +103,7 @@ a:hover {
 }
 footer
 {
-	background-color: #000000;
+	background-color: #22505e;
 	box-shadow: 2px 2px 3px;
 	width: 100%;
 
@@ -143,7 +143,7 @@ main section
 
 	min-height: 150px;
 	box-shadow: 2px 2px 3px;
-	background-color: rgb(0, 0, 0);
+	background-color: #22505e;
 	border: .5vw solid white;
 
 }
@@ -163,7 +163,7 @@ h2
 }
 div
 {
-	border: .25vw solid black;
+	border: .25vw solid #22505e;
     
     width: 9vw;
     margin: auto;
