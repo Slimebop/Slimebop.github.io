@@ -16,6 +16,7 @@ var Race = "Canor"
 var Weapons = ['Sword', 'Battleaxe', 'Stilleto', 'Way Of Navae', 'Quickfang', 'Irontusk', 'Silversix', 'Avenger', 'Jus Karita', 'Legion Kata']
 var AllAtunements = ['Attunement-less', 'Random', 'Flamecharm', 'Frostdraw', 'Thundercall', 'Galebreathe', 'Shadowcast', 'Ironsing']
 var Attunements = ['Flamecharm', 'Frostdraw', 'Thundercall', 'Galebreathe', 'Shadowcast', 'Ironsing']
+var Boons = ['Gourmet', 'Autodidact', 'Maverick', 'Survivalist',]
 RandomizeCharacter();
 function get_random(list) {
     return list[Math.floor((Math.random()*list.length))];
@@ -31,7 +32,7 @@ function RandomizeAttunement() {
     if(firstattunement === 'Attunement-less' || rand == 1) {
         document.getElementById('Attunement').innerText = "Attunement:"+firstattunement;
     }else{
-
+        document.getElementById('Attunement').innerText = "Attunement:"+firstattunement+"+"+secondattunement;
     }
 }
 
