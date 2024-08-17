@@ -19,6 +19,8 @@ function get_random(list) {
   }
   
 function RandomizeCharacter() {
+    var Races = document.getElementById("Races");
+    Race = Races.options[Races.selectedIndex].value;
     document.getElementById('Gender').innerText = "Gender:"+get_random(Gender);
     document.getElementById('BodyType').innerText = "Body Type:"+get_random(BodyType);
     document.getElementById('Variant').innerText = "Variant: "+get_random(eval(Race));
