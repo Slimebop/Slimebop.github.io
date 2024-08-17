@@ -15,7 +15,7 @@ var Vesperian = ['Plackart', 'Sabaton', 'Besague', 'Hallowtide']
 var Race = "Canor"
 var Weapons = ['Sword', 'Battleaxe', 'Stilleto', 'Way Of Navae', 'Quickfang', 'Irontusk', 'Silversix', 'Avenger', 'Jus Karita', 'Legion Kata']
 var AllAtunements = ['Attunement-less', 'Random', 'Flamecharm', 'Frostdraw', 'Thundercall', 'Galebreathe', 'Shadowcast', 'Ironsing']
-var Attunement = ['Flamecharm', 'Frostdraw', 'Thundercall', 'Galebreathe', 'Shadowcast', 'Ironsing']
+var Attunements = ['Flamecharm', 'Frostdraw', 'Thundercall', 'Galebreathe', 'Shadowcast', 'Ironsing']
 RandomizeCharacter();
 function get_random(list) {
     return list[Math.floor((Math.random()*list.length))];
