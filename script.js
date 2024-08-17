@@ -1,8 +1,9 @@
 var gender = ['Masculine', 'Feminine'];
-Array.prototype.random = function () {
-    return this[Math.floor((Math.random()*this.length))];
+function get_random(list) {
+    return list[Math.floor((Math.random()*list.length))];
   }
+  
 function Random() {
-    document.getElementById('tb').innerText = gender.random();
-    console.log(gender.random());
+    document.getElementById('tb').innerText = get_random(gender);
+    console.log(get_random(gender));
 }
