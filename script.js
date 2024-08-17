@@ -21,5 +21,5 @@ function get_random(list) {
 function RandomizeCharacter() {
     document.getElementById('Gender').innerText = "Gender:"+get_random(Gender);
     document.getElementById('BodyType').innerText = "Body Type:"+get_random(BodyType);
-    document.getElementById('Variant').innerText = "Variant: "+eval(get_random(Race));
+    document.getElementById('Variant').innerText = "Variant: "+get_random(eval(Race));
 }
