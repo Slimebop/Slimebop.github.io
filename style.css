@@ -21,6 +21,8 @@
     flex: 1;
     padding:13px;
     border:none;
+	height: 21%;
+	width: 39%;
 }
 .index-main {
     background: var(--color-bg);
