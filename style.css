@@ -21,10 +21,10 @@
     flex: 1;
     padding:13px;
     border:none;
-
 }
 iframe.youtube-item {
-	height: 50%;
+	display:block;
+
 	width: 50%;
 }
 .centerthisaudio{
