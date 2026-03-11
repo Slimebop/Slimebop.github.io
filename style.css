@@ -21,8 +21,11 @@
     flex: 1;
     padding:13px;
     border:none;
-	height: 21%;
-	width: 39%;
+
+}
+iframe.youtube-item {
+	height: 50%;
+	width: 50%;
 }
 .index-main {
     background: var(--color-bg);
