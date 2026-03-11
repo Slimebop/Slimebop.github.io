@@ -27,6 +27,10 @@ iframe.youtube-item {
 	height: 50%;
 	width: 50%;
 }
+.centerthisaudio{
+	justify-content: center;
+	display:flex;
+}
 .index-main {
     background: var(--color-bg);
     color: var(--color-main);
