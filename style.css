@@ -22,6 +22,28 @@
     padding:13px;
     border:none;
 }
+.center-badges {
+	display: flexbox;
+    justify-content: center;
+	align-content: center;
+	padding: 2px;
+	flex-direction:unset;
+}
+.center-badges > img {
+	width:88px;
+	height:31px
+}
+.center-stamps {
+	display: flexbox;
+    justify-content: center;
+	align-content: center;
+	padding: 2px;
+	flex-direction:unset;
+}
+.center-stamps > img {
+	width:99px;
+	height:56px
+}
 iframe.youtube-item {
 	display:block;
 
