@@ -249,13 +249,14 @@ function displayCharacterInfo(char, currentPage){
 pageInput.addEventListener("input", (e) => {
     const page = parseInt(e.target.value) || 1;
     renderCharacters(page);
-	console.warn(currentchar)
-	if (page >= globalThis.currentchar.firstAppearance){
-		displayCharacterInfo(globalThis.currentchar, page)
-	}else{
-		const charsheet = document.getElementById("charinfoparent");
-		charsheet.style.display = "none";
-	}
+	if (globalThis.currentchar.firstAppearance) {
+		if (page >= globalThis.currentchar.firstAppearance){
+			displayCharacterInfo(globalThis.currentchar, page)
+		}else{
+			const charsheet = document.getElementById("charinfoparent");
+			charsheet.style.display = "none";
+		}
+}
 	
 });
 
