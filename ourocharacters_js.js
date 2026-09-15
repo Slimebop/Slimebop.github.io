@@ -133,10 +133,10 @@ const characters = [
 		id: "Luna", //CASE SENSITIVE!!!! WRAHH!!!
 		name: "Luna",
 		names: {
-			"25": "Luna"
+			"22": "Luna"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"25": "ourochar_files/earlyluna.png"
+			"22": "ourochar_files/earlyluna.png"
 		},
 		firstAppearance: 22,
 		status: {
@@ -159,12 +159,12 @@ const characters = [
 		id: "Dive", //CASE SENSITIVE!!!! WRAHH!!!
 		name: "Dive",
 		names: {
-			"25": "Dive",
+			"22": "Dive",
 			"103": "???",
 			"203": "DIVECHAINSPRITE"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"25": "ourochar_files/earlydive.png",
+			"22": "ourochar_files/earlydive.png",
 			"103": "ourochar_files/protodive.png",
 			"202": "ourochar_files/divechainsprite.png",
 		},
