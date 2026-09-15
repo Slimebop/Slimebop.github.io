@@ -22,7 +22,7 @@ const characters = [
 		lunarswing:{},
 		sexuality: {},
 		pronouns: {
-			"default": "They/Them" 
+			"default": "He/Him" 
 		},
 		location: {
 			"8": "the THIRD FRIDGE (Galactic Prison)",
