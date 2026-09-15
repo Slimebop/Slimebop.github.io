@@ -69,7 +69,7 @@ const characters = [
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"17": "ourochar_files/earlyshelly.png",
-			"608": "ourochar_files/!REAPLCEMEWHENUPDATE.shellysmile.png",
+			"608": "ourochar_files/!REPLACEMEWHENUPDATE.shellysmile.png",
 		},
 		firstAppearance: 17,
 		descriptions: {
