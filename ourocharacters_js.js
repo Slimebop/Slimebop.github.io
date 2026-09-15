@@ -7,12 +7,16 @@ const characters = [
 		names: {
 			"3": "MASKED MISCREANT",
 			"4": "INKWELL PHOBIDAN",
-			"5": "Inkwell Phobidan"
+			"5": "Inkwell Phobidan",
+			"578": "PETE PAJAMAS",
+			"579": "INKWELL PHOBIDAN",
+			"580": "Inkwell Phobidan",
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"3": "ourochar_files/earlyinkwell.png",
 			"348": "ourochar_files/early_dmg_ink.png",
 			"398": "ourochar_files/capewell.png",
+			"611": "ourochar_files/cotwell.png",
 			"3676": "ourochar_files/3676inkwell.png" //test image 
 		},
 		firstAppearance: 3,
@@ -21,7 +25,9 @@ const characters = [
 			"default": "The standard design and appearance of Inkwell."
 		},
 		classpect: {},
-		lunarswing:{},
+		lunarswing:{
+			"577": "Derse"
+		},
 		sexuality: {},
 		pronouns: {
 			"default": "He/Him" 
@@ -62,7 +68,8 @@ const characters = [
 			"49": "SHELLY"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"17": "ourochar_files/earlyshelly.png"
+			"17": "ourochar_files/earlyshelly.png",
+			"608": "ourochar_files/!REAPLCEMEWHENUPDATE.shellysmile.png",
 		},
 		firstAppearance: 17,
 		descriptions: {
@@ -72,7 +79,7 @@ const characters = [
 			"default": "???"
 		},
 		lunarswing:{
-			"default": "???" 
+			"580": "Derse"
 		},
 		sexuality: {
 			"default": "???"
@@ -430,6 +437,9 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 		pestertag: {
 			"64": "foreverLost [FL]"
 		},
+		lunarswing:{
+			"590": "Derse"
+		},
 		pestercolor: {
 			"default": "#000000",
 			"64": "#ff0058"
@@ -559,6 +569,9 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"347": "ourochar_files/init_sigmund.png"
+		},
+		lunarswing:{
+			"590": "Derse"
 		},
 		firstAppearance: 347,
 		plotrelevance: 95,
@@ -753,6 +766,82 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		},
 		firstAppearance: 501,
 		plotrelevance: 80,
+	},
+	{
+		id: "VEILIA",
+		name: "VEILIA",
+		names: {
+			"571": `"Veilia Scwoll"`
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"571": "ourochar_files/!REPLACEMEWHENUPDATE.veiliamirror.png"
+		},
+		firstAppearance: 571,
+		pestercolor: {
+			"default": "#000000",
+			"571": "#6a006a"
+		},
+		plotrelevance: 84,
+	},
+	{
+		id: "Vivi",
+		name: "Vivi",
+		names: {
+			"605": "???",
+			"606": "VIVI(AN)",
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"605": "ourochar_files/!REPLACEMEWHENUPDATE.dreamvivi.png",
+		},
+		firstAppearance: 605,
+		plotrelevance: 99,
+		lunarswing:{
+			"590": "Derse"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"64": "#5ba2c9"
+		},
+	},
+	{
+		id: "Skully",
+		name: "Skully",
+		names: {
+			"632": "Skully"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"632": "ourochar_files/!REPLACEMEWHENUPDATE.skully.png",
+		},
+		firstAppearance: 632,
+		plotrelevance: 0, // this character does jack shit but i added him anyway cuz this line is REALLY fucking funny.
+	},
+	{
+		id: "Salem",
+		name: "Salem",
+		names: {
+			"640": "Salem"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"640": "ourochar_files/!REPLACEMEWHENUPDATE.salem.png" //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
+		},
+		firstAppearance: 640,
+		plotrelevance: 81,
+	},
+	{
+		id: "ADAM",
+		name: "ADAM",
+		names: {
+			"647": `"Adam!"`
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"647": "ourochar_files/!REPLACEMEWHENUPDATE.adammirror.png"
+		},
+		firstAppearance: 647,
+		pestercolor: {
+			"default": "#000000",
+			"647": "#a15203"
+		},
+		plotrelevance: 84,
 	},
 ];
 
