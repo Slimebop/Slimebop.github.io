@@ -351,9 +351,9 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"187": "ourochar_files/187_you.png", //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
-			"351": "ourochar_files/early_GA.png",
-			"360": "ourochar_files/early_GA_no_hat.png",
-			"369": "ourochar_files/early_GA.png",
+			"351": "ourochar_files/Early_GA.png",
+			"360": "ourochar_files/Early_GA_no_hat.png",
+			"369": "ourochar_files/Early_GA.png",
 		},
 		firstAppearance: 187,
 		plotrelevance: 0,
