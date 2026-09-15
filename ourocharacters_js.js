@@ -2,7 +2,7 @@ let currentchar = null;
 
 const characters = [
 	{
-		id: "Inkwell", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Inkwell",
 		name: "Inkwell",
 		names: {
 			"3": "MASKED MISCREANT",
@@ -11,6 +11,8 @@ const characters = [
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"3": "ourochar_files/earlyinkwell.png",
+			"348": "ourochar_files/early_dmg_ink.png",
+			"398": "ourochar_files/capewell.png",
 			"3676": "ourochar_files/3676inkwell.png" //test image 
 		},
 		firstAppearance: 3,
@@ -54,7 +56,7 @@ const characters = [
 		plotrelevance: 100,
 	},
 	{
-		id: "Shelly", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Shelly",
 		name: "Shelly",
 		names: {
 			"49": "SHELLY"
@@ -88,6 +90,8 @@ const characters = [
 		},
 		additional_tags:{
 			"Demon": 26,
+			"Fiend": 380,
+			"Succubi": 380,
 			"Squire": 124
 		},
 		pestercolor:{
@@ -97,7 +101,7 @@ const characters = [
 		plotrelevance: 100,
 	},
 	{
-		id: "Automaton", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Automaton",
 		name: "Automaton",
 		names: {
 			"17": "Automaton"
@@ -132,7 +136,7 @@ const characters = [
 		plotrelevance: 2.5,
 	},
 	{
-		id: "Luna", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Luna",
 		name: "Luna",
 		names: {
 			"22": "Luna"
@@ -158,7 +162,7 @@ const characters = [
 		plotrelevance: 25,
 	},
 	{
-		id: "Dive", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Dive",
 		name: "Dive",
 		names: {
 			"22": "Dive",
@@ -196,7 +200,7 @@ const characters = [
 		}
 	},
 	{
-		id: "SD", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "SD",
 		name: "SD",
 		names: {
 			"64": "stringlessDevil [SD]"
@@ -215,7 +219,7 @@ const characters = [
 		plotrelevance: 85,
 	},
 	{
-		id: "Clover", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Clover",
 		name: "Clover",
 		names: {
 			"65": "Clover(?)",
@@ -248,13 +252,17 @@ You are captivated by BOTANY, SOFT THINGS, ROCKS AND GEMS, and THE VOICES OF THE
 
 Also, you are a tad... skittish. You could line the walls with all your fears and still not have enough room.\" (Page 146)`
 		},
+		location: {
+			"217": "Bunker",
+			"413": "Land of Flowers & Bastions"
+		},
 		weapon_kind: {
 			"243": "Umbrellakind"
 		},
 		plotrelevance: 100,
 	},
 	{
-		id: "Automaton V", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Automaton V",
 		name: "Automaton V",
 		names: {
 			"103": "V"
@@ -274,7 +282,7 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		plotrelevance: 5,
 	},
 	{
-		id: "RadioVoice", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "RadioVoice",
 		name: "RadioVoice",
 		names: {
 			"151": "Mysterious Radio Voice"
@@ -290,9 +298,13 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"151": "#ffffff"
 		},
 		plotrelevance: 1,
+		location: {
+			"217": "Bunker"
+		},
+		hideafter: 312 
 	},
 	{
-		id: "Seeb", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Seeb",
 		name: "Seeb",
 		names: {
 			"158": "???",
@@ -306,10 +318,21 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		plotrelevance: 100,
 		additional_tags:{
 			"217": "Squire"
-		}
+		},
+		location: {
+			"217": "Bunker",
+			"413": "Land of Flowers & Bastions"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"408": "#ffe100"
+		},pesterhighlight: {
+			"151": "#ffffff00",
+			"408": "#000000"
+		},
 	},
 	{
-		id: "Spin", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Spin",
 		name: "Spin",
 		names: {
 			"184": "???"
@@ -320,18 +343,22 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		firstAppearance: 184,
 		plotrelevance: 80,
 	},{
-		id: "KC", //CASE SENSITIVE!!!! WRAHH!!!
-		name: "KC",
+		id: "GA",
+		name: "GA",
 		names: {
-			"187": "YOU"
+			"187": "YOU",
+			"351": "Grim Archivest (GA)"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"187": "ourochar_files/187_you.png" //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
+			"187": "ourochar_files/187_you.png", //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
+			"351": "ourochar_files/early_GA.png",
+			"360": "ourochar_files/early_GA_no_hat.png",
+			"369": "ourochar_files/early_GA.png",
 		},
 		firstAppearance: 187,
 		plotrelevance: 0,
 	},{
-		id: "Automaton U", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Automaton U",
 		name: "Automaton U",
 		names: {
 			"195": "U"
@@ -350,7 +377,7 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		plotrelevance: 5,
 	},
 	{
-		id: "Jekt-O", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Jekt-O",
 		name: "Jekt-O",
 		names: {
 			"211": "???",
@@ -379,7 +406,7 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 		},
 	},
 	{
-		id: "Wren", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Wren",
 		name: "Wren",
 		names: {
 			"216": "???",
@@ -389,10 +416,11 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"216": "ourochar_files/early_FL.png",
 			"315": "ourochar_files/shadow_wren.png",
-			"331": "ourochar_files/wren_reveal.png"
+			"331": "ourochar_files/wren_reveal.png",
+			"343": "ourochar_files/wren_demon.png"
 		},
 		firstAppearance: 216,
-		plotrelevance: 95,
+		plotrelevance: 100,
 		pestertag: {
 			"64": "foreverLost [FL]"
 		},
@@ -407,7 +435,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		}
 	},
 	{
-		id: "Bangol", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Bangol",
 		name: "Bangol",
 		names: {
 			"263": "???"
@@ -423,7 +451,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		plotrelevance: 84,
 	},
 	{
-		id: "Vladsly", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Vladsly",
 		name: "Vladsly",
 		names: {
 			"288": "???"
@@ -435,7 +463,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		plotrelevance: 100,
 	},
 	{
-		id: "Song", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Song",
 		name: "Song",
 		names: {
 			"288": "Song the Siren"
@@ -447,7 +475,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		plotrelevance: 25,
 	},
 	{
-		id: "Whispy", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Whispy",
 		name: "Whispy",
 		names: {
 			"306": `"CLIPPED GODDESS FROM ABOVE"`
@@ -463,29 +491,35 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		plotrelevance: 84,
 	},
 	{
-		id: "KINGSLAYER", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "KINGSLAYER",
 		name: "KINGSLAYER",
 		names: {
 			"141": "Toy",
 			"241": "KINGSLAYER",
 			"279": "KINGSLAYER(?)",
+			"407": "RADIOKINGSPRITE"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"141": "ourochar_files/early_plushie.png",
 			"279": "ourochar_files/early_kingskernel.png",
-			"312": "ourochar_files/early_kingradiokernel.png"
+			"312": "ourochar_files/early_kingradiokernel.png",
+			"406": "ourochar_files/RADIOKINGSPRITE.png"
 		},
 		firstAppearance: 141,
 		status: {
 			"default": "Alive",
 			"279": "Kernel'd",
-			"999": "Sprite"
+			"406": "Sprite"
+		},
+		location: {
+			"217": "Bunker",
+			"413": "Land of Flowers & Bastions"
 		},
 		plotrelevance: 50,
 		
 	},
 	{
-		id: "Automaton X", //CASE SENSITIVE!!!! WRAHH!!!
+		id: "Automaton X",
 		name: "Automaton X",
 		names: {
 			"325": "X"
@@ -502,6 +536,45 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"325": "#ff002b"
 		},
 		plotrelevance: 5,
+	},
+	{
+		id: "Sigmund",
+		name: "Sigmund",
+		names: {
+			"343": "Sigmund"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"343": "ourochar_files/init_sigmund.png"
+		},
+		firstAppearance: 343,
+		plotrelevance: 95,
+		pestercolor: {
+			"default": "#000000",
+			"343": "#12cb7d"
+		},
+	},
+	{
+		id: "Wolf",
+		name: "Wolf",
+		names: {
+			"317": "Wolf"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"317": "ourochar_files/early_wolf.png"
+		},
+		firstAppearance: 317,
+		status: {
+			"default": "Alive"
+		},
+		location: {
+			"217": "Bunker",
+			"413": "Land of Flowers & Bastions",
+			"419": "???"
+		},
+		descriptions: {
+			"317": `"While you and Wolf don't get along the best, you still love each other a lot. He gives you warm cans of food whenever you are sad and hugs you when you are cold. While he can't care for you like mom could(because he lacks arms) and is a guy, he still tries. And you appreciate that. In the end, everything he has done has been for you." (Page 319)`
+		},
+		plotrelevance: 25,
 	},
 ];
 
@@ -562,7 +635,9 @@ function renderCharacters(currentPage) {
         if (tempchar) {
             if (currentPage < char.firstAppearance) {
                 tempchar.style.display = "none";
-            } else {
+            }else if (currentPage >= char.hideafter) {
+                tempchar.style.display = "none";
+            }else {
 				amountofcharacters++
                 tempchar.style.display = "flex";
 
