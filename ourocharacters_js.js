@@ -1,4 +1,4 @@
-let currentchar = "NotACharacter";
+let currentchar = null;
 
 const characters = [
 	{
@@ -249,7 +249,7 @@ function displayCharacterInfo(char, currentPage){
 pageInput.addEventListener("input", (e) => {
     const page = parseInt(e.target.value) || 1;
     renderCharacters(page);
-	if (globalThis.currentchar.firstAppearance) {
+	if (globalThis.currentchar != null) {
 		if (page >= globalThis.currentchar.firstAppearance){
 			displayCharacterInfo(globalThis.currentchar, page)
 		}else{
