@@ -36,7 +36,9 @@ const characters = [
 			"Hero": 124
 		},
 		//you must add both!!
-		pestertag: {},
+		pestertag: {
+			"36": "rhythmicWailing [RW]"
+		},
 		pestercolor: {
 			"default": "#000000",
 			"36": "#000000"
