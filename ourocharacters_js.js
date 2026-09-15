@@ -469,7 +469,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"279": "KINGSLAYER(?)",
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"141": "ourochar_files/early_plushy.png",
+			"141": "ourochar_files/early_plushie.png",
 			"279": "ourochar_files/early_kingskernel.png",
 			"312": "ourochar_files/early_kingradiokernel.png"
 		},
