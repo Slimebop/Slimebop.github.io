@@ -9,7 +9,7 @@ const characters = [
 			"4": "INKWELL PHOBIDAN",
 			"5": "Inkwell Phobidan"
 		},
-		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"3": "ourochar_files/earlyinkwell.png",
 			"3676": "ourochar_files/3676inkwell.png" //test image 
 		},
@@ -21,7 +21,9 @@ const characters = [
 		classpect: {},
 		lunarswing:{},
 		sexuality: {},
-		pronouns: {},
+		pronouns: {
+			"default": "They/Them" 
+		},
 		location: {
 			"8": "the THIRD FRIDGE (Galactic Prison)"
 		},
@@ -38,9 +40,13 @@ const characters = [
 			"36": "#000000"
 		},
 		pesterhighlight:{
-			default: "#ffffff00"
+			default: "#c6c3c3"
+		},
+		weapon_kind: {
+			"130": "Anchorkind"
+		}, sylladex: {
+			"45": "SPIN SPIRAL SYLLADEX"
 		}
-		//you must add both!!
 	},
 	{
 		id: "Shelly", //CASE SENSITIVE!!!! WRAHH!!!
@@ -48,7 +54,7 @@ const characters = [
 		names: {
 			"49": "SHELLY"
 		},
-		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"17": "ourochar_files/earlyshelly.png"
 		},
 		firstAppearance: 17,
@@ -65,7 +71,7 @@ const characters = [
 			"default": "???"
 		},
 		pronouns: {
-			"default": "???" 
+			"default": "She/Her" 
 		},
 		location: {
 			"8": "the THIRD FRIDGE (Galactic Prison)"
@@ -89,7 +95,7 @@ const characters = [
 		names: {
 			"17": "Automaton"
 		},
-		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"17": "ourochar_files/earlyautomaton.png"
 		},
 		firstAppearance: 17,
@@ -123,7 +129,7 @@ const characters = [
 		names: {
 			"25": "Luna"
 		},
-		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"25": "ourochar_files/earlyluna.png"
 		},
 		firstAppearance: 22,
@@ -147,7 +153,7 @@ const characters = [
 			"25": "Dive",
 			"103": "???"
 		},
-		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"25": "ourochar_files/earlydive.png",
 			"103": "ourochar_files/protodive.png"
 		},
@@ -170,7 +176,7 @@ const characters = [
 		names: {
 			"64": "stringlessDevil [SD]"
 		},
-		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"64": "ourochar_files/earlySD.png"
 		},
 		firstAppearance: 64,
@@ -186,10 +192,14 @@ const characters = [
 		id: "Clover", //CASE SENSITIVE!!!! WRAHH!!!
 		name: "Clover",
 		names: {
-			"65": "Clover(?)"
+			"65": "Clover(?)",
+			"139": "CROSSEYED DIMWIT",
+			"140": "CLOVER SOLSANGK",
+			"141": "Clover Solsangk"
 		},
-		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
-			"65": "ourochar_files/earlyclover.png"
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"65": "ourochar_files/clovericon.png",
+			"138": "ourochar_files/earlyclover.png",
 		},
 		firstAppearance: 65,
 		pestertag: {
@@ -199,6 +209,13 @@ const characters = [
 			"default": "#000000",
 			"64": "#59a636"
 		},
+		descriptions: {
+			"146": `\"Your name is CLOVER SOLSANGK. You have lived a highly sheltered life, if a bit too sheltered. You don't know what you are but don't think you are a human. You don't really care, as Wolf says you are "MY DARLING LITTLE BLOOM" every time you ask him. Though, he sometimes calls you "WOOF WOOF WOOF."
+\n\n
+You are captivated by BOTANY, SOFT THINGS, ROCKS AND GEMS, and THE VOICES OF THE RADIO. Additionally, you appreciate GOOD TASTING FOOD, VIDEO GAMES, and SLEEP. Despite your wide range of interests, nothing calls out to you. Nothing brings you to your knees or out on the streets.
+
+Also, you are a tad... skittish. You could line the walls with all your fears and still not have enough room.\" (Page 146)`
+		}
 	},
 	{
 		id: "Automaton V", //CASE SENSITIVE!!!! WRAHH!!!
@@ -206,8 +223,9 @@ const characters = [
 		names: {
 			"103": "V"
 		},
-		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
-			"103": "ourochar_files/earlyAutomatonV.png"
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"103": "ourochar_files/earlyAutomatonV.png",
+			"173": "ourochar_files/AutomatonV.png"
 		},
 		firstAppearance: 103,
 		additional_tags:{
@@ -217,7 +235,35 @@ const characters = [
 			"default": "#000000",
 			"72": "#ff002b"
 		},
-	}
+	},
+	{
+		id: "RadioVoice", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "RadioVoice",
+		names: {
+			"151": "Mysterious Radio Voice"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"151": "ourochar_files/radiovoice.png"
+		},
+		firstAppearance: 151,
+		pestercolor: {
+			"default": "#000000",
+			"151": "#5fee30"
+		},pesterhighlight: {
+			"151": "#ffffff"
+		}
+	},
+	{
+		id: "Seeb", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "Seeb",
+		names: {
+			"158": "???"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"158": "ourochar_files/firstSeeb.png"
+		},
+		firstAppearance: 158,
+	},
 ];
 
 
@@ -256,6 +302,10 @@ function renderCharacters(currentPage) {
 					tempchar.style.borderColor = tempcolor
 					tempchar.style.color = tempcolor
 				}
+				if (char.pesterhighlight != null) {
+					temphighlight = getHighestUnder(char.pesterhighlight,currentPage)
+					//tempchar.style.background = temphighlight
+				}
             }
         }
     });
@@ -292,18 +342,26 @@ function displayCharacterInfo(char, currentPage){
 	const CharCard_Img = document.getElementById("CharCard_Img");
 	CharCard_Img.src = getHighestUnder(char.images,currentPage)
 
+	const CharCard_Sylladex = document.getElementById("CharCard_Sylladex");
+	CharCard_Sylladex.textContent = getHighestUnder(char.sylladex,currentPage)
+
+	const CharCard_WeaponKind = document.getElementById("CharCard_WeaponKind");
+	CharCard_WeaponKind.textContent = getHighestUnder(char.weapon_kind,currentPage)
+
 	const CharCard_Desc = document.getElementById("CharCard_Desc");
 	CharCard_Desc.textContent = getHighestUnder(char.descriptions,currentPage)
 
 	const CharCard_Name = document.getElementById("CharCard_Name");
 	CharCard_Name.textContent = getHighestUnder(char.names,currentPage)
 	CharCard_Name.style.color = getHighestUnder(char.pestercolor,currentPage)
+	CharCard_Name.style.background = getHighestUnder(char.pesterhighlight,currentPage)
 
 	const CharCard_Pestertag = document.getElementById("CharCard_Pestertag");
 	temppestertag = getHighestUnder(char.pestertag,currentPage)
 	if (temppestertag != "???"){
 		CharCard_Pestertag.textContent = temppestertag
 		CharCard_Pestertag.style.color = getHighestUnder(char.pestercolor,currentPage)
+		CharCard_Pestertag.style.background = getHighestUnder(char.pesterhighlight,currentPage)
 	} else {
 		CharCard_Pestertag.textContent = ""
 	}

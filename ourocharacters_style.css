@@ -62,6 +62,10 @@ body {
 	height: 48px;
 }
 
+.minitoppanel > p {
+	font-weight: bold;
+}
+
 #CharCard_Desc {
 	line-height: 1.4;
 	text-align: justify; 
