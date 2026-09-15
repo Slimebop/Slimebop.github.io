@@ -44,7 +44,7 @@ const characters = [
 			"17": "???"
 		},
 		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
-			"17": "ourochar_files\earlyshelly.png"
+			"17": "ourochar_files/earlyshelly.png"
 		},
 		firstAppearance: 17,
 		descriptions: {
