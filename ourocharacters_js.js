@@ -25,7 +25,9 @@ const characters = [
 			"default": "They/Them" 
 		},
 		location: {
-			"8": "the THIRD FRIDGE (Galactic Prison)"
+			"8": "the THIRD FRIDGE (Galactic Prison)",
+			"182": "???",
+			"200": "LAND OF WASTE & SPACE"
 		},
 		status: {
 			"default": "Alive"
@@ -45,7 +47,7 @@ const characters = [
 		weapon_kind: {
 			"130": "Anchorkind"
 		}, sylladex: {
-			"45": "SPIN SPIRAL SYLLADEX"
+			"45": "SPIN SPIRAL"
 		},
 		plotrelevance: 100,
 	},
@@ -75,7 +77,9 @@ const characters = [
 			"default": "She/Her" 
 		},
 		location: {
-			"8": "the THIRD FRIDGE (Galactic Prison)"
+			"8": "the THIRD FRIDGE (Galactic Prison)",
+			"182": "???",
+			"200": "LAND OF WASTE & SPACE"
 		},
 		status: {
 			"default": "Alive"
@@ -139,7 +143,9 @@ const characters = [
 			"default": "Alive"
 		},
 		location: {
-			"8": "the THIRD FRIDGE (Galactic Prison)"
+			"8": "the THIRD FRIDGE (Galactic Prison)",
+			"182": "???",
+			"200": "LAND OF WASTE & SPACE"
 		},
 		descriptions: {
 			"31": "\"LUNA, the straitjacket adult with the spikey hair is the most like you. He is like a brother or perhaps a father. If you were not human, you would be of the same species as him. But you are human, and so is he. His tales are heroic and wicked as he is a pirate... a SPACE PIRATE. Much of what you have learned has been taught by him. However, you don't wish to adopt his tendency for mass crime and end up with several life sentences.\" (Page 31)"
@@ -154,25 +160,38 @@ const characters = [
 		name: "Dive",
 		names: {
 			"25": "Dive",
-			"103": "???"
+			"103": "???",
+			"203": "DIVECHAINSPRITE"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"25": "ourochar_files/earlydive.png",
-			"103": "ourochar_files/protodive.png"
+			"103": "ourochar_files/protodive.png",
+			"202": "ourochar_files/divechainsprite.png",
 		},
 		firstAppearance: 22,
 		status: {
 			"default": "Alive",
 			"101": "Dead",
-			"103": "Kernel'd"
+			"103": "Kernel'd",
+			"203": "Sprite"
 		},
 		location: {
-			"8": "the THIRD FRIDGE (Galactic Prison)"
+			"8": "the THIRD FRIDGE (Galactic Prison)",
+			"182": "???",
+			"200": "LAND OF WASTE & SPACE"
 		},
 		descriptions: {
 			"31": "\"Beside him is DIVE, a chill guy who like you, wears a mask proudly. He claims that he is a twisted monster 'straight out of your deepest darkest nightmares', and that is why he is named DIVE. He is a deep dive into your phobias. You don't actually know much about him, as he is just as fascinated by LUNA as you. You do, however, know that DIVE is responsible for horrible atrocities on Mars.\" (Page 31) "
 		},
 		plotrelevance: 50,
+		pestercolor: {
+			"default": "#000000",
+			"203": "#1efcf0"
+		},
+		pesterhighlight: {
+			"default": "#FFFFFF00",
+			"203": "#FFFFFF",
+		}
 	},
 	{
 		id: "SD", //CASE SENSITIVE!!!! WRAHH!!!
@@ -191,7 +210,7 @@ const characters = [
 			"default": "#000000",
 			"64": "#003d12"
 		},
-		plotrelevance: 75,
+		plotrelevance: 85,
 	},
 	{
 		id: "Clover", //CASE SENSITIVE!!!! WRAHH!!!
@@ -214,12 +233,18 @@ const characters = [
 			"default": "#000000",
 			"64": "#59a636"
 		},
+		sylladex: {
+			"252": "Pocket Garden"
+		},
 		descriptions: {
 			"146": `\"Your name is CLOVER SOLSANGK. You have lived a highly sheltered life, if a bit too sheltered. You don't know what you are but don't think you are a human. You don't really care, as Wolf says you are "MY DARLING LITTLE BLOOM" every time you ask him. Though, he sometimes calls you "WOOF WOOF WOOF."
 \n\n
 You are captivated by BOTANY, SOFT THINGS, ROCKS AND GEMS, and THE VOICES OF THE RADIO. Additionally, you appreciate GOOD TASTING FOOD, VIDEO GAMES, and SLEEP. Despite your wide range of interests, nothing calls out to you. Nothing brings you to your knees or out on the streets.
 
 Also, you are a tad... skittish. You could line the walls with all your fears and still not have enough room.\" (Page 146)`
+		},
+		weapon_kind: {
+			"243": "Umbrellakind"
 		},
 		plotrelevance: 100,
 	},
@@ -265,13 +290,104 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		id: "Seeb", //CASE SENSITIVE!!!! WRAHH!!!
 		name: "Seeb",
 		names: {
-			"158": "???"
+			"158": "???",
+			"246": "SEEB"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"158": "https://file.garden/aLffnvE920YlSFwc/osalcharacters/seebshadow.png" //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
+			"158": "https://file.garden/aLffnvE920YlSFwc/osalcharacters/seebshadow.png", //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
+			"218": "ourochar_files/early_seeb.png"
 		},
 		firstAppearance: 158,
 		plotrelevance: 100,
+		additional_tags:{
+			"217": "Squire"
+		}
+	},
+	{
+		id: "Spin", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "Spin",
+		names: {
+			"184": "???"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"184": "ourochar_files/eoa1shadow.png" //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
+		},
+		firstAppearance: 184,
+		plotrelevance: 80,
+	},{
+		id: "KC", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "KC",
+		names: {
+			"187": "YOU"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"187": "ourochar_files/187_you.png" //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
+		},
+		firstAppearance: 187,
+		plotrelevance: 0,
+	},{
+		id: "Automaton U", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "Automaton U",
+		names: {
+			"195": "U"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"195": "ourochar_files/earlyAutomatonU.png"
+		},
+		firstAppearance: 195,
+		additional_tags:{
+			"AUTOMATON": 1
+		},
+		pestercolor: {
+			"default": "#000000",
+			"72": "#ff002b"
+		},
+		plotrelevance: 5,
+	},
+	{
+		id: "Jekt-O", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "Jekt-O",
+		names: {
+			"211": "???",
+			"212": "Jekt-O Goner"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"211": "ourochar_files/earlyjekt-o.png",
+			"214": "ourochar_files/earlyjekt-olight.png"
+		},
+		descriptions: {
+			"214": `"Your name is JEKT-O GONER. Though, your mom says the O is silent. You don't care. You keep the O in your name anyway and tell others that they have to emphasize the O. That is... if you talked to anyone. Living at the bottom of the ocean doesn't give you many opportunities to make friends.
+
+Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also quite fond of KILLING PIRATES, SHOOTER GAMES, and HUNTING THE WHITE WHALE. You think you would have more interests if you were allowed to leave your undersea home and go to the surface. But your mother, SONG, keeps you down here. You don't remember what the sun looks like." (Page 214)`
+		},
+		firstAppearance: 211,
+		plotrelevance: 100,
+		pestertag: {
+			"64": "abyssalTitan [AT]"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"64": "#003f62"
+		},
+	},
+	{
+		id: "Wren", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "Wren",
+		names: {
+			"216": "???"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"216": "ourochar_files/early_FL.png"
+		},
+		firstAppearance: 216,
+		plotrelevance: 95,
+		pestertag: {
+			"64": "foreverLost [FL]"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"64": "#ff0058"
+		},
 	},
 ];
 
