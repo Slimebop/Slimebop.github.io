@@ -6,7 +6,8 @@ const characters = [
 		name: "Inkwell",
 		names: {
 			"3": "MASKED MISCREANT",
-			"4": "INKWELL PHOBIDAN"
+			"4": "INKWELL PHOBIDAN",
+			"5": "Inkwell Phobidan"
 		},
 		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
 			"3": "ourochar_files/earlyinkwell.png",
@@ -14,34 +15,38 @@ const characters = [
 		},
 		firstAppearance: 3,
 		descriptions: {
-			"default": "???",
 			"6": "\"You think about yourself. Just who are you? Luckily, you have a great memory about yourself. You are called INKWELL PHOBIDAN by those with mouths and you are definitely a HUMAN and totally not a half-dead ANGEL from beyond the CELESTIAL TARN OF GREATER REALITY. You like OCEANS, SEA CREATURES, and AQUATIC STUFF. In addition to this arsenal of diverse interests, you appreciate HISTORY and STORIES OF YORE. You believe that in the past, you once dreamed of being a PIRATE. Deep down, you have an insatiable craving to DANCE A JIG WITH A MATIE OR PERHAPS A PARTICULARLY EXCELLENT LASS. Also, you are colorblind. \n Though, to be fair, you don't really know if any of this is true.\"",
 			"default": "The standard design and appearance of Inkwell."
 		},
-		classpect: {
-			"default": "???" //aspect more like. glasspect. shatters into a million shards of glass
-		},
-		lunarswing:{
-			"default": "???" 
-		},
-		sexuality: {
-			"default": "???" //this (has been shown) to change throughout the story. also we learn more info as it goes lmao
-		},
-		pronouns: {
-			"default": "???" //just incase someone changes,,, ;)
-		},
+		classpect: {},
+		lunarswing:{},
+		sexuality: {},
+		pronouns: {},
 		location: {
-			"default": "???"
+			"8": "the THIRD FRIDGE (Galactic Prison)"
 		},
 		status: {
-			"default": "???"
+			"default": "Alive"
 		},
+		additional_tags:{
+			"Hero": 124
+		},
+		//you must add both!!
+		pestertag: {},
+		pestercolor: {
+			"default": "#000000",
+			"36": "#000000"
+		},
+		pesterhighlight:{
+			default: "#ffffff00"
+		}
+		//you must add both!!
 	},
 	{
 		id: "Shelly", //CASE SENSITIVE!!!! WRAHH!!!
 		name: "Shelly",
 		names: {
-			"default": "???"
+			"49": "SHELLY"
 		},
 		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
 			"17": "ourochar_files/earlyshelly.png"
@@ -63,17 +68,25 @@ const characters = [
 			"default": "???" 
 		},
 		location: {
-			"default": "???"
+			"8": "the THIRD FRIDGE (Galactic Prison)"
 		},
 		status: {
-			"default": "???"
+			"default": "Alive"
 		},
+		additional_tags:{
+			"Demon": 26,
+			"Squire": 124
+		},
+		pestercolor:{
+			"default": "#000000",
+			"49": "#ff8000"
+		}
+		
 	},
 	{
 		id: "Automaton", //CASE SENSITIVE!!!! WRAHH!!!
 		name: "Automaton",
 		names: {
-			"default": "???",
 			"17": "Automaton"
 		},
 		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
@@ -81,92 +94,128 @@ const characters = [
 		},
 		firstAppearance: 17,
 		descriptions: {
-			"default": "???",
-			"17": "A default automaton."
+			"17": "A default automaton.",
+			"52": "\"The automatons scare you despite how amusing many of them look. No one knows who made them or where they come from. However, they are everywhere in space. They claim to be protecting humanity, but they actively ruin what it means to be human. Also, they are quite genocidal. If you were not a human, you would already be dead.\" (Page 52)",
 		},
 		classpect: {
-			"default": "???"
+			"default": "N/A"
 		},
 		lunarswing:{
-			"default": "???" 
+			"default": "N/A" 
 		},
 		sexuality: {
-			"default": "???"
+			"default": "N/A"
 		},
 		pronouns: {
-			"default": "???" 
+			"default": "They/Them" 
 		},
-		location: {
-			"default": "???"
+		additional_tags:{
+			"AUTOMATON": 1
 		},
-		status: {
-			"default": "???"
+		pestercolor: {
+			"default": "#000000",
+			"72": "#ff002b"
 		},
 	},
 	{
 		id: "Luna", //CASE SENSITIVE!!!! WRAHH!!!
 		name: "Luna",
 		names: {
-			"default": "???",
 			"25": "Luna"
 		},
 		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
 			"25": "ourochar_files/earlyluna.png"
 		},
 		firstAppearance: 22,
-		descriptions: {
-			"default": "???"
-		},
-		classpect: {
-			"default": "???"
-		},
-		lunarswing:{
-			"default": "???" 
-		},
-		sexuality: {
-			"default": "???"
-		},
-		pronouns: {
-			"default": "???" 
+		status: {
+			"default": "Alive"
 		},
 		location: {
-			"default": "???"
+			"8": "the THIRD FRIDGE (Galactic Prison)"
 		},
-		status: {
-			"default": "???"
+		descriptions: {
+			"31": "\"LUNA, the straitjacket adult with the spikey hair is the most like you. He is like a brother or perhaps a father. If you were not human, you would be of the same species as him. But you are human, and so is he. His tales are heroic and wicked as he is a pirate... a SPACE PIRATE. Much of what you have learned has been taught by him. However, you don't wish to adopt his tendency for mass crime and end up with several life sentences.\" (Page 31)"
 		},
+		additional_tags: {
+			"Guardian": 124,
+		}
 	},
 	{
 		id: "Dive", //CASE SENSITIVE!!!! WRAHH!!!
 		name: "Dive",
 		names: {
-			"default": "???",
-			"25": "Dive"
+			"25": "Dive",
+			"103": "???"
 		},
 		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
-			"25": "ourochar_files/earlydive.png"
+			"25": "ourochar_files/earlydive.png",
+			"103": "ourochar_files/protodive.png"
 		},
 		firstAppearance: 22,
-		descriptions: {
-			"default": "???"
-		},
-		classpect: {
-			"default": "???"
-		},
-		lunarswing:{
-			"default": "???" 
-		},
-		sexuality: {
-			"default": "???"
-		},
-		pronouns: {
-			"default": "???" 
+		status: {
+			"default": "Alive",
+			"101": "Dead",
+			"103": "Kernel'd"
 		},
 		location: {
-			"default": "???"
+			"8": "the THIRD FRIDGE (Galactic Prison)"
 		},
-		status: {
-			"default": "???"
+		descriptions: {
+			"31": "\"Beside him is DIVE, a chill guy who like you, wears a mask proudly. He claims that he is a twisted monster 'straight out of your deepest darkest nightmares', and that is why he is named DIVE. He is a deep dive into your phobias. You don't actually know much about him, as he is just as fascinated by LUNA as you. You do, however, know that DIVE is responsible for horrible atrocities on Mars.\" (Page 31) "
+		},
+	},
+	{
+		id: "SD", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "SD",
+		names: {
+			"64": "stringlessDevil [SD]"
+		},
+		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
+			"64": "ourochar_files/earlySD.png"
+		},
+		firstAppearance: 64,
+		pestertag: {
+			"64": "stringlessDevil [SD]"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"64": "#003d12"
+		},
+	},
+	{
+		id: "Clover", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "Clover",
+		names: {
+			"65": "Clover(?)"
+		},
+		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
+			"65": "ourochar_files/earlyclover.png"
+		},
+		firstAppearance: 65,
+		pestertag: {
+			"65": "luckyRaindrops [LR]"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"64": "#59a636"
+		},
+	},
+	{
+		id: "Automaton V", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "Automaton V",
+		names: {
+			"103": "V"
+		},
+		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
+			"103": "ourochar_files/earlyAutomatonV.png"
+		},
+		firstAppearance: 103,
+		additional_tags:{
+			"AUTOMATON": 1
+		},
+		pestercolor: {
+			"default": "#000000",
+			"72": "#ff002b"
 		},
 	}
 ];
@@ -200,8 +249,13 @@ function renderCharacters(currentPage) {
 				//sigh... fine.. :(
 				tempchar.addEventListener('click', () => {
 					displayCharacterInfo(char, currentPage)
-					
-				});
+				})
+				// COLORS ^_^
+				if (char.pestercolor != null) {
+					tempcolor = getHighestUnder(char.pestercolor,currentPage)
+					tempchar.style.borderColor = tempcolor
+					tempchar.style.color = tempcolor
+				}
             }
         }
     });
@@ -243,6 +297,30 @@ function displayCharacterInfo(char, currentPage){
 
 	const CharCard_Name = document.getElementById("CharCard_Name");
 	CharCard_Name.textContent = getHighestUnder(char.names,currentPage)
+	CharCard_Name.style.color = getHighestUnder(char.pestercolor,currentPage)
+
+	const CharCard_Pestertag = document.getElementById("CharCard_Pestertag");
+	temppestertag = getHighestUnder(char.pestertag,currentPage)
+	if (temppestertag != "???"){
+		CharCard_Pestertag.textContent = temppestertag
+		CharCard_Pestertag.style.color = getHighestUnder(char.pestercolor,currentPage)
+	} else {
+		CharCard_Pestertag.textContent = ""
+	}
+
+	const CharCard_Tags = document.getElementById("CharCard_Tags");
+	CharCard_Tags.innerHTML = ''; 
+	Object.entries(char.additional_tags).forEach(([key, value]) => {
+		const currentNumber = Number(value);
+		if (currentPage >= currentNumber) {
+			newElement = document.createElement('p');
+			newElement.textContent = key;
+			newElement.classList.add('additional_tag');
+			newElement.classList.add('ADTAG-'+key);
+			CharCard_Tags.appendChild(newElement);
+		}
+	})
+
 
 	document.getElementById('main-container').scrollIntoView({ behavior: 'smooth' });
 }
@@ -265,9 +343,15 @@ renderCharacters(parseInt(pageInput.value) || 1);
 
 
 function getHighestUnder(listObj, targetNumber) {
+	if (listObj == null) {
+        return "???";
+    }
     const keys = Object.keys(listObj).map(Number);
     const validKeys = keys.filter(key => key <= targetNumber);
     if (validKeys.length === 0) {
+		if (listObj["default"] == null) {
+			return "???";
+		}
         return listObj["default"];
     }
     const highestKey = Math.max(...validKeys);

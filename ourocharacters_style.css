@@ -84,6 +84,7 @@ body {
 	background: #f4f4f4;
 	border-radius: 8px;
 	cursor: pointer;
+	border: 0.5px solid black; 
 }
 
 .grid-item > img {
@@ -109,4 +110,51 @@ body {
 	margin-bottom: 16px; 
 	background: #f4f4f4; 
 	border-radius: 8px;
+}
+
+
+
+.additional_tag {
+    margin: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 32px;
+    padding: 0 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.15s ease;
+}
+
+.additional_tag:hover {
+    background-color: #333;
+    transform: translateY(-1px);
+}
+
+.ADTAG-Demon {
+	background:#000000;
+	color:#ffffff
+}
+
+.ADTAG-AUTOMATON {
+	background:#000000;
+	color:#ff002b;
+}
+
+.ADTAG-Hero {
+	background:#000000;
+	color:#ffffff
+}
+.ADTAG-Guardian {
+	background:#000000;
+	color:#ffffff
+}
+.ADTAG-Squire {
+	background:#000000;
+	color:#ffffff
 }
