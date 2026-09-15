@@ -151,7 +151,8 @@ const characters = [
 		location: {
 			"8": "the THIRD FRIDGE (Galactic Prison)",
 			"182": "???",
-			"200": "LAND OF WASTE & SPACE"
+			"200": "LAND OF WASTE & SPACE",
+			"436": "Derse"
 		},
 		descriptions: {
 			"31": "\"LUNA, the straitjacket adult with the spikey hair is the most like you. He is like a brother or perhaps a father. If you were not human, you would be of the same species as him. But you are human, and so is he. His tales are heroic and wicked as he is a pirate... a SPACE PIRATE. Much of what you have learned has been taught by him. However, you don't wish to adopt his tendency for mass crime and end up with several life sentences.\" (Page 31)"
@@ -354,7 +355,7 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"187": "ourochar_files/187_you.png", //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
 			"351": "ourochar_files/Early_GA.png",
 			"360": "ourochar_files/Early_GA_no_hat.png",
-			"369": "ourochar_files/Early_GA.png",
+			"370": "ourochar_files/Early_GA.png",
 		},
 		firstAppearance: 187,
 		plotrelevance: 0,
@@ -388,6 +389,9 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"211": "ourochar_files/earlyjekt-o.png",
 			"214": "ourochar_files/earlyjekt-olight.png"
 		},
+		weapon_kind: {
+			"451": "Harpngunkind"
+		},
 		descriptions: {
 			"214": `"Your name is JEKT-O GONER. Though, your mom says the O is silent. You don't care. You keep the O in your name anyway and tell others that they have to emphasize the O. That is... if you talked to anyone. Living at the bottom of the ocean doesn't give you many opportunities to make friends.
 
@@ -418,7 +422,8 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 			"216": "ourochar_files/early_FL.png",
 			"315": "ourochar_files/shadow_wren.png",
 			"331": "ourochar_files/wren_reveal.png",
-			"343": "ourochar_files/wren_demon.png"
+			"343": "ourochar_files/wren_demon.png",
+			"493": "ourochar_files/unmasked_wren.png"
 		},
 		firstAppearance: 216,
 		plotrelevance: 100,
@@ -455,10 +460,17 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		id: "Vladsly",
 		name: "Vladsly",
 		names: {
-			"288": "???"
+			"288": "???",
+			"454": "Vladsly Parize"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"218": "ourochar_files/early_vladsly.png"
+			"218": "ourochar_files/early_vladsly.png",
+			"450": "ourochar_files/shadow_vladsly.png",
+			"454": "ourochar_files/vladsly.png"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"454": "#ff0a2e"
 		},
 		firstAppearance: 288,
 		plotrelevance: 100,
@@ -470,7 +482,8 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"288": "Song the Siren"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"218": "ourochar_files/early_song.png"
+			"218": "ourochar_files/early_song.png",
+			"557": "ourochar_files/!REPLACEMEWHENUPDATE.songreveal.png"
 		},
 		firstAppearance: 302,
 		plotrelevance: 25,
@@ -669,9 +682,77 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		},
 		pestercolor: {
 			"default": "#000000",
-			"430": "#ff002b"
+			"431": "#ff002b"
 		},
 		plotrelevance: 5,
+	},{
+		id: "Automaton Z",
+		name: "Automaton Z",
+		names: {
+			"432": "Z"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"432": "ourochar_files/early_auto_Z.png"
+		},
+		firstAppearance: 432,
+		additional_tags:{
+			"AUTOMATON": 1
+		},
+		pestercolor: {
+			"default": "#000000",
+			"432": "#ff002b"
+		},
+		plotrelevance: 5,
+	},{
+		id: "Automaton C",
+		name: "Automaton C",
+		names: {
+			"435": "C"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"435": "ourochar_files/early_auto_C.png"
+		},
+		firstAppearance: 435,
+		additional_tags:{
+			"AUTOMATON": 1
+		},
+		pestercolor: {
+			"default": "#000000",
+			"435": "#ff002b"
+		},
+		plotrelevance: 5,
+	},{
+		id: "Jack Noir",
+		name: "Jack Noir",
+		names: {
+			"439": "???",
+			"441": "Jack Noir"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"439": "ourochar_files/jack_noir.png"
+		},
+		description: {
+			"441": `"Your name is JACK NOIR. It always has been and always will be. Just as your rank has always and will always be ARCHAGENT. You are tasked with a multitude of fundamental affairs within the DARK KINGDOM of DERSE.
+
+Part of the job is viewing the entire kingdom through your FENESTRATED WALLS. Normally, you would have a fourth wall, but it never existed in the first place. There is hardly anything going on right now, anyway, so you only have the front one turned on. It is your favorite.
+
+You are watching as the invader who fell from the stars wanders the dungeons deep beneath the kingdom. He radiates an intense aura that pisses you off, but you do have to admit that he is pretty good at killing your minions. Too bad what he did to HB. Never before have you seen a head roll down a flight of stairs for so long. By the time it hit the bottom, it was impossible to tell the body it once belonged to.
+
+Perhaps you should visit this intruder yourself." (Page 441)`
+		},
+		firstAppearance: 439,
+		plotrelevance: 50,
+	},{
+		id: "Someone_not_spin_totally",
+		name: "Someone",
+		names: {
+			"501": "Someone?"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"501": "ourochar_files/Someone.png",
+		},
+		firstAppearance: 501,
+		plotrelevance: 80,
 	},
 ];
 
