@@ -1,0 +1,112 @@
+body {
+	background-color: #000000;
+	background-image: url(https://file.garden/ZfOq-1A4xzfd-2Wr/BACKGROUND_C.png); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	font-family: "Courier New", Courier, monospace;
+}
+
+#main-container {
+	width: 940px;
+	margin: 0px auto;
+	padding: 0 5px 5px 5px;
+	background-color: #c6c6c6;
+	padding-top: 0.5px; 
+	border-radius: 8px;
+}
+
+.characterinfo {
+	display: none;
+	width: 90%;
+	border: 2px solid black; 
+	border-radius: 8px; 
+	padding: 15px;
+	margin: 0 auto;
+	background-color: #c6c3c3;
+	overflow: auto; 
+	
+}
+
+.character_image_panel {
+	float: left;
+	margin-right: 20px;  
+	margin-bottom: 10px; 
+	width: 25%;          
+}
+
+.character_image_panel > img {
+	border: 2px solid black; 
+	border-radius: 8px; 
+	width: 100%;         
+	display: block;
+}
+
+.everything_else_panel {
+	padding: 0;
+}
+
+.top_panel {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-bottom: 15px;
+}
+
+.minitoppanel {
+	display: flex;
+	align-items: center;
+}
+
+.minitoppanel > img {
+	width: 48px;
+	height: 48px;
+}
+
+#CharCard_Desc {
+	line-height: 1.4;
+	text-align: justify; 
+}
+
+.character-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+	gap: 16px;
+}
+
+#NoCharacters {
+	display: none;
+	text-align: center;
+}
+
+.grid-item {
+	display: none;
+	flex-direction: column;
+	background: #f4f4f4;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.grid-item > img {
+	height: 100%;
+	width: 100%;
+}
+
+.charname {
+	text-align: center;
+	font-weight: bold;
+	justify-content: center; /* this isnt fucking working. cant be bothered to figure out how to fix it T_T */
+  align-items: center; 
+}
+#CharCard_Name {
+	text-align: center;
+	font-weight: bold;
+}
+
+.controls-container {
+	padding: 16px; 
+	padding-top: 16px;
+	margin-top: 16px; 
+	margin-bottom: 16px; 
+	background: #f4f4f4; 
+	border-radius: 8px;
+}
