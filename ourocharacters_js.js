@@ -236,6 +236,9 @@ const characters = [
 		sylladex: {
 			"252": "Pocket Garden"
 		},
+		pronouns: {
+			"default": "She/her"
+		},
 		descriptions: {
 			"146": `\"Your name is CLOVER SOLSANGK. You have lived a highly sheltered life, if a bit too sheltered. You don't know what you are but don't think you are a human. You don't really care, as Wolf says you are "MY DARLING LITTLE BLOOM" every time you ask him. Though, he sometimes calls you "WOOF WOOF WOOF."
 \n\n
@@ -369,15 +372,22 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 			"default": "#000000",
 			"64": "#003f62"
 		},
+		sylladex: {
+			"295": "Iceberg"
+		},
 	},
 	{
 		id: "Wren", //CASE SENSITIVE!!!! WRAHH!!!
 		name: "Wren",
 		names: {
-			"216": "???"
+			"216": "???",
+			"332": "DAME MYSTERIOSO",
+			"333": "Wren Synotion"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"216": "ourochar_files/early_FL.png"
+			"216": "ourochar_files/early_FL.png",
+			"315": "ourochar_files/shadow_wren.png",
+			"331": "ourochar_files/wren_reveal.png"
 		},
 		firstAppearance: 216,
 		plotrelevance: 95,
@@ -388,6 +398,108 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 			"default": "#000000",
 			"64": "#ff0058"
 		},
+		descriptions: {
+			"335": `Your name is WREN SYNOTION. You are currently on a mission with your older sister and her companions to save the world from an oppressive shadow organization known as WADE, which steals children for experimentation. Of course, the mission has changed now that the world is ending from something completely unrelated.
+
+When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you spend your time READING ROMANTIC TRASH, BIRDWATCHING, and SNACKING. You are interested in STREET ART, FREEDOM FIGHTING, and TOUGH PUZZLES.`
+		}
+	},
+	{
+		id: "Bangol", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "Bangol",
+		names: {
+			"263": "???"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"263": "ourochar_files/early_bangol.png"
+		},
+		firstAppearance: 263,
+		pestercolor: {
+			"default": "#000000",
+			"64": "#b11262"
+		},
+		plotrelevance: 84,
+	},
+	{
+		id: "Vladsly", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "Vladsly",
+		names: {
+			"288": "???"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"218": "ourochar_files/early_vladsly.png"
+		},
+		firstAppearance: 288,
+		plotrelevance: 100,
+	},
+	{
+		id: "Song", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "Song",
+		names: {
+			"288": "Song the Siren"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"218": "ourochar_files/early_song.png"
+		},
+		firstAppearance: 302,
+		plotrelevance: 25,
+	},
+	{
+		id: "Whispy", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "Whispy",
+		names: {
+			"306": `"CLIPPED GODDESS FROM ABOVE"`
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"306": "ourochar_files/early_whispy.png"
+		},
+		firstAppearance: 306,
+		pestercolor: {
+			"default": "#000000",
+			"306": "#078446"
+		},
+		plotrelevance: 84,
+	},
+	{
+		id: "KINGSLAYER", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "KINGSLAYER",
+		names: {
+			"141": "Toy",
+			"241": "KINGSLAYER",
+			"279": "KINGSLAYER(?)",
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"141": "ourochar_files/early_plushy.png",
+			"279": "ourochar_files/early_kingskernel.png",
+			"312": "ourochar_files/early_kingradiokernel.png"
+		},
+		firstAppearance: 141,
+		status: {
+			"default": "Alive",
+			"279": "Kernel'd",
+			"999": "Sprite"
+		},
+		plotrelevance: 50,
+		
+	},
+	{
+		id: "Automaton X", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "Automaton X",
+		names: {
+			"325": "X"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"325": "ourochar_files/early_x.png"
+		},
+		firstAppearance: 325,
+		additional_tags:{
+			"AUTOMATON": 1
+		},
+		pestercolor: {
+			"default": "#000000",
+			"325": "#ff002b"
+		},
+		plotrelevance: 5,
 	},
 ];
 
@@ -488,6 +600,7 @@ function renderCharacters(currentPage) {
 }
 
 function displayCharacterInfo(char, currentPage){
+	document.getElementById('main-container').scrollIntoView({ behavior: 'smooth' });
 	globalThis.currentchar = char
 	const charsheet = document.getElementById("charinfoparent");
 	charsheet.style.display = "block";
@@ -555,7 +668,7 @@ function displayCharacterInfo(char, currentPage){
 	})
 
 
-	document.getElementById('main-container').scrollIntoView({ behavior: 'smooth' });
+	
 }
 pageInput.addEventListener("input", (e) => {
     const page = parseInt(e.target.value) || 1;
