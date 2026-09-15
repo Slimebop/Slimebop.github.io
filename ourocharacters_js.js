@@ -269,7 +269,8 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"103": "ourochar_files/earlyAutomatonV.png",
-			"173": "ourochar_files/AutomatonV.png"
+			"173": "ourochar_files/AutomatonV.png",
+			"428": "ourochar_files/laterautomatonv.png"
 		},
 		firstAppearance: 103,
 		additional_tags:{
@@ -541,16 +542,16 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		id: "Sigmund",
 		name: "Sigmund",
 		names: {
-			"343": "Sigmund"
+			"347": "Sigmund"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"343": "ourochar_files/init_sigmund.png"
+			"347": "ourochar_files/init_sigmund.png"
 		},
-		firstAppearance: 343,
+		firstAppearance: 347,
 		plotrelevance: 95,
 		pestercolor: {
 			"default": "#000000",
-			"343": "#12cb7d"
+			"347": "#12cb7d"
 		},
 	},
 	{
@@ -575,6 +576,102 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"317": `"While you and Wolf don't get along the best, you still love each other a lot. He gives you warm cans of food whenever you are sad and hugs you when you are cold. While he can't care for you like mom could(because he lacks arms) and is a guy, he still tries. And you appreciate that. In the end, everything he has done has been for you." (Page 319)`
 		},
 		plotrelevance: 25,
+	},
+	{
+		id: "HG",
+		name: "HG",
+		names: {
+			"425": "Hallowed Gunman (HG)"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"425": "ourochar_files/early_HG.png",
+		},
+		firstAppearance: 425,
+		plotrelevance: 0,
+	},
+	{
+		id: "MM",
+		name: "MM",
+		names: {
+			"425": `"your partner"`,
+			"426": "Merry Madam"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"425": "ourochar_files/MM.png",
+		},
+		firstAppearance: 425,
+		plotrelevance: 0,
+	},
+	{
+		id: "GA",
+		name: "GA",
+		names: {
+			"187": "YOU",
+			"351": "Grim Archivest (GA)"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"187": "ourochar_files/187_you.png", //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
+			"351": "ourochar_files/Early_GA.png",
+			"360": "ourochar_files/Early_GA_nohat.png",
+			"369": "ourochar_files/Early_GA.png",
+		},
+		firstAppearance: 187,
+		plotrelevance: 0,
+	},
+	{
+		id: "Automaton W",
+		name: "Automaton W",
+		names: {
+			"430": "W"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"430": "ourochar_files/early_auto_W.png"
+		},
+		firstAppearance: 430,
+		additional_tags:{
+			"AUTOMATON": 1
+		},
+		pestercolor: {
+			"default": "#000000",
+			"430": "#ff002b"
+		},
+		plotrelevance: 5,
+	},{
+		id: "Automaton L",
+		name: "Automaton L",
+		names: {
+			"430": "L"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"430": "ourochar_files/early_auto_L.png"
+		},
+		firstAppearance: 430,
+		additional_tags:{
+			"AUTOMATON": 1
+		},
+		pestercolor: {
+			"default": "#000000",
+			"430": "#ff002b"
+		},
+		plotrelevance: 5,
+	},{
+		id: "Automaton Y",
+		name: "Automaton Y",
+		names: {
+			"431": "Y"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"431": "ourochar_files/early_auto_Y.png"
+		},
+		firstAppearance: 431,
+		additional_tags:{
+			"AUTOMATON": 1
+		},
+		pestercolor: {
+			"default": "#000000",
+			"430": "#ff002b"
+		},
+		plotrelevance: 5,
 	},
 ];
 
