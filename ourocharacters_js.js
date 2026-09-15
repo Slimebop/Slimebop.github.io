@@ -260,7 +260,7 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"158": "???"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"158": "ourochar_files/seebshadow.png"
+			"158": "https://file.garden/aLffnvE920YlSFwc/osalcharacters/seebshadow.png" //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
 		},
 		firstAppearance: 158,
 	},
