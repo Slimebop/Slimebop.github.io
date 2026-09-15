@@ -335,10 +335,7 @@
                   error(req.status);
                 }
               }
-            } else {
-              potentiallyWrongErrorDialog(
-                "An error occured while trying to load some data. This usually happens because your internet's administrator has blocked this website.",
-              );
+            }
             }
           }
         }
