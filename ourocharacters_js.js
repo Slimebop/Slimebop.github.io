@@ -302,10 +302,11 @@ function renderCharacters(currentPage) {
 					tempchar.style.borderColor = tempcolor
 					tempchar.style.color = tempcolor
 				}
-				if (char.pesterhighlight != null) {
-					temphighlight = getHighestUnder(char.pesterhighlight,currentPage)
+				
+				//if (char.pesterhighlight != null) {
+					//temphighlight = getHighestUnder(char.pesterhighlight,currentPage)
 					//tempchar.style.background = temphighlight
-				}
+				//}
             }
         }
     });
@@ -350,14 +351,16 @@ function displayCharacterInfo(char, currentPage){
 
 	const CharCard_Desc = document.getElementById("CharCard_Desc");
 	CharCard_Desc.textContent = getHighestUnder(char.descriptions,currentPage)
-
+	
 	const CharCard_Name = document.getElementById("CharCard_Name");
+	CharCard_Name.style.background = 'none';
 	CharCard_Name.textContent = getHighestUnder(char.names,currentPage)
 	CharCard_Name.style.color = getHighestUnder(char.pestercolor,currentPage)
 	CharCard_Name.style.background = getHighestUnder(char.pesterhighlight,currentPage)
 
 	const CharCard_Pestertag = document.getElementById("CharCard_Pestertag");
 	temppestertag = getHighestUnder(char.pestertag,currentPage)
+	CharCard_Pestertag.style.background = 'none';
 	if (temppestertag != "???"){
 		CharCard_Pestertag.textContent = temppestertag
 		CharCard_Pestertag.style.color = getHighestUnder(char.pestercolor,currentPage)
