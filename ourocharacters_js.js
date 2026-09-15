@@ -41,12 +41,112 @@ const characters = [
 		id: "Shelly", //CASE SENSITIVE!!!! WRAHH!!!
 		name: "Shelly",
 		names: {
-			"17": "???"
+			"default": "???"
 		},
 		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
 			"17": "ourochar_files/earlyshelly.png"
 		},
 		firstAppearance: 17,
+		descriptions: {
+			"default": "???"
+		},
+		classpect: {
+			"default": "???"
+		},
+		lunarswing:{
+			"default": "???" 
+		},
+		sexuality: {
+			"default": "???"
+		},
+		pronouns: {
+			"default": "???" 
+		},
+		location: {
+			"default": "???"
+		},
+		status: {
+			"default": "???"
+		},
+	},
+	{
+		id: "Automaton", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "Automaton",
+		names: {
+			"default": "???",
+			"17": "Automaton"
+		},
+		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
+			"17": "ourochar_files/earlyautomaton.png"
+		},
+		firstAppearance: 17,
+		descriptions: {
+			"default": "???",
+			"17": "A default automaton."
+		},
+		classpect: {
+			"default": "???"
+		},
+		lunarswing:{
+			"default": "???" 
+		},
+		sexuality: {
+			"default": "???"
+		},
+		pronouns: {
+			"default": "???" 
+		},
+		location: {
+			"default": "???"
+		},
+		status: {
+			"default": "???"
+		},
+	},
+	{
+		id: "Luna", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "Luna",
+		names: {
+			"default": "???",
+			"25": "Luna"
+		},
+		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
+			"25": "ourochar_files/earlyluna.png"
+		},
+		firstAppearance: 22,
+		descriptions: {
+			"default": "???"
+		},
+		classpect: {
+			"default": "???"
+		},
+		lunarswing:{
+			"default": "???" 
+		},
+		sexuality: {
+			"default": "???"
+		},
+		pronouns: {
+			"default": "???" 
+		},
+		location: {
+			"default": "???"
+		},
+		status: {
+			"default": "???"
+		},
+	},
+	{
+		id: "Dive", //CASE SENSITIVE!!!! WRAHH!!!
+		name: "Dive",
+		names: {
+			"default": "???",
+			"25": "Dive"
+		},
+		images: {//im pretty usre links should work here too? its a 450x450 image. for the record. (if you wanted to use filegarden ^_^)
+			"25": "ourochar_files/earlydive.png"
+		},
+		firstAppearance: 22,
 		descriptions: {
 			"default": "???"
 		},
