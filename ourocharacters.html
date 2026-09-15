@@ -11,8 +11,18 @@
 			<div class="controls-container">
 				<label for="page-input"><strong>Current Page:</strong> </label>
 				<input type="number" id="page-input" min="1" value="1" style="padding: 6px; font-size: 16px; width: 80px;" /><bold>  Write your current page here!! [[CURRENTLY UP TO: PG183]]</bold>
+
+			<!-- buttons for sorting-->
+			 <br>
+			<button onclick="sortElementsByPlot()">Sort by Character Relevance</button>
+			<button onclick="sortElementsByFirstAppearance()">Sort by First Appearance</button>
 			</div>
 			<div class="characterinfo" id="charinfoparent">
+				<!--
+				<div style="position: relative; width: 100%; height: 0;">
+					<button id="CharCard_StarBtn" class="star-button" aria-label="Favorite Character" onclick="favoriteCurrentCharacter()">&#9734;</button>
+				</div>
+			-->
 				<div class="character_image_panel">
 					<img id="CharCard_Img" src="ourochar_files\err.png" alt="Description of the image">
 					<bold id="CharCard_Name">TEMP_NAME</bold><br>
@@ -51,10 +61,12 @@
 							<p id="CharCard_Desc">TEMP_DESC. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac commodo ante. Vivamus laoreet posuere metus, quis dapibus velit venenatis et. Cras a metus consectetur, congue libero nec, tincidunt nibh. Nullam molestie et felis vel mattis. In vel facilisis tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce sed blandit velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec quam eu lectus ullamcorper ullamcorper non quis quam. Curabitur ligula orci, pharetra et lectus et, efficitur semper nunc. Ut sit amet lacus gravida, viverra augue id, convallis ligula. Donec laoreet ultrices enim et cursus. Cras auctor eros risus, eu iaculis mauris consequat a. Nullam sagittis mauris vitae sapien sodales, sed porta odio commodo. Mauris hendrerit dolor non suscipit volutpat. Integer hendrerit turpis mi. Pellentesque suscipit velit vitae semper mollis. Ut eget metus eget felis viverra molestie at id ante. Fusce dignissim cursus ullamcorper. In dui nunc, consectetur id semper at, interdum vel massa. Aliquam diam dui, congue nec sodales nec, vulputate vitae metus. Nullam vitae quam nunc. Nunc sit amet quam tellus. Proin sed pulvinar massa. Pellentesque ac bibendum ante. Sed commodo posuere ante vehicula maximus. Duis vel dolor laoreet, vestibulum augue eu, porttitor nisi. Sed fringilla est eu neque lobortis pulvinar. Integer maximus, elit quis rutrum bibendum, sem augue tincidunt augue, in pretium turpis erat in velit.</p>
 						</div>
 						<br>
+						<div class="page-number">Introduced in: Page <div id="CharCard_Page">1</div></div>
 						<br>
 						<div id="CharCard_Tags"></div>
-
+						
 					</div>
+					
 				</div>
 
 
@@ -62,16 +74,6 @@
 			<br>
 			<div id="NoCharacters">You haven't begun reading yet or havent put in your current page number!</div>
 			<div class="character-grid" id="character-grid">
-				<div class="grid-item" id="Inkwell" ><img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><bold class="charname">PLACEHOLDER</bold></div>
-				<div class="grid-item" id="Shelly" ><img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><bold class="charname">PLACEHOLDER</bold></div>
-				<div class="grid-item" id="Luna" ><img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><bold class="charname">PLACEHOLDER</bold></div>
-				<div class="grid-item" id="Dive" ><img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><bold class="charname">PLACEHOLDER</bold></div>
-				<div class="grid-item" id="SD" ><img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><bold class="charname">PLACEHOLDER</bold></div>
-				<div class="grid-item" id="Clover" ><img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><bold class="charname">PLACEHOLDER</bold></div>
-				<div class="grid-item" id="Automaton" ><img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><bold class="charname">PLACEHOLDER</bold></div>
-				<div class="grid-item" id="Automaton V" ><img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><bold class="charname">PLACEHOLDER</bold></div>
-				<div class="grid-item" id="RadioVoice" ><img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><bold class="charname">PLACEHOLDER</bold></div>
-				<div class="grid-item" id="Seeb" ><img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><bold class="charname">PLACEHOLDER</bold></div>
 			</div>
 			<br>
 			Disclaimer: (nearly) all art done by <a href="https://mspfa.com/user/?u=113491339755838022344">Inknautilus</a>. Also: Support the <a href="https://mspfa.com/?s=56170&p=1">comic!</a>

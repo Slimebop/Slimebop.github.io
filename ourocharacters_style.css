@@ -116,8 +116,13 @@ body {
 	border-radius: 8px;
 }
 
-
-
+.page-number {
+  position: relative;
+overflow: auto; 
+}
+.page-number > div {
+  display: inline-block;
+}
 .additional_tag {
     margin: 4px;
     display: inline-flex;

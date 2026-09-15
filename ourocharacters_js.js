@@ -46,7 +46,8 @@ const characters = [
 			"130": "Anchorkind"
 		}, sylladex: {
 			"45": "SPIN SPIRAL SYLLADEX"
-		}
+		},
+		plotrelevance: 100,
 	},
 	{
 		id: "Shelly", //CASE SENSITIVE!!!! WRAHH!!!
@@ -86,8 +87,8 @@ const characters = [
 		pestercolor:{
 			"default": "#000000",
 			"49": "#ff8000"
-		}
-		
+		},
+		plotrelevance: 100,
 	},
 	{
 		id: "Automaton", //CASE SENSITIVE!!!! WRAHH!!!
@@ -122,6 +123,7 @@ const characters = [
 			"default": "#000000",
 			"72": "#ff002b"
 		},
+		plotrelevance: 2.5,
 	},
 	{
 		id: "Luna", //CASE SENSITIVE!!!! WRAHH!!!
@@ -144,7 +146,8 @@ const characters = [
 		},
 		additional_tags: {
 			"Guardian": 124,
-		}
+		},
+		plotrelevance: 25,
 	},
 	{
 		id: "Dive", //CASE SENSITIVE!!!! WRAHH!!!
@@ -169,6 +172,7 @@ const characters = [
 		descriptions: {
 			"31": "\"Beside him is DIVE, a chill guy who like you, wears a mask proudly. He claims that he is a twisted monster 'straight out of your deepest darkest nightmares', and that is why he is named DIVE. He is a deep dive into your phobias. You don't actually know much about him, as he is just as fascinated by LUNA as you. You do, however, know that DIVE is responsible for horrible atrocities on Mars.\" (Page 31) "
 		},
+		plotrelevance: 50,
 	},
 	{
 		id: "SD", //CASE SENSITIVE!!!! WRAHH!!!
@@ -187,6 +191,7 @@ const characters = [
 			"default": "#000000",
 			"64": "#003d12"
 		},
+		plotrelevance: 75,
 	},
 	{
 		id: "Clover", //CASE SENSITIVE!!!! WRAHH!!!
@@ -215,7 +220,8 @@ const characters = [
 You are captivated by BOTANY, SOFT THINGS, ROCKS AND GEMS, and THE VOICES OF THE RADIO. Additionally, you appreciate GOOD TASTING FOOD, VIDEO GAMES, and SLEEP. Despite your wide range of interests, nothing calls out to you. Nothing brings you to your knees or out on the streets.
 
 Also, you are a tad... skittish. You could line the walls with all your fears and still not have enough room.\" (Page 146)`
-		}
+		},
+		plotrelevance: 100,
 	},
 	{
 		id: "Automaton V", //CASE SENSITIVE!!!! WRAHH!!!
@@ -235,6 +241,7 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"default": "#000000",
 			"72": "#ff002b"
 		},
+		plotrelevance: 5,
 	},
 	{
 		id: "RadioVoice", //CASE SENSITIVE!!!! WRAHH!!!
@@ -251,7 +258,8 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"151": "#5fee30"
 		},pesterhighlight: {
 			"151": "#ffffff"
-		}
+		},
+		plotrelevance: 1,
 	},
 	{
 		id: "Seeb", //CASE SENSITIVE!!!! WRAHH!!!
@@ -263,12 +271,58 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"158": "https://file.garden/aLffnvE920YlSFwc/osalcharacters/seebshadow.png" //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
 		},
 		firstAppearance: 158,
+		plotrelevance: 100,
 	},
 ];
 
 
 const pageInput = document.getElementById('page-input');
 const grid = document.getElementById('character-grid');
+
+function dynamicallyCreateCharacterElements() {
+	// based off of: <div class="grid-item" id="Inkwell" ><img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><bold class="charname">PLACEHOLDER</bold></div>
+	characters.forEach(char => {
+		const charElement = document.createElement('div');
+		charElement.classList.add('grid-item');
+		charElement.id = char.id;
+		charElement.innerHTML = `<img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><bold class="charname">PLACEHOLDER</bold>`;
+		grid.appendChild(charElement);
+	});
+}
+
+function sortElementsByPlot() {
+	// Sort the characters grid based on plotrelevance, ties broken by firstAppearance (lower is better for first appearance.)
+	characters.sort((a, b) => {
+		if (a.plotrelevance === b.plotrelevance) {
+			return a.firstAppearance - b.firstAppearance;
+		}
+		return b.plotrelevance - a.plotrelevance;
+	});
+
+	characters.forEach(char => {
+		const charElement = document.getElementById(char.id);
+		if (charElement) {
+			grid.appendChild(charElement); // This will move the element to the end of the grid, effectively sorting it.
+		}
+	});
+}
+
+function sortElementsByFirstAppearance() {
+	// Sort the characters grid based on firstAppearance, ties broken by plotrelevance (higher is better for plotrelevance.)
+	characters.sort((a, b) => {
+		if (a.firstAppearance === b.firstAppearance) {
+			return b.plotrelevance - a.plotrelevance;
+		}
+		return a.firstAppearance - b.firstAppearance;
+	});
+	characters.forEach(char => {
+		const charElement = document.getElementById(char.id);
+		if (charElement) {
+			grid.appendChild(charElement); // This will move the element to the end of the grid, effectively sorting it.
+		}
+	});
+}
+
 
 function renderCharacters(currentPage) {
 	const nocharacters = document.getElementById("NoCharacters");
@@ -357,6 +411,8 @@ function displayCharacterInfo(char, currentPage){
 	CharCard_Name.textContent = getHighestUnder(char.names,currentPage)
 	CharCard_Name.style.color = getHighestUnder(char.pestercolor,currentPage)
 	CharCard_Name.style.background = getHighestUnder(char.pesterhighlight,currentPage)
+	const CharCard_Page = document.getElementById("CharCard_Page");
+	CharCard_Page.textContent = char.firstAppearance;
 
 	const CharCard_Pestertag = document.getElementById("CharCard_Pestertag");
 	temppestertag = getHighestUnder(char.pestertag,currentPage)
@@ -387,6 +443,7 @@ function displayCharacterInfo(char, currentPage){
 }
 pageInput.addEventListener("input", (e) => {
     const page = parseInt(e.target.value) || 1;
+	savePageToCookies();
     renderCharacters(page);
 	if (globalThis.currentchar != null) {
 		if (page >= globalThis.currentchar.firstAppearance){
@@ -400,6 +457,8 @@ pageInput.addEventListener("input", (e) => {
 });
 
 // Run it once on initial load
+dynamicallyCreateCharacterElements()
+loadPageFromCookies();
 renderCharacters(parseInt(pageInput.value) || 1);
 
 
@@ -417,4 +476,24 @@ function getHighestUnder(listObj, targetNumber) {
     }
     const highestKey = Math.max(...validKeys);
     return listObj[highestKey];
+}
+
+
+function savePageToCookies() { // Keeping name same so you don't have to change your event listener
+    const page = parseInt(pageInput.value) || 1;
+    localStorage.setItem('osal_currentPage', page);
+}
+
+function loadPageFromCookies() { // Keeping name same so it drops right in
+    const savedPage = localStorage.getItem('osal_currentPage');
+    const page = parseInt(savedPage);
+
+    if (!isNaN(page)) {
+        pageInput.value = page;
+        renderCharacters(page);
+    } else {
+        // Default to page 1 if nothing is stored yet
+        pageInput.value = 1;
+        renderCharacters(1);
+    }
 }
