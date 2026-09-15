@@ -16,7 +16,7 @@ const characters = [
 			"3": "ourochar_files/earlyinkwell.png",
 			"348": "ourochar_files/early_dmg_ink.png",
 			"398": "ourochar_files/capewell.png",
-			"611": "ourochar_files/cotwell.png",
+			"611": "ourochar_files/!REPLACEMEWHENUPDATE.cotwell.png",
 			"3676": "ourochar_files/3676inkwell.png" //test image 
 		},
 		firstAppearance: 3,
