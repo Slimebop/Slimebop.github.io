@@ -416,6 +416,12 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 		sylladex: {
 			"295": "Iceberg"
 		},
+		lunarswing:{
+			"725": "Prospit"
+		},
+		location:{
+			"728": "Land of Depths & Glory"
+		}
 	},
 	{
 		id: "Wren",
@@ -482,6 +488,9 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"default": "#000000",
 			"454": "#ff0a2e"
 		},
+		location:{
+			"728": "Land of Depths & Glory"
+		},
 		firstAppearance: 288,
 		plotrelevance: 100,
 	},
@@ -502,7 +511,8 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		id: "Whispy",
 		name: "Whispy",
 		names: {
-			"306": `"CLIPPED GODDESS FROM ABOVE"`
+			"306": `"CLIPPED GODDESS FROM ABOVE"`,
+			"735": "Whispy Dewblu"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"306": "ourochar_files/early_whispy.png"
@@ -879,7 +889,10 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		id: "Nora",
 		name: "Nora",
 		names: {
-			"676": `umbralEyes [UE]`
+			"676": `umbralEyes [UE]`,
+			"747": `Umbra!`,
+			"748": "NORA APHELION",
+			"749": "Nora Aphelion"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"676": "ourochar_files/Blank.png"
@@ -890,6 +903,13 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		pestercolor: {
 			"default": "#000000",
 			"676": "#640d50",
+		},
+		description: {
+			"749": `"Your name is NORA APHELION. But you have another name that you much PURRfur. UMBRA CLAWS THE TWILIGHT ORACLE. You don’t exactly hate your birth name but you just like Umbra better. You answer to both and none… for you are a MYSTERY-LOVING CAT-ENTHUSED CATGIRL. There is a story about why you have authentic cat ears, but you keep that tight to your chest.
+
+Besides cats, you like SILLY HORROR MOVIES AND GAMES, MYSTERIES OF MOST KINDS, and READING CONQUEST CATS(both canonical texts and fanfiction). Speaking of CONQUEST CATS, you and your INFORMANT/BIG BOSS/MYSTERY MAN often roleplay as some OCs. You are, of course, Umbra Claws. You would draw her, but you suck at drawing.
+
+In addition to these silly interests for a cat girl, you love ANIMALS OF MANY KINDS, MONSTERS OF EVEN MORE KINDS, and TALKING TO GHOSTS. You are a normal cat girl. Your favorite color is purple. You have killed before and will kill again. Meow?" (Page 749)`
 		},
 		firstAppearance: 656,
 		plotrelevance: 100,
@@ -922,6 +942,9 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 You have a few interests outside of playing the violin and pleasing the princess, such as listening to ANCIENT EARTH MUSIC OF THE DARK OR REBELLIOUS NATURE, writing POEMS ABOUT DEATH AND LOVE, EXPLORING GRAVEYARDS, DREAMING OF GOLD, HEEDING THE GOLDEN SKULL’S SHRILLS, and ORGANIZING YOUR FRIENDS.
 
 You see yourself as a shadow leader or sidekick to the rest of your friend group despite being neither the shadow leader nor the sidekick in the group. You have a slight case of believing you are a fallen god who is bestowed with near boundless knowledge but cursed to forever be silent. In reality, you are silent because you lost your voice in an accident when you were very young." (Page 714)`
+		},
+		lunarswing:{
+			"725": "Prospit"
 		},
 		firstAppearance: 656,
 		plotrelevance: 100,
@@ -968,14 +991,21 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "madnesskernel",
 		name: "madnesskernel",
 		names: {
-			"698": "Madness Kernel"
+			"698": "???",
+			"731": "Solsprite"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"698": "ourochar_files/madnesskernel.png",
+			"731": "ourochar_files/Solsprite.png"
 		},
 		firstAppearance: 698,
 		status: {
-			"698": "Kernel'd"
+			"698": "Kernel'd",
+			"731": "Sprite"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"731": "#ff9b00"
 		},
 		plotrelevance: 50,
 	},
@@ -1069,7 +1099,33 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"709": "#ff002b"
 		},
 		plotrelevance: 5,
-	},
+	},{
+		id: "Silver Serenity",
+		name: "Silver Serenity",
+		names: {
+			"715": "Silver Serenity"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"715": "ourochar_files/Silver_Poster.png"
+		},
+		firstAppearance: 715,
+		plotrelevance: 25,
+	},{
+		id: "Vista",
+		name: "Vista",
+		names: {
+			"721": "Vista"
+		},
+		images: {
+			"721": "ourochar_files/VISTA.png"
+		},
+		firstAppearance: 721,
+		plotrelevance: 100, //LIKE A MILLION!!!!!!!!!!!
+		pestercolor: {
+			"default": "#000000",
+			"721": "#9e469e"
+		}
+	}
 ];
 
 
