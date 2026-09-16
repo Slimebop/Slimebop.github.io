@@ -365,7 +365,7 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"370": "ourochar_files/Early_GA.png",
 		},
 		firstAppearance: 187,
-		plotrelevance: 0,
+		plotrelevance: 4,
 	},{
 		id: "Automaton U",
 		name: "Automaton U",
@@ -613,7 +613,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"425": "ourochar_files/early_HG.png",
 		},
 		firstAppearance: 425,
-		plotrelevance: 0,
+		plotrelevance: 4,
 	},
 	{
 		id: "MM",
@@ -626,23 +626,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"425": "ourochar_files/MM.png",
 		},
 		firstAppearance: 425,
-		plotrelevance: 0,
-	},
-	{
-		id: "GA",
-		name: "GA",
-		names: {
-			"187": "YOU",
-			"351": "Grim Archivest (GA)"
-		},
-		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"187": "ourochar_files/187_you.png", //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
-			"351": "ourochar_files/Early_GA.png",
-			"360": "ourochar_files/Early_GA_nohat.png",
-			"369": "ourochar_files/Early_GA.png",
-		},
-		firstAppearance: 187,
-		plotrelevance: 0,
+		plotrelevance: 4,
 	},
 	{
 		id: "Automaton W",
@@ -789,6 +773,7 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		names: {
 			"605": "???",
 			"606": "VIVI(AN)",
+			"711": "VIVIAN CRYSTALANCE",
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"605": "ourochar_files/!REPLACEMEWHENUPDATE.dreamvivi.png",
@@ -913,11 +898,16 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		id: "Penn",
 		name: "Penn",
 		names: {
-			"676": `Penn(?)`
+			"676": `Penn(?)`,
+			"712": `Gerald Way`,
+			"712": `Squintly Depresso`,
+			"712": `Johann Sterling`, //Ties dont currently work: Maybe impliment it?
+			"713": "Penn Aphelionx`"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"676": "ourochar_files/Blank.png",
-			"680": "ourochar_files/ShadowPenn.png"
+			"680": "ourochar_files/ShadowPenn.png",
+			"710": "ourochar_files/realPenn.png"
 		},
 		pestertag: {
 			"676": "silentCadence [SC]"
@@ -925,6 +915,13 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		pestercolor: {
 			"default": "#000000",
 			"676": "#c3c3c3",
+		},
+		description: {
+			"714": `"Your name is PENN APHELION, as said a moment ago. It is a fine name for a fine GENTLEMAN SUCH AS YOURSELF. You are currently in your room within the CRYSTALANCE ESTATE where you serve as the COURT VIOLINIST for the princess whom you are close friends with. While you are praised far and wide for your violin skills, lately you have been stricken with horrible hands and cannot perform as well as you want to.
+
+You have a few interests outside of playing the violin and pleasing the princess, such as listening to ANCIENT EARTH MUSIC OF THE DARK OR REBELLIOUS NATURE, writing POEMS ABOUT DEATH AND LOVE, EXPLORING GRAVEYARDS, DREAMING OF GOLD, HEEDING THE GOLDEN SKULL’S SHRILLS, and ORGANIZING YOUR FRIENDS.
+
+You see yourself as a shadow leader or sidekick to the rest of your friend group despite being neither the shadow leader nor the sidekick in the group. You have a slight case of believing you are a fallen god who is bestowed with near boundless knowledge but cursed to forever be silent. In reality, you are silent because you lost your voice in an accident when you were very young." (Page 714)`
 		},
 		firstAppearance: 656,
 		plotrelevance: 100,
@@ -966,6 +963,112 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"688": "Kernel'd"
 		},
 		plotrelevance: 50,
+	},
+	{
+		id: "madnesskernel",
+		name: "madnesskernel",
+		names: {
+			"698": "Madness Kernel"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"698": "ourochar_files/madnesskernel.png",
+		},
+		firstAppearance: 698,
+		status: {
+			"698": "Kernel'd"
+		},
+		plotrelevance: 50,
+	},
+	{
+		id: "Automaton T",
+		name: "Automaton T",
+		names: {
+			"698": "T"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"698": "ourochar_files/automatonT.png",
+		},
+		firstAppearance: 698,
+		additional_tags:{
+			"AUTOMATON": 1
+		},
+		pestercolor: {
+			"default": "#000000",
+			"698": "#ff002b"
+		},
+		plotrelevance: 5,
+	},
+	{
+		id: "Ares",
+		name: "Ares",
+		names: {
+			"704": `Ares`
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"704": "ourochar_files/Blank.png"
+		},
+		firstAppearance: 704,
+		plotrelevance: 93,
+		fonts: {
+			"704": "Garamond"
+		}
+	},
+	{
+		id: "Leon",
+		name: "Leon",
+		names: {
+			"705": `Leon`
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"705": "ourochar_files/Leon.png"
+		},
+		firstAppearance: 705,
+		plotrelevance: 25,
+	},
+	{
+		id: "Lime",
+		name: "Lime",
+		names: {
+			"705": `Lime`
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"705": "ourochar_files/Lime.png"
+		},
+		firstAppearance: 705,
+		plotrelevance: 25,
+	},{
+		id: "Automaton K",
+		name: "Automaton K",
+		names: {
+			"707": "K"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"707": "ourochar_files/prototypeK.png"
+		},
+		firstAppearance: 707,
+		additional_tags:{
+			"AUTOMATON": 1
+		},
+		pestercolor: {
+			"default": "#000000",
+			"707": "#ff002b"
+		},
+		plotrelevance: 5,
+	},{
+		id: "Mehx",
+		name: "Mehx",
+		names: {
+			"709": "???"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"709": "ourochar_files/Mehx.png"
+		},
+		firstAppearance: 709,
+		pestercolor: {
+			"default": "#000000",
+			"709": "#ff002b"
+		},
+		plotrelevance: 5,
 	},
 ];
 
@@ -1057,6 +1160,12 @@ function renderCharacters(currentPage) {
 					//temphighlight = getHighestUnder(char.pesterhighlight,currentPage)
 					//tempchar.style.background = temphighlight
 				//}
+
+				//font
+				if (char.fonts != null) {
+					tempfont = getHighestUnder(char.fonts,currentPage)
+					tempchar.style.fontFamily = tempfont
+				}
             }
         }
     });
@@ -1110,6 +1219,9 @@ function displayCharacterInfo(char, currentPage){
 	CharCard_Name.style.background = getHighestUnder(char.pesterhighlight,currentPage)
 	const CharCard_Page = document.getElementById("CharCard_Page");
 	CharCard_Page.textContent = char.firstAppearance;
+
+
+	charsheet.style.fontFamily = getHighestUnder(char.fonts,currentPage)
 
 	const CharCard_Pestertag = document.getElementById("CharCard_Pestertag");
 	temppestertag = getHighestUnder(char.pestertag,currentPage)
