@@ -789,7 +789,7 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"605": "ourochar_files/!REPLACEMEWHENUPDATE.dreamvivi.png",
 		},
 		firstAppearance: 605,
-		plotrelevance: 99,
+		plotrelevance: 100,
 		lunarswing:{
 			"590": "Derse"
 		},
@@ -823,7 +823,7 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"640": "ourochar_files/!REPLACEMEWHENUPDATE.salem.png" //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
 		},
 		firstAppearance: 640,
-		plotrelevance: 81,
+		plotrelevance: 93,
 		pestercolor: {
 			"default": "#000000",
 			"692": "#ffdf3a"
@@ -960,7 +960,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"676": `zenithZero [ZZ]`
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"676": "ourochar_files/Blank.png"
+			"676": "ourochar_files/Blank.png",
+			"820": "ourochar_files/ZZ_shadow.png"
 		},
 		pestertag: {
 			"676": "zenithZero [ZZ]"
@@ -1171,6 +1172,39 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"778": "#b11262"
 		},
 		plotrelevance: 84,
+	},{
+		id: "Gimmie",
+		name: "Gimmie",
+		names: {
+			"808": "???",
+			"809": "GIMMIE APITHA",
+			"810": "Gimmie Apitha"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"808": "ourochar_files/mirrorgimmie.png",
+			"809": "ourochar_files/gimmiereveal.png"
+		},
+		firstAppearance: 808,
+		pestercolor: {
+			"default": "#000000",
+			"808": "#a1a100"
+		},
+		description: {
+			"809": `"Your name is GIMMIE APITHA. You aren’t supposed to show up yet in this form. But then again, you never were one for the rules. At some point, you will get a fancy introduction paragraph or two. Maybe you will have a funny naming joke as well. But that is for later. You have important business to attend to right now." (Page 809)`
+		},
+		plotrelevance: 84,
+	},
+	{
+		id: "Saxo",
+		name: "Saxo",
+		names: {
+			"830": "Saxo"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"830": "ourochar_files/Saxo.png"
+		},
+		firstAppearance: 830,
+		plotrelevance: 25,
 	},
 ];
 
