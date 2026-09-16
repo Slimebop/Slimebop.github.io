@@ -966,14 +966,6 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"688": "Kernel'd"
 		},
 		plotrelevance: 50,
-		pestercolor: {
-			"default": "#000000",
-			"203": "#1efcf0"
-		},
-		pesterhighlight: {
-			"default": "#FFFFFF00",
-			"203": "#FFFFFF",
-		}
 	},
 ];
 
