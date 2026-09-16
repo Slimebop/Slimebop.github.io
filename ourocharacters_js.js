@@ -574,7 +574,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"590": "Derse"
 		},
 		firstAppearance: 347,
-		plotrelevance: 95,
+		plotrelevance: 100,
 		pestercolor: {
 			"default": "#000000",
 			"347": "#12cb7d"
@@ -620,7 +620,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		name: "MM",
 		names: {
 			"425": `"your partner"`,
-			"426": "Merry Madam"
+			"426": "Merry Madam (MM)"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"425": "ourochar_files/MM.png",
@@ -798,9 +798,12 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		lunarswing:{
 			"590": "Derse"
 		},
+		pestertag: {
+			"676": "noosphereChalice [NC]"
+		},
 		pestercolor: {
 			"default": "#000000",
-			"64": "#5ba2c9"
+			"590": "#5ba2c9"
 		},
 	},
 	{
@@ -826,6 +829,14 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		},
 		firstAppearance: 640,
 		plotrelevance: 81,
+		pestercolor: {
+			"default": "#000000",
+			"692": "#ffdf3a"
+		},
+		pesterhighlight: {
+			"default": "#FFFFFF00",
+			"692": "#000000",
+		},
 	},
 	{
 		id: "ADAM",
@@ -842,6 +853,127 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"647": "#a15203"
 		},
 		plotrelevance: 84,
+	},
+	{
+		id: "TESS",
+		name: "TESS",
+		names: {
+			"650": `Tess Synotion`
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"650": "ourochar_files/!REPLACEMEWHENUPDATE.initTess.png"
+		},
+		firstAppearance: 650,
+		plotrelevance: 25,
+	},
+	{
+		id: "SwarmPriestess",
+		name: "SwarmPriestess",
+		names: {
+			"655": `Priestess of the Swarm`
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"655": "ourochar_files/!REPLACEMEWHENUPDATE.SwarmPriestess.png"
+		},
+		firstAppearance: 655,
+		plotrelevance: 25,
+	},
+	{
+		id: "Unfinished06",
+		name: "Unfinished06",
+		names: {
+			"656": `Unfinished 06`
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"656": "ourochar_files/!REPLACEMEWHENUPDATE.Unfinished06.png"
+		},
+		firstAppearance: 656,
+		plotrelevance: 25,
+	},
+	{
+		id: "Nora",
+		name: "Nora",
+		names: {
+			"676": `umbralEyes [UE]`
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"676": "ourochar_files/Blank.png"
+		},
+		pestertag: {
+			"676": "umbralEyes [UE]"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"676": "#640d50",
+		},
+		firstAppearance: 656,
+		plotrelevance: 100,
+	},
+	{
+		id: "Penn",
+		name: "Penn",
+		names: {
+			"676": `Penn(?)`
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"676": "ourochar_files/Blank.png",
+			"680": "ourochar_files/ShadowPenn.png"
+		},
+		pestertag: {
+			"676": "silentCadence [SC]"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"676": "#c3c3c3",
+		},
+		firstAppearance: 656,
+		plotrelevance: 100,
+	},
+	{
+		id: "ZZ",
+		name: "ZZ ",
+		names: {
+			"676": `zenithZero [ZZ]`
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"676": "ourochar_files/Blank.png"
+		},
+		pestertag: {
+			"676": "zenithZero [ZZ]"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"676": "#ff0000",
+		},
+		pesterhighlight: {
+			"default": "#FFFFFF00",
+			"676": "#000000"
+		},
+		firstAppearance: 656,
+		plotrelevance: 100,
+	},
+	{
+		id: "reaperkernel",
+		name: "reaperkernel",
+		names: {
+			"688": "Reaper Kernel"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"688": "ourochar_files/reaperkernel.png",
+		},
+		firstAppearance: 688,
+		status: {
+			"688": "Kernel'd"
+		},
+		plotrelevance: 50,
+		pestercolor: {
+			"default": "#000000",
+			"203": "#1efcf0"
+		},
+		pesterhighlight: {
+			"default": "#FFFFFF00",
+			"203": "#FFFFFF",
+		}
 	},
 ];
 
