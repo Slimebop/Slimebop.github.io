@@ -1153,7 +1153,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"760": "???"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"760": "ourochar_files/mysteryladymysterylady.png"
+			"760": "ourochar_files/mysterylady.png"
 		},
 		firstAppearance: 760,
 		plotrelevance: 25,
