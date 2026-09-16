@@ -895,7 +895,8 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"749": "Nora Aphelion"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"676": "ourochar_files/Blank.png"
+			"676": "ourochar_files/Blank.png",
+			"746": "ourochar_files/ealrynora.png"
 		},
 		pestertag: {
 			"676": "umbralEyes [UE]"
@@ -945,6 +946,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		lunarswing:{
 			"725": "Prospit"
+		},
+		sylladex:{
+			"798": "Poem"
 		},
 		firstAppearance: 656,
 		plotrelevance: 100,
@@ -1125,7 +1129,49 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"default": "#000000",
 			"721": "#9e469e"
 		}
-	}
+	},
+	{
+		id: "Oxovuu",
+		name: "Oxovuu",
+		names: {
+			"755": "Oxovuu"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"755": "ourochar_files/oxovuu_mirror.png"
+		},
+		firstAppearance: 755,
+		pestercolor: {
+			"default": "#000000",
+			"755": "#008282"
+		},
+		plotrelevance: 84,
+	},{
+		id: "mysterylady",
+		name: "mysterylady",
+		names: {
+			"760": "???"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"760": "ourochar_files/mysteryladymysterylady.png"
+		},
+		firstAppearance: 760,
+		plotrelevance: 25,
+	},{
+		id: "Bangol",
+		name: "Bangol",
+		names: {
+			"778": "Bangol"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"778": "ourochar_files/bangol_mirror.png"
+		},
+		firstAppearance: 778,
+		pestercolor: {
+			"default": "#000000",
+			"778": "#b11262"
+		},
+		plotrelevance: 84,
+	},
 ];
 
 
