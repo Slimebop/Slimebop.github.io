@@ -280,7 +280,7 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"243": "Umbrellakind"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
-			"182": "ourochar_files/clover_gate.png"
+			"413": "ourochar_files/clover_gate.png"
 		},
 		plotrelevance: 100,
 	},
@@ -326,7 +326,7 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"217": "Bunker"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
-			"182": "ourochar_files/clover_gate.png"
+			"413": "ourochar_files/clover_gate.png"
 		},
 		hideafter: 312 
 	},
@@ -358,7 +358,7 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"408": "#000000"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
-			"182": "ourochar_files/clover_gate.png"
+			"413": "ourochar_files/clover_gate.png"
 		},
 	},
 	{
