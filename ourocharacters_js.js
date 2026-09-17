@@ -483,7 +483,7 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 			"64": "#ff0058"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
-			"728": "ourochar_files/Wren_gate.png"
+			"728": "ourochar_files/wren_gate.png"
 		},
 		descriptions: {
 			"335": `Your name is WREN SYNOTION. You are currently on a mission with your older sister and her companions to save the world from an oppressive shadow organization known as WADE, which steals children for experimentation. Of course, the mission has changed now that the world is ending from something completely unrelated.
@@ -630,7 +630,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"590": "Derse"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
-			"728": "ourochar_files/Wren_gate.png"
+			"728": "ourochar_files/wren_gate.png"
 		},
 		firstAppearance: 347,
 		plotrelevance: 100,
@@ -916,7 +916,7 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		plotrelevance: 25,
 		sburbicon: {
 			"0": "ourochar_files/Blank.png",
-			"728": "ourochar_files/Wren_gate.png"
+			"728": "ourochar_files/wren_gate.png"
 		},
 	},
 	{
