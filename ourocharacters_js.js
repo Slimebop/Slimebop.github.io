@@ -35,7 +35,7 @@ const characters = [
 		location: {
 			"8": "the THIRD FRIDGE (Galactic Prison)",
 			"182": "???",
-			"200": "LAND OF WASTE & SPACE"
+			"200": "LAND OF WASTE & SPIRES"
 		},
 		status: {
 			"default": "Alive"
@@ -93,7 +93,7 @@ const characters = [
 		location: {
 			"8": "the THIRD FRIDGE (Galactic Prison)",
 			"182": "???",
-			"200": "LAND OF WASTE & SPACE"
+			"200": "LAND OF WASTE & SPIRES"
 		},
 		status: {
 			"default": "Alive"
@@ -164,7 +164,7 @@ const characters = [
 		location: {
 			"8": "the THIRD FRIDGE (Galactic Prison)",
 			"182": "???",
-			"200": "LAND OF WASTE & SPACE",
+			"200": "LAND OF WASTE & SPIRES",
 			"436": "Derse"
 		},
 		descriptions: {
@@ -201,7 +201,7 @@ const characters = [
 		location: {
 			"8": "the THIRD FRIDGE (Galactic Prison)",
 			"182": "???",
-			"200": "LAND OF WASTE & SPACE"
+			"200": "LAND OF WASTE & SPIRES"
 		},
 		descriptions: {
 			"31": "\"Beside him is DIVE, a chill guy who like you, wears a mask proudly. He claims that he is a twisted monster 'straight out of your deepest darkest nightmares', and that is why he is named DIVE. He is a deep dive into your phobias. You don't actually know much about him, as he is just as fascinated by LUNA as you. You do, however, know that DIVE is responsible for horrible atrocities on Mars.\" (Page 31) "
@@ -802,6 +802,21 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		firstAppearance: 439,
 		plotrelevance: 50,
 	},{
+		id: "MysteryCreator",
+		name: "MysteryCreator",
+		names: {
+			"442": "???",
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"442": "ourochar_files/mysterynoirvoice.png"
+		},pestercolor: {
+			"default": "#000000",
+			"435": "#5fee30"
+		},
+		firstAppearance: 442,
+		plotrelevance: 85,
+	},
+	{
 		id: "Someone_not_spin_totally",
 		name: "Someone",
 		names: {
