@@ -41,7 +41,7 @@ const characters = [
 			"default": "Alive"
 		},
 		additional_tags:{
-			"Hero": 124
+			"Hero": 124,
 		},
 		//you must add both!!
 		pestertag: {
@@ -58,6 +58,9 @@ const characters = [
 			"130": "Anchorkind"
 		}, sylladex: {
 			"45": "SPIN SPIRAL"
+		}, sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"182": "ourochar_files/inkwell_gate.png"
 		},
 		plotrelevance: 100,
 	},
@@ -104,6 +107,9 @@ const characters = [
 		pestercolor:{
 			"default": "#000000",
 			"49": "#ff8000"
+		},sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"182": "ourochar_files/inkwell_gate.png"
 		},
 		plotrelevance: 100,
 	},
@@ -166,6 +172,9 @@ const characters = [
 		},
 		additional_tags: {
 			"Guardian": 124,
+		},sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"182": "ourochar_files/inkwell_gate.png"
 		},
 		plotrelevance: 25,
 	},
@@ -205,7 +214,10 @@ const characters = [
 		pesterhighlight: {
 			"default": "#FFFFFF00",
 			"203": "#FFFFFF",
-		}
+		},sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"182": "ourochar_files/inkwell_gate.png"
+		},
 	},
 	{
 		id: "SD",
@@ -266,6 +278,9 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		},
 		weapon_kind: {
 			"243": "Umbrellakind"
+		},sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"182": "ourochar_files/clover_gate.png"
 		},
 		plotrelevance: 100,
 	},
@@ -309,6 +324,9 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		plotrelevance: 1,
 		location: {
 			"217": "Bunker"
+		},sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"182": "ourochar_files/clover_gate.png"
 		},
 		hideafter: 312 
 	},
@@ -338,6 +356,9 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		},pesterhighlight: {
 			"151": "#ffffff00",
 			"408": "#000000"
+		},sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"182": "ourochar_files/clover_gate.png"
 		},
 	},
 	{
@@ -390,7 +411,9 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		name: "Jekt-O",
 		names: {
 			"211": "???",
-			"212": "Jekt-O Goner"
+			"212": "Jekt-O Goner",
+			"954": "LITTLE O",
+			"955": "Jekt-O Goner",
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"211": "ourochar_files/earlyjekt-o.png",
@@ -421,6 +444,15 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 		},
 		location:{
 			"728": "Land of Depths & Glory"
+		},
+		sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"728": "ourochar_files/jekto_gate.png"
+		},
+		fonts: {
+			"0": "Courier",
+			"954": "Alternian",
+			"955": "Courier",
 		}
 	},
 	{
@@ -449,6 +481,9 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 		pestercolor: {
 			"default": "#000000",
 			"64": "#ff0058"
+		},sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"728": "ourochar_files/Wren_gate.png"
 		},
 		descriptions: {
 			"335": `Your name is WREN SYNOTION. You are currently on a mission with your older sister and her companions to save the world from an oppressive shadow organization known as WADE, which steals children for experimentation. Of course, the mission has changed now that the world is ending from something completely unrelated.
@@ -490,6 +525,9 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		},
 		location:{
 			"728": "Land of Depths & Glory"
+		},sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"728": "ourochar_files/jekto_gate.png"
 		},
 		firstAppearance: 288,
 		plotrelevance: 100,
@@ -506,6 +544,10 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		},
 		firstAppearance: 302,
 		plotrelevance: 25,
+		sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"728": "ourochar_files/jekto_gate.png"
+		},
 	},
 	{
 		id: "Whispy",
@@ -548,6 +590,9 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		location: {
 			"217": "Bunker",
 			"413": "Land of Flowers & Bastions"
+		},sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"413": "ourochar_files/clover_gate.png"
 		},
 		plotrelevance: 50,
 		
@@ -578,10 +623,14 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"347": "Sigmund"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"347": "ourochar_files/init_sigmund.png"
+			"347": "ourochar_files/init_sigmund.png",
+			"467": "ourochar_files/sigmundbabymode.png"
 		},
 		lunarswing:{
 			"590": "Derse"
+		},sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"728": "ourochar_files/Wren_gate.png"
 		},
 		firstAppearance: 347,
 		plotrelevance: 100,
@@ -610,6 +659,9 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		},
 		descriptions: {
 			"317": `"While you and Wolf don't get along the best, you still love each other a lot. He gives you warm cans of food whenever you are sad and hugs you when you are cold. While he can't care for you like mom could(because he lacks arms) and is a guy, he still tries. And you appreciate that. In the end, everything he has done has been for you." (Page 319)`
+		},sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"413": "ourochar_files/clover_gate.png"
 		},
 		plotrelevance: 25,
 	},
@@ -784,9 +836,11 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"605": "???",
 			"606": "VIVI(AN)",
 			"711": "VIVIAN CRYSTALANCE",
+			"835": "VIVIAN CRYSTALANCE",
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"605": "ourochar_files/!REPLACEMEWHENUPDATE.dreamvivi.png",
+			"831": "ourochar_files/VIVIREVEAL.png" // holy lowquality image :tearful:
 		},
 		firstAppearance: 605,
 		plotrelevance: 100,
@@ -860,6 +914,10 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		},
 		firstAppearance: 650,
 		plotrelevance: 25,
+		sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"728": "ourochar_files/Wren_gate.png"
+		},
 	},
 	{
 		id: "SwarmPriestess",
@@ -896,7 +954,7 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"676": "ourochar_files/Blank.png",
-			"746": "ourochar_files/ealrynora.png"
+			"746": "ourochar_files/earlynora.png"
 		},
 		pestertag: {
 			"676": "umbralEyes [UE]"
@@ -978,6 +1036,18 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		plotrelevance: 100,
 	},
 	{
+		id: "Devari",
+		name: "Devari",
+		names: {
+			"669": "Devari"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"669": "ourochar_files/devarimirror.png",
+		},
+		firstAppearance: 669,
+		plotrelevance: 84,
+	},
+	{
 		id: "reaperkernel",
 		name: "reaperkernel",
 		names: {
@@ -989,6 +1059,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		firstAppearance: 688,
 		status: {
 			"688": "Kernel'd"
+		},sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"728": "ourochar_files/wren_gate.png"
 		},
 		plotrelevance: 50,
 	},
@@ -1011,6 +1084,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		pestercolor: {
 			"default": "#000000",
 			"731": "#ff9b00"
+		},sburbicon: {
+			"0": "ourochar_files/blank.png",
+			"728": "ourochar_files/jekto_gate.png"
 		},
 		plotrelevance: 50,
 	},
@@ -1119,7 +1195,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "Vista",
 		name: "Vista",
 		names: {
-			"721": "Vista"
+			"721": "Vista",
+			"827": "Vista Nocturna"
 		},
 		images: {
 			"721": "ourochar_files/VISTA.png"
@@ -1218,7 +1295,7 @@ function dynamicallyCreateCharacterElements() {
 		const charElement = document.createElement('div');
 		charElement.classList.add('grid-item');
 		charElement.id = char.id;
-		charElement.innerHTML = `<img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><bold class="charname">PLACEHOLDER</bold>`;
+		charElement.innerHTML = `<img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><img class="sburboverlay" src="ourochar_files\blank.png"><bold class="charname">PLACEHOLDER</bold>`;
 		grid.appendChild(charElement);
 	});
 }
@@ -1276,6 +1353,13 @@ function renderCharacters(currentPage) {
 				const thumb = tempchar.querySelector('.thumbnail');
 				thumb.src = getHighestUnder(char.images,currentPage)
 				
+				const overlay = tempchar.querySelector('.sburboverlay');
+					overlay.src = "ourochar_files/blank.png"
+				if (char.sburbicon != null) {
+					overlay.src = getHighestUnder(char.sburbicon,currentPage)
+				}
+
+
 				//moar... get that name in here baby...
 				const name = tempchar.querySelector('.charname');
 				name.textContent = getHighestUnder(char.names,currentPage)
@@ -1415,6 +1499,7 @@ function getHighestUnder(listObj, targetNumber) {
     const validKeys = keys.filter(key => key <= targetNumber);
     if (validKeys.length === 0) {
 		if (listObj["default"] == null) {
+			//check for if its a image and return blank otherwise
 			return "???";
 		}
         return listObj["default"];
