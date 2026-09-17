@@ -59,7 +59,7 @@ const characters = [
 		}, sylladex: {
 			"45": "SPIN SPIRAL"
 		}, sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"182": "ourochar_files/inkwell_gate.png"
 		},
 		plotrelevance: 100,
@@ -108,7 +108,7 @@ const characters = [
 			"default": "#000000",
 			"49": "#ff8000"
 		},sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"182": "ourochar_files/inkwell_gate.png"
 		},
 		plotrelevance: 100,
@@ -173,7 +173,7 @@ const characters = [
 		additional_tags: {
 			"Guardian": 124,
 		},sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"182": "ourochar_files/inkwell_gate.png"
 		},
 		plotrelevance: 25,
@@ -215,7 +215,7 @@ const characters = [
 			"default": "#FFFFFF00",
 			"203": "#FFFFFF",
 		},sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"182": "ourochar_files/inkwell_gate.png"
 		},
 	},
@@ -279,7 +279,7 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		weapon_kind: {
 			"243": "Umbrellakind"
 		},sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"182": "ourochar_files/clover_gate.png"
 		},
 		plotrelevance: 100,
@@ -325,7 +325,7 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		location: {
 			"217": "Bunker"
 		},sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"182": "ourochar_files/clover_gate.png"
 		},
 		hideafter: 312 
@@ -357,7 +357,7 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"151": "#ffffff00",
 			"408": "#000000"
 		},sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"182": "ourochar_files/clover_gate.png"
 		},
 	},
@@ -446,7 +446,7 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 			"728": "Land of Depths & Glory"
 		},
 		sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"728": "ourochar_files/jekto_gate.png"
 		},
 		fonts: {
@@ -482,7 +482,7 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 			"default": "#000000",
 			"64": "#ff0058"
 		},sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"728": "ourochar_files/Wren_gate.png"
 		},
 		descriptions: {
@@ -526,7 +526,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		location:{
 			"728": "Land of Depths & Glory"
 		},sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"728": "ourochar_files/jekto_gate.png"
 		},
 		firstAppearance: 288,
@@ -545,7 +545,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		firstAppearance: 302,
 		plotrelevance: 25,
 		sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"728": "ourochar_files/jekto_gate.png"
 		},
 	},
@@ -591,7 +591,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"217": "Bunker",
 			"413": "Land of Flowers & Bastions"
 		},sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"413": "ourochar_files/clover_gate.png"
 		},
 		plotrelevance: 50,
@@ -629,7 +629,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		lunarswing:{
 			"590": "Derse"
 		},sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"728": "ourochar_files/Wren_gate.png"
 		},
 		firstAppearance: 347,
@@ -660,7 +660,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		descriptions: {
 			"317": `"While you and Wolf don't get along the best, you still love each other a lot. He gives you warm cans of food whenever you are sad and hugs you when you are cold. While he can't care for you like mom could(because he lacks arms) and is a guy, he still tries. And you appreciate that. In the end, everything he has done has been for you." (Page 319)`
 		},sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"413": "ourochar_files/clover_gate.png"
 		},
 		plotrelevance: 25,
@@ -915,7 +915,7 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		firstAppearance: 650,
 		plotrelevance: 25,
 		sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"728": "ourochar_files/Wren_gate.png"
 		},
 	},
@@ -1060,7 +1060,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		status: {
 			"688": "Kernel'd"
 		},sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"728": "ourochar_files/wren_gate.png"
 		},
 		plotrelevance: 50,
@@ -1085,7 +1085,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"default": "#000000",
 			"731": "#ff9b00"
 		},sburbicon: {
-			"0": "ourochar_files/blank.png",
+			"0": "ourochar_files/Blank.png",
 			"728": "ourochar_files/jekto_gate.png"
 		},
 		plotrelevance: 50,
@@ -1295,7 +1295,7 @@ function dynamicallyCreateCharacterElements() {
 		const charElement = document.createElement('div');
 		charElement.classList.add('grid-item');
 		charElement.id = char.id;
-		charElement.innerHTML = `<img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><img class="sburboverlay" src="ourochar_files\blank.png"><bold class="charname">PLACEHOLDER</bold>`;
+		charElement.innerHTML = `<img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><img class="sburboverlay" src="ourochar_files\Blank.png"><bold class="charname">PLACEHOLDER</bold>`;
 		grid.appendChild(charElement);
 	});
 }
@@ -1354,7 +1354,7 @@ function renderCharacters(currentPage) {
 				thumb.src = getHighestUnder(char.images,currentPage)
 				
 				const overlay = tempchar.querySelector('.sburboverlay');
-					overlay.src = "ourochar_files/blank.png"
+					overlay.src = "ourochar_files/Blank.png"
 				if (char.sburbicon != null) {
 					overlay.src = getHighestUnder(char.sburbicon,currentPage)
 				}
