@@ -1058,6 +1058,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"669": "ourochar_files/devarimirror.png",
+		},pestercolor: {
+			"default": "#000000",
+			"647": "#a15203"
 		},
 		firstAppearance: 669,
 		plotrelevance: 84,
@@ -1297,6 +1300,21 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		firstAppearance: 830,
 		plotrelevance: 25,
+	},
+	{
+		id: "Ashe",
+		name: "Ashe",
+		names: {
+			"833": "???",
+			"838": "Ashe",
+			"841": "ASHE WITHERSCOWL",
+			"842": "Ashe Witherscowl"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"833": "ourochar_files/ASHe.png"
+		},
+		firstAppearance: 833,
+		plotrelevance: 100,
 	},
 ];
 
