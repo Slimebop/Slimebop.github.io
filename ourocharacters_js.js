@@ -473,7 +473,8 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 			"315": "ourochar_files/shadow_wren.png",
 			"331": "ourochar_files/wren_reveal.png",
 			"343": "ourochar_files/wren_demon.png",
-			"493": "ourochar_files/unmasked_wren.png"
+			"493": "ourochar_files/unmasked_wren.png",
+			"672": "ourochar_files/wren_672.png"
 		},
 		firstAppearance: 216,
 		plotrelevance: 100,
@@ -1338,8 +1339,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		plotrelevance: 100,
 	},
 	{
-		id: "Ashe",
-		name: "Ashe",
+		id: "Curi",
+		name: "Curi",
 		names: {
 			"835": "???",
 			"837": "CURI CRESTFLAME",
@@ -1369,6 +1370,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"default": "#000000",
 			"858": "#a10000"
 		},
+		firstAppearance: 857,
 	},
 	{
 		id: "UM",
@@ -1386,7 +1388,25 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		images: {
 			"884": "ourochar_files/UM.png",
 			"885": "ourochar_files/UMappear.png"
-		}
+		},
+		firstAppearance: 884,
+	},
+	{
+		id: "Rorschi",
+		name: "Rorschi",
+		names: {
+			"899": "???",
+			"900": "Rorschi"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"899": "#316c58"
+		},
+		images: {
+			"899": "ourochar_files/rorschishadow.png",
+			"900": "ourochar_files/rorschireal.png",
+		},
+		firstAppearance: 899,
 	}
 ];	
 
