@@ -450,9 +450,9 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 			"728": "ourochar_files/jekto_gate.png"
 		},
 		fonts: {
-			"0": "Courier",
+			"0": `"Courier New", Courier, monospace`,
 			"954": "Alternian",
-			"955": "Courier",
+			"955": `"Courier New", Courier, monospace`,
 		}
 	},
 	{
