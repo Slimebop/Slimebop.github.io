@@ -495,10 +495,12 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		id: "Bangol",
 		name: "Bangol",
 		names: {
-			"263": "???"
+			"263": "???",
+			"778": "Bangol"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"263": "ourochar_files/early_bangol.png"
+			"263": "ourochar_files/early_bangol.png",
+			"778": "ourochar_files/bangol_mirror.png"
 		},
 		firstAppearance: 263,
 		pestercolor: {
@@ -1253,21 +1255,6 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		firstAppearance: 760,
 		plotrelevance: 25,
 	},{
-		id: "Bangol",
-		name: "Bangol",
-		names: {
-			"778": "Bangol"
-		},
-		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"778": "ourochar_files/bangol_mirror.png"
-		},
-		firstAppearance: 778,
-		pestercolor: {
-			"default": "#000000",
-			"778": "#b11262"
-		},
-		plotrelevance: 84,
-	},{
 		id: "Gimmie",
 		name: "Gimmie",
 		names: {
@@ -1366,6 +1353,39 @@ function sortElementsByFirstAppearance() {
 	});
 }
 
+// reverse sort by first appearance
+function sortElementsByFirstAppearanceReverse() {
+	// Sort the characters grid based on firstAppearance.
+	characters.sort((a, b) => {
+		if (a.firstAppearance === b.firstAppearance) {
+			return b.plotrelevance - a.plotrelevance;
+		}
+		return b.firstAppearance - a.firstAppearance;
+	});
+	characters.forEach(char => {
+		const charElement = document.getElementById(char.id);
+		if (charElement) {
+			grid.appendChild(charElement); // This will move the element to the end of the grid, effectively sorting it.
+		}
+	});
+}
+
+// reverse plot
+function sortElementsByPlotReverse() {
+	// Sort the characters grid based on plotrelevance, ties broken by firstAppearance (lower is better for first appearance.)
+	characters.sort((a, b) => {
+		if (a.plotrelevance === b.plotrelevance) {
+			return a.firstAppearance - b.firstAppearance;
+		}
+		return a.plotrelevance - b.plotrelevance;
+	});
+	characters.forEach(char => {
+		const charElement = document.getElementById(char.id);
+		if (charElement) {
+			grid.appendChild(charElement); // This will move the element to the end of the grid, effectively sorting it.
+		}
+	});
+}
 
 function renderCharacters(currentPage) {
 	const nocharacters = document.getElementById("NoCharacters");

@@ -19,10 +19,14 @@
 					<!-- Settings icon inside the text context -->
 					<img src="ourochar_files\settings.png" class="settings-icon" alt="Settings" onclick="toggleFilters()" style="cursor: pointer;">
 				</span>
+				
 
 				<div class="filters">
-					<button onclick="sortElementsByPlot()">Sort by Character Relevance</button>
-					<button onclick="sortElementsByFirstAppearance()">Sort by First Appearance</button>
+					<button onclick="sortElementsByPlot()">Sort by Character Relevance(top to bottom)</button>
+					<button onclick="sortElementsByPlotReverse()">Sort by Character Relevance(bottom to top)</button>
+					<button onclick="sortElementsByFirstAppearance()">Sort by First Appearance (top to bottom)</button>
+					<button onclick="sortElementsByFirstAppearanceReverse()">Sort by First Appearance (bottom to top)</button>
+					tOdO: Replace these
 				</div>
 			</div>
 			<div class="characterinfo" id="charinfoparent">
