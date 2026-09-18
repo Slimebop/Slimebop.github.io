@@ -68,7 +68,8 @@ const characters = [
 		id: "Shelly",
 		name: "Shelly",
 		names: {
-			"49": "SHELLY"
+			"49": "SHELLY",
+			"384": "Shelly Shackles"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"17": "ourochar_files/earlyshelly.png",
@@ -89,6 +90,10 @@ const characters = [
 		},
 		pronouns: {
 			"default": "She/Her" 
+		},
+		sylladex: {
+			"default": "???",
+			"387": "Spin Spirals"
 		},
 		location: {
 			"8": "the THIRD FRIDGE (Galactic Prison)",
@@ -871,6 +876,9 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"default": "#000000",
 			"590": "#5ba2c9"
 		},
+		weapon_kind: {
+			"847": "rapierkind"
+		}
 	},
 	{
 		id: "Skully",
@@ -883,6 +891,10 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		},
 		firstAppearance: 632,
 		plotrelevance: 0, // this character does jack shit but i added him anyway cuz this line is REALLY fucking funny.
+		pesterhighlight: {
+			"default": "#FFFFFF00",
+			"881": "#b6b6b6"
+		}
 	},
 	{
 		id: "Salem",
@@ -1302,8 +1314,81 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		firstAppearance: 833,
 		plotrelevance: 100,
+		pestercolor: {
+			"default": "#000000",
+			"861": "#ffd873"
+		},
+		pesterhighlight: {
+			"default": "#FFFFFF00",
+			"861": "#949494"
+		}
 	},
-];
+	{
+		id: "Ashe",
+		name: "Ashe",
+		names: {
+			"835": "???",
+			"837": "ASHE WITHERSCOWL",
+			"838": "Ashe Witherscowl"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"835": "ourochar_files/ASHe.png"
+		},
+		firstAppearance: 835,
+		plotrelevance: 100,
+	},
+	{
+		id: "Ashe",
+		name: "Ashe",
+		names: {
+			"835": "???",
+			"837": "CURI CRESTFLAME",
+			"838": "Curi Crestflame"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"835": "ourochar_files/curi.png"
+		},
+		firstAppearance: 835,
+		plotrelevance: 25,
+	},
+	{
+		id: "TB",
+		name: "TB",
+		names: {
+			"857": "???",
+			"858": "torchedBlindman [TB]",
+		},
+		pestertag: {
+			"858": "torchedBlindman [TB]"
+		},
+		images: {
+			"857": "ourochar_files/TB.png",
+			"859": "ourochar_files/TB_img.png"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"858": "#a10000"
+		},
+	},
+	{
+		id: "UM",
+		name: "UM",
+		names: {
+			"884": "unrequitedMechlord"
+		},
+		pestertag: {
+			"884": "unrequitedMechlord"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"884": "#004183"
+		},
+		images: {
+			"884": "ourochar_files/UM.png",
+			"885": "ourochar_files/UMappear.png"
+		}
+	}
+];	
 
 
 const pageInput = document.getElementById('page-input');
