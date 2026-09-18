@@ -137,6 +137,32 @@ body {
 	border-radius: 8px;
 }
 
+.filters {
+	padding: 16px; 
+	padding-top: 16px;
+	background: #f4f4f4; 
+	border-radius: 8px;
+	border: 0.5px solid black;
+	display: none;
+}
+
+.text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-right: 40px; /* Adds breathing room so the icon doesn't overlap your text words */
+    vertical-align: middle;
+}
+
+.settings-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 32px;
+    max-height: 32px;
+    z-index: 10;
+}
+
+
 .page-number {
   position: relative;
 overflow: auto; 

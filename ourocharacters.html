@@ -10,12 +10,20 @@
 		<div id="main-container">
 			<div class="controls-container">
 				<label for="page-input"><strong>Current Page:</strong> </label>
-				<input type="number" id="page-input" min="1" value="1" style="padding: 6px; font-size: 16px; width: 80px;" /><bold>  Write your current page here!! [[CURRENTLY UP TO: PG836]] (CTRL+SHIFT+R if some images arent loading!!)</bold>
+				<input type="number" id="page-input" min="1" value="1" style="padding: 6px; font-size: 16px; width: 80px;" />
+				
+				<!-- Wrap your target text and image together here -->
+				<span class="text-wrapper">
+					<strong>Write your current page here!! [[CURRENTLY UP TO: PG836]] (CTRL+SHIFT+R if some images arent loading!!)</strong>
+					
+					<!-- Settings icon inside the text context -->
+					<img src="ourochar_files\settings.png" class="settings-icon" alt="Settings" onclick="toggleFilters()" style="cursor: pointer;">
+				</span>
 
-			<!-- buttons for sorting-->
-			 <br>
-			<button onclick="sortElementsByPlot()">Sort by Character Relevance</button>
-			<button onclick="sortElementsByFirstAppearance()">Sort by First Appearance</button>
+				<div class="filters">
+					<button onclick="sortElementsByPlot()">Sort by Character Relevance</button>
+					<button onclick="sortElementsByFirstAppearance()">Sort by First Appearance</button>
+				</div>
 			</div>
 			<div class="characterinfo" id="charinfoparent">
 				<!--

@@ -1560,3 +1560,24 @@ function loadPageFromCookies() { // Keeping name same so it drops right in
         renderCharacters(1);
     }
 }
+
+
+function toggleFilters() {
+    const filters = document.querySelector('.filters');
+    if (filters.style.display === 'none') {
+        filters.style.display = 'block';
+    } else {
+        filters.style.display = 'none';
+    }
+}
+
+
+//⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⠀⠀⠀
+//⠀⠀⠀⢠⡶⠲⠶⢒⣓⡶⠮⢤⠀⠀
+//⢀⣀⣿⣏⣀⣀⠀⠘⠛⠃⠀⠈⠉⢹
+//⠘⢶⣾⣟⣟⣿⣀⣄⣀⣀⣴⣼⣢⡮
+//⠀⠘⠛⠻⢿⣿⠿⠿⡿⣿⣿⣿⠛⠀
+//⠀⠀⠀⠀⢀⣬⣿⣿⠛⠛⠃⠀⠀⠀
+//⠀⠀⢀⣤⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀
+//⠀⠀⠈⠉⠉⠉⠉⠉⠁⠀⠀⠀
+// (You have recieved an egg.)
