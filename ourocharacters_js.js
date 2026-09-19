@@ -1005,7 +1005,7 @@ Besides cats, you like SILLY HORROR MOVIES AND GAMES, MYSTERIES OF MOST KINDS, a
 
 In addition to these silly interests for a cat girl, you love ANIMALS OF MANY KINDS, MONSTERS OF EVEN MORE KINDS, and TALKING TO GHOSTS. You are a normal cat girl. Your favorite color is purple. You have killed before and will kill again. Meow?" (Page 749)`
 		},
-		firstAppearance: 656,
+		firstAppearance: 676,
 		plotrelevance: 100,
 	},
 	{
@@ -1043,7 +1043,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		sylladex:{
 			"798": "Poem"
 		},
-		firstAppearance: 656,
+		firstAppearance: 676,
 		plotrelevance: 100,
 	},
 	{
@@ -1067,7 +1067,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"default": "#FFFFFF00",
 			"676": "#000000"
 		},
-		firstAppearance: 656,
+		firstAppearance: 676,
 		plotrelevance: 100,
 	},
 	{
