@@ -367,13 +367,14 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		},
 	},
 	{
-		id: "Spin",
-		name: "Spin",
+		id: "mysterylady",
+		name: "mysterylady",
 		names: {
 			"184": "???"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"184": "ourochar_files/eoa1shadow.png" //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
+			"184": "ourochar_files/eoa1shadow.png", //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
+			"760": "ourochar_files/mysterylady.png"
 		},
 		firstAppearance: 184,
 		plotrelevance: 80,
@@ -829,8 +830,8 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		plotrelevance: 85,
 	},
 	{
-		id: "Someone_not_spin_totally",
-		name: "Someone",
+		id: "Spin",
+		name: "Spin",
 		names: {
 			"501": "Someone?"
 		},
@@ -1268,17 +1269,6 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"755": "#008282"
 		},
 		plotrelevance: 84,
-	},{
-		id: "mysterylady",
-		name: "mysterylady",
-		names: {
-			"760": "???"
-		},
-		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"760": "ourochar_files/mysterylady.png"
-		},
-		firstAppearance: 760,
-		plotrelevance: 25,
 	},{
 		id: "Gimmie",
 		name: "Gimmie",
