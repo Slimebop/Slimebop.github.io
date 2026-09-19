@@ -476,6 +476,9 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 			"493": "ourochar_files/unmasked_wren.png",
 			"672": "ourochar_files/wren_672.png"
 		},
+		sylladex: {
+			"481": "Game Show"
+		},
 		firstAppearance: 216,
 		plotrelevance: 100,
 		pestertag: {
@@ -769,6 +772,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"default": "#000000",
 			"432": "#ff002b"
 		},
+		hideafter: 908,
 		plotrelevance: 5,
 	},{
 		id: "Automaton C",
@@ -1081,18 +1085,26 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		plotrelevance: 84,
 	},
 	{
-		id: "reaperkernel",
-		name: "reaperkernel",
+		id: "zeapersprite",
+		name: "zeapersprite",
 		names: {
-			"688": "Reaper Kernel"
+			"688": "Reaper Kernel",
+			"908": "Zeapersprite"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"688": "ourochar_files/reaperkernel.png",
+			"908": "ourochar_files/zeapersprite.png"
 		},
 		firstAppearance: 688,
 		status: {
-			"688": "Kernel'd"
-		},sburbicon: {
+			"688": "Kernel'd",
+			"908": "Sprite"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"908": "#430720"
+		},
+		sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"728": "ourochar_files/wren_gate.png"
 		},
@@ -1376,10 +1388,10 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "UM",
 		name: "UM",
 		names: {
-			"884": "unrequitedMechlord"
+			"884": "unrequitedMechlord [UM]"
 		},
 		pestertag: {
-			"884": "unrequitedMechlord"
+			"884": "unrequitedMechlord [UM]"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -1407,6 +1419,25 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"900": "ourochar_files/rorschireal.png",
 		},
 		firstAppearance: 899,
+	},
+	{
+		id: "Bloomi",
+		name: "Bloomi",
+		names: {
+			"921": "Bloomi"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"922": "#658200"
+		},
+		images: {
+			"921": "ourochar_files/bloomicon.png",
+			"922": "ourochar_files/bloomishadow.png"
+		},
+		pestertag: {
+			"922": "graveyardGardener [GG]"
+		},
+		firstAppearance: 921
 	}
 ];	
 
