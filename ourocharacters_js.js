@@ -1388,6 +1388,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"default": "#000000",
 			"858": "#a10000"
 		},
+		plotrelevance: 84,
 		firstAppearance: 857,
 	},
 	{
@@ -1407,6 +1408,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"884": "ourochar_files/UM.png",
 			"885": "ourochar_files/UMappear.png"
 		},
+		plotrelevance: 84,
 		firstAppearance: 884,
 	},
 	{
@@ -1424,6 +1426,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"899": "ourochar_files/rorschishadow.png",
 			"900": "ourochar_files/rorschireal.png",
 		},
+		plotrelevance: 26,
 		firstAppearance: 899,
 	},
 	{
@@ -1443,6 +1446,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		pestertag: {
 			"922": "graveyardGardener [GG]"
 		},
+		plotrelevance: 84, //1 billion in my heart </3
 		firstAppearance: 921
 	}
 ];	
