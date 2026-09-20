@@ -391,7 +391,7 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"187": "ourochar_files/187_you.png", //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
 			"351": "ourochar_files/Early_GA.png",
-			"360": "ourochar_files/Early_GA_no_hat.png",
+			"360": "ourochar_files/Early_GA_nohat.png",
 			"370": "ourochar_files/Early_GA.png",
 		},
 		firstAppearance: 187,
@@ -478,7 +478,11 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 			"331": "ourochar_files/wren_reveal.png",
 			"343": "ourochar_files/wren_demon.png",
 			"493": "ourochar_files/unmasked_wren.png",
-			"672": "ourochar_files/wren_672.png"
+			"672": "ourochar_files/wren_672.png",
+			"1078": "ourochar_files/wren.1078.png",
+			"1080": "ourochar_files/suitwren.png",
+			"1087": "ourochar_files/swagger.png",
+			"1092": "ourochar_files/awesomewren.png"
 		},
 		sylladex: {
 			"481": "Game Show"
@@ -536,7 +540,8 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"950": "ourochar_files/sickafvladsly.png",
 			"958": "ourochar_files/ouchedvladsly.png",
 			"959": "ourochar_files/poorbabyvladsly.png",
-			"961": "ourochar_files/smilesadvladsly.png"
+			"961": "ourochar_files/smilesadvladsly.png",
+			"1132": "ourochar_files/vladslynoglasses.png"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -643,7 +648,9 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"347": "ourochar_files/init_sigmund.png",
-			"467": "ourochar_files/sigmundbabymode.png"
+			"467": "ourochar_files/sigmundbabymode.png",
+			"1078": "ourochar_files/sigmund.png",
+			"1090": "ourochar_files/awesomesigmund.png"
 		},
 		lunarswing:{
 			"590": "Derse"
@@ -1448,12 +1455,134 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		plotrelevance: 84, //1 billion in my heart </3
 		firstAppearance: 921
-	}
+	},
+	{
+		id: "butlerdive",
+		name: "butlerdive",
+		names: {
+			"1039": "Dive?????",
+			"1040": "Dive"
+		},
+		images: {
+			"1039": "ourochar_files/butlerdive.png",
+		},
+		plotrelevance: 50,
+		firstAppearance: 1039
+	},
+	{
+		id: "soka",
+		name: "soka",
+		names: {
+			"1039": "???",
+			"1046": "Soka"
+		},
+		images: {
+			"1039": "ourochar_files/soka.png",
+		},
+		plotrelevance: 25,
+		firstAppearance: 1039
+	},
+	{
+		id: "mimi",
+		name: "mimi",
+		names: {
+			"1039": "???",
+			"1126": "Mimi Snapdragon"
+		},
+		images: {
+			"1039": "ourochar_files/mimismile.png"
+		},
+		plotrelevance: 100,
+		firstAppearance: 1039
+	},
+	{
+		id: "cleo",
+		name: "cleo",
+		names: {
+			"1050": "???",
+			"1054": "Cleo"
+		},
+		firstAppearance: 1050,
+		plotrelevance: 100,
+		images: {
+			"1050": "ourochar_files/celosmile.png",
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1052": "#c90021"
+		}
+	},
+	{
+		id: "KC",
+		name: "KC",
+		names: {
+			1061: "???",
+			1062: "Klutzy Castaway (KC)"
+		},
+		images: {
+			1061: "ourochar_files/KC.png",
+		},
+		firstAppearance: 1061,
+		plotrelevance: 4,
+	},
+	{
+		id: "GDINKWELL",
+		name: "GDINKWELL",
+		names: {
+			"1067": "GDINKWELL"
+		},
+		images: {
+			"1067": "ourochar_files/GDINKWELL.png",
+		},
+		firstAppearance: 1067,
+		plotrelevance: 93,
+		fonts: {
+			"1067": "Rockwell"
+		},
+		description: {
+			"1067": "The Demon currently attached to half of Inkwell's face."
+		}
+	},
+	{
+		id: "enzzo",
+		name: "enzzo",
+		names: {
+			"1112": "???",
+			"1115": "Enzo",
+			"1116": "Enzo Archivisper"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1115": "#4b4b4b"
+		},
+		images: {
+			"1112": "ourochar_files/enzo.png",
+		},
+		firstAppearance: 1112,
+		plotrelevance: 100,
+	},
+	{
+		id: "Luxlux",
+		name: "Luxlux",
+		names: {
+			"1130": "Luxlux"
+		},
+		images: {
+				"1130": "ourochar_files/mirrorluxlux.png",
+		},
+		firstAppearance: 1130,
+		plotrelevance: 84,
+		pestercolor: {
+			"default": "#000000",
+			"1130": "#631db4"
+		}
+	},
 ];	
 
 
 const pageInput = document.getElementById('page-input');
 const grid = document.getElementById('character-grid');
+let lastUpdateSortActive = false;
 
 function dynamicallyCreateCharacterElements() {
 	// based off of: <div class="grid-item" id="Inkwell" ><img class="thumbnail" src="ourochar_files\err.png" alt="Description of the image"><bold class="charname">PLACEHOLDER</bold></div>
@@ -1467,6 +1596,7 @@ function dynamicallyCreateCharacterElements() {
 }
 
 function sortElementsByPlot() {
+	lastUpdateSortActive = false;
 	// Sort the characters grid based on plotrelevance, ties broken by firstAppearance (lower is better for first appearance.)
 	characters.sort((a, b) => {
 		if (a.plotrelevance === b.plotrelevance) {
@@ -1484,6 +1614,7 @@ function sortElementsByPlot() {
 }
 
 function sortElementsByFirstAppearance() {
+	lastUpdateSortActive = false;
 	// Sort the characters grid based on firstAppearance, ties broken by plotrelevance (higher is better for plotrelevance.)
 	characters.sort((a, b) => {
 		if (a.firstAppearance === b.firstAppearance) {
@@ -1499,8 +1630,44 @@ function sortElementsByFirstAppearance() {
 	});
 }
 
+//sort by last update (images, names, pestercolor, etc.)
+function sortElementsByLastUpdate() {
+	lastUpdateSortActive = true;
+	
+	const currentPage = parseInt(pageInput.value, 10) || 1;
+	const getLastUpdate = character => {
+		const updates = [
+			...Object.keys(character.images || {}),
+			...Object.keys(character.names || {}),
+			...Object.keys(character.pestercolor || {}),
+			...Object.keys(character.pesterhighlight || {}),
+		]
+			.map(Number)
+			.filter(update => Number.isFinite(update) && update <= currentPage);
+
+		return updates.length ? Math.max(...updates) : 0;
+	};
+
+	characters.sort((a, b) => {
+		const lastUpdateA = getLastUpdate(a);
+		const lastUpdateB = getLastUpdate(b);
+		if (lastUpdateA === lastUpdateB) {
+			return b.plotrelevance - a.plotrelevance;
+		}
+		return lastUpdateB - lastUpdateA;
+	});
+
+	characters.forEach(char => {
+		const charElement = document.getElementById(char.id);
+		if (charElement) {
+			grid.appendChild(charElement); // This will move the element to the end of the grid, effectively sorting it.
+		}
+	});
+}
+
 // reverse sort by first appearance
 function sortElementsByFirstAppearanceReverse() {
+	lastUpdateSortActive = false;
 	// Sort the characters grid based on firstAppearance.
 	characters.sort((a, b) => {
 		if (a.firstAppearance === b.firstAppearance) {
@@ -1518,6 +1685,7 @@ function sortElementsByFirstAppearanceReverse() {
 
 // reverse plot
 function sortElementsByPlotReverse() {
+	lastUpdateSortActive = false;
 	// Sort the characters grid based on plotrelevance, ties broken by firstAppearance (lower is better for first appearance.)
 	characters.sort((a, b) => {
 		if (a.plotrelevance === b.plotrelevance) {
@@ -1673,6 +1841,9 @@ pageInput.addEventListener("input", (e) => {
     const page = parseInt(e.target.value) || 1;
 	savePageToCookies();
     renderCharacters(page);
+	if (lastUpdateSortActive) {
+		sortElementsByLastUpdate();
+	}
 	if (globalThis.currentchar != null) {
 		if (page >= globalThis.currentchar.firstAppearance){
 			displayCharacterInfo(globalThis.currentchar, page)
