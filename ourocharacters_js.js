@@ -255,6 +255,7 @@ const characters = [
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"65": "ourochar_files/clovericon.png",
 			"138": "ourochar_files/earlyclover.png",
+			"1014": "ourochar_files/owiedclover.png"
 		},
 		firstAppearance: 65,
 		pestertag: {
@@ -282,7 +283,8 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"413": "Land of Flowers & Bastions"
 		},
 		weapon_kind: {
-			"243": "Umbrellakind"
+			"243": "Umbrellakind",
+			"785": "AXEKIND & UMBRELLAKIND"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"413": "ourochar_files/clover_gate.png"
@@ -378,6 +380,7 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		},
 		firstAppearance: 184,
 		plotrelevance: 80,
+		hideafter: 1009, //thats right .   spin spirals ws the  real girl all along
 	},{
 		id: "GA",
 		name: "GA",
@@ -493,7 +496,7 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 			"64": "#ff0058"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
-			"728": "ourochar_files/wren_gate.png"
+			"728": "ourochar_files/wren_gate.png" 
 		},
 		descriptions: {
 			"335": `Your name is WREN SYNOTION. You are currently on a mission with your older sister and her companions to save the world from an oppressive shadow organization known as WADE, which steals children for experimentation. Of course, the mission has changed now that the world is ending from something completely unrelated.
@@ -529,7 +532,11 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"218": "ourochar_files/early_vladsly.png",
 			"450": "ourochar_files/shadow_vladsly.png",
-			"454": "ourochar_files/vladsly.png"
+			"454": "ourochar_files/vladsly.png",
+			"950": "ourochar_files/sickafvladsly.png",
+			"958": "ourochar_files/ouchedvladsly.png",
+			"959": "ourochar_files/poorbabyvladsly.png",
+			"961": "ourochar_files/smilesadvladsly.png"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -833,10 +840,12 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		id: "Spin",
 		name: "Spin",
 		names: {
-			"501": "Someone?"
+			"501": "Someone?",
+			"1000": "Spin Spirals"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"501": "ourochar_files/Someone.png",
+			"1000": "ourochar_files/spin_first_real_appearance.png"
 		},
 		firstAppearance: 501,
 		plotrelevance: 80,
@@ -868,7 +877,8 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"605": "ourochar_files/!REPLACEMEWHENUPDATE.dreamvivi.png",
-			"831": "ourochar_files/VIVIREVEAL.png" // holy lowquality image :tearful:
+			"831": "ourochar_files/VIVIREVEAL.png", // holy lowquality image :tearful:
+			"1031": "ourochar_files/vivimasked.png"
 		},
 		firstAppearance: 605,
 		plotrelevance: 100,
@@ -989,7 +999,10 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"676": "ourochar_files/Blank.png",
-			"746": "ourochar_files/earlynora.png"
+			"746": "ourochar_files/earlynora.png",
+			"935": "ourochar_files/noragame.png",
+			"974": "ourochar_files/earlynora.png",
+			"1031": "ourochar_files/noragame.png"
 		},
 		pestertag: {
 			"676": "umbralEyes [UE]"
@@ -1021,7 +1034,10 @@ In addition to these silly interests for a cat girl, you love ANIMALS OF MANY KI
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"676": "ourochar_files/Blank.png",
 			"680": "ourochar_files/ShadowPenn.png",
-			"710": "ourochar_files/realPenn.png"
+			"710": "ourochar_files/realPenn.png",
+			"935": "ourochar_files/maskedpenn.png",
+			"985": "ourochar_files/realPenn.png",
+			"1031": "ourochar_files/maskedpenn.png"
 		},
 		pestertag: {
 			"676": "silentCadence [SC]"
@@ -1716,6 +1732,41 @@ function toggleFilters() {
         filters.style.display = 'none';
     }
 }
+
+/*
+function filterCharacters() {
+	const searchInput = document.getElementById('SearchInput').value.toLowerCase();
+	const currentPage = parseInt(pageInput.value) || 1;
+	//filter characters based off of search PLEASE. include name, tags, pestertags, pestercolors, and descriptions.
+
+	characters.forEach(char => {
+		// Check if the character matches the search criteria
+
+		//first, check if the character is visible based on the current page
+		if (currentPage < char.firstAppearance || (char.hideafter && currentPage >= char.hideafter)) {
+			// If the character is not visible, hide it and skip further checks
+			const charElement = document.getElementById(`char-${char.id}`);
+			if (charElement) {
+				charElement.style.display = 'none';
+			}
+			return; // Skip to the next character
+		}
+		//check to see if they have additional tags or pestertags or pestercolors or descriptions before searhcing for such
+
+		
+
+		
+		const matches = char.name.toLowerCase().includes(searchInput)
+
+		
+		// Show or hide the character based on the search result
+		const charElement = document.getElementById(`char-${char.id}`);
+		if (charElement) {
+			charElement.style.display = matches ? 'block' : 'none';
+		}
+	});
+}
+*/
 
 
 //⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⠀⠀⠀

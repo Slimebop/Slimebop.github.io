@@ -14,7 +14,7 @@
 				
 				<!-- Wrap your target text and image together here -->
 				<span class="text-wrapper">
-					<strong>Write your current page here!! [[CURRENTLY UP TO: PG934]] (CTRL+SHIFT+R if some images arent loading!!)</strong>
+					<strong>Write your current page here!! [[CURRENTLY UP TO: PG1038]] (CTRL+SHIFT+R if some images arent loading!!)</strong>
 					
 					<!-- Settings icon inside the text context -->
 					<img src="ourochar_files\settings.png" class="settings-icon" alt="Settings" onclick="toggleFilters()" style="cursor: pointer;">
@@ -22,6 +22,7 @@
 				
 
 				<div class="filters">
+					<input type="text" id="SearchInput" placeholder="Search.." style="display: none;" oninput="filterCharacters()" />
 					<button onclick="sortElementsByPlot()">Sort by Character Relevance(top to bottom)</button>
 					<button onclick="sortElementsByPlotReverse()">Sort by Character Relevance(bottom to top)</button>
 					<button onclick="sortElementsByFirstAppearance()">Sort by First Appearance (top to bottom)</button>
