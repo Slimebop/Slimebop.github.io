@@ -1520,7 +1520,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			1062: "Klutzy Castaway (KC)"
 		},
 		images: {
-			1061: "ourochar_files/KC.png",
+			1061: "ourochar_files/kc.png",
 		},
 		firstAppearance: 1061,
 		plotrelevance: 4,
