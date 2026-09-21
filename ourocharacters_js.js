@@ -560,7 +560,8 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		id: "Song",
 		name: "Song",
 		names: {
-			"288": "Song the Siren"
+			"288": "Song the Siren",
+			"556": "Song Goner"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"218": "ourochar_files/early_song.png",
@@ -987,7 +988,7 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		id: "Unfinished06",
 		name: "Unfinished06",
 		names: {
-			"656": `Unfinished 06`
+			"656": `Unity the Slayer`
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"656": "ourochar_files/!REPLACEMEWHENUPDATE.Unfinished06.png"
