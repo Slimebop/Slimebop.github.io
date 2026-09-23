@@ -88,6 +88,9 @@ const characters = [
 		sexuality: {
 			"default": "???"
 		},
+		weapon_kind: {
+			"1332": "Chainkind",
+		},
 		pronouns: {
 			"default": "She/Her" 
 		},
@@ -231,7 +234,8 @@ const characters = [
 			"64": "stringlessDevil [SD]"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"64": "ourochar_files/earlySD.png"
+			"64": "ourochar_files/earlySD.png",
+			"1213": "ourochar_files/sd_shadow.png"
 		},
 		firstAppearance: 64,
 		pestertag: {
@@ -255,7 +259,8 @@ const characters = [
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"65": "ourochar_files/clovericon.png",
 			"138": "ourochar_files/earlyclover.png",
-			"1014": "ourochar_files/owiedclover.png"
+			"1014": "ourochar_files/owiedclover.png",
+			"1172": "ourochar_files/healingclover.png"
 		},
 		firstAppearance: 65,
 		pestertag: {
@@ -342,7 +347,8 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 		name: "Seeb",
 		names: {
 			"158": "???",
-			"246": "SEEB"
+			"246": "SEEB",
+			"1295": "Sebastian Kingcull"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"158": "https://file.garden/aLffnvE920YlSFwc/osalcharacters/seebshadow.png", //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
@@ -565,7 +571,8 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"218": "ourochar_files/early_song.png",
-			"557": "ourochar_files/!REPLACEMEWHENUPDATE.songreveal.png"
+			"557": "ourochar_files/!REPLACEMEWHENUPDATE.songreveal.png",
+			"1153": "ourochar_files/song_1153.png"
 		},
 		firstAppearance: 302,
 		plotrelevance: 25,
@@ -724,7 +731,8 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"430": "W"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"430": "ourochar_files/early_auto_W.png"
+			"430": "ourochar_files/early_auto_W.png",
+			"1156": "ourochar_files/automaton_w.png"
 		},
 		firstAppearance: 430,
 		additional_tags:{
@@ -865,9 +873,13 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"571": `"Veilia Scwoll"`
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"571": "ourochar_files/!REPLACEMEWHENUPDATE.veiliamirror.png"
+			"571": "ourochar_files/!REPLACEMEWHENUPDATE.veiliamirror.png",
+			"1215": "ourochar_files/veiliascwoll.png"
 		},
 		firstAppearance: 571,
+		pestertag: {
+			"1214": "karmicRevenant [KR]"
+		},
 		pestercolor: {
 			"default": "#000000",
 			"571": "#6a006a"
@@ -1254,10 +1266,15 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "Silver Serenity",
 		name: "Silver Serenity",
 		names: {
-			"715": "Silver Serenity"
+			"715": "Silver Serenity",
+			"1269": "Aria Erased"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"715": "ourochar_files/Silver_Poster.png"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1266": "#a80081",
 		},
 		firstAppearance: 715,
 		plotrelevance: 25,
@@ -1384,6 +1401,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		names: {
 			"857": "???",
 			"858": "torchedBlindman [TB]",
+			"1256": `"RXTSKX AISTEI"`
 		},
 		pestertag: {
 			"858": "torchedBlindman [TB]"
@@ -1475,7 +1493,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		name: "soka",
 		names: {
 			"1039": "???",
-			"1046": "Soka"
+			"1046": "Soka Snapdragon"
 		},
 		images: {
 			"1039": "ourochar_files/soka.png",
@@ -1569,7 +1587,10 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1130": "Luxlux"
 		},
 		images: {
-				"1130": "ourochar_files/mirrorluxlux.png",
+			"1130": "ourochar_files/mirrorluxlux.png",
+		},
+		pestertag: {
+			"1272": "nocturneOperator [NO]"
 		},
 		firstAppearance: 1130,
 		plotrelevance: 84,
@@ -1578,6 +1599,60 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1130": "#631db4"
 		}
 	},
+	{
+		id: "HANK",
+		name: "HANK",
+		names: {
+			"1281": "accretionUnberufen [AU]"
+		},
+		images: {
+			"1281": "ourochar_files/AU.png",
+		},
+		plotrelevance: 99,
+		firstAppearance: 1281,
+		pestercolor: {
+			"default": "#000000",
+			"1281": "#d3b114"
+		},
+		pestertag: {
+			"1281": "accretionUnberufen [AU]"
+		}
+	},
+	{
+		id: "CHAD",
+		name: "CHAD",
+		names: {
+			"1288": "pipersFanfare [PF]"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1288": "#63b4ff"
+		},	
+		images: {
+			"1288": "ourochar_files/CHAD.png"
+		},
+		plotrelevance: 99,
+		firstAppearance: 1288,
+		pestertag: {
+			"1288": "pipersFanfare [PF]"
+		}
+	},
+	{
+		id: "HADWAQ",
+		name: "HADWAQ",
+		names: {
+			"1329": "HADWAQ"
+		},
+		images: {
+			"1329": "ourochar_files/hadwaqshadow.png"
+		},
+		firstAppearance: 1329,
+		plotrelevance: 84,
+		pestercolor: {
+			"default": "#000000",
+			"1329": "#416600"
+		}
+	}
 ];	
 
 
