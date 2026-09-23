@@ -732,7 +732,7 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"430": "ourochar_files/early_auto_W.png",
-			"1156": "ourochar_files/automaton_w.png"
+			"1156": "ourochar_files/automatonW.png"
 		},
 		firstAppearance: 430,
 		additional_tags:{
