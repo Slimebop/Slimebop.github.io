@@ -231,7 +231,8 @@ const characters = [
 		id: "SD",
 		name: "SD",
 		names: {
-			"64": "stringlessDevil [SD]"
+			"64": "stringlessDevil [SD]",
+			"822": "Roko"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"64": "ourochar_files/earlySD.png",
