@@ -295,6 +295,9 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"0": "ourochar_files/Blank.png",
 			"413": "ourochar_files/clover_gate.png"
 		},
+		lunarswing:{
+			"1420": "Prospit"
+		},
 		plotrelevance: 100,
 	},
 	{
@@ -522,6 +525,9 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"263": "???",
 			"778": "Bangol"
 		},
+		pestertag: {
+			"1339": "seraphOverlord [SO]"
+		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"263": "ourochar_files/early_bangol.png",
 			"778": "ourochar_files/bangol_mirror.png"
@@ -592,6 +598,9 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"306": "ourochar_files/early_whispy.png"
 		},
+		pestertag: {
+			"1392": "currentWanderer [CW]"
+		},
 		firstAppearance: 306,
 		pestercolor: {
 			"default": "#000000",
@@ -653,7 +662,11 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		id: "Sigmund",
 		name: "Sigmund",
 		names: {
-			"347": "Sigmund"
+			"347": "Sigmund",
+			"1516": "Sigmund Nightfall"
+		},
+		pestertag: {
+			"1516": "obligatoryRuination [OR]"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"347": "ourochar_files/init_sigmund.png",
@@ -1087,11 +1100,14 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "ZZ",
 		name: "ZZ ",
 		names: {
-			"676": `zenithZero [ZZ]`
+			"676": `zenithZero [ZZ]`,
+			"1390": "ZZ"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"676": "ourochar_files/Blank.png",
-			"820": "ourochar_files/ZZ_shadow.png"
+			"820": "ourochar_files/ZZ_shadow.png",
+			"1390": "ourochar_files/ZZ_real.png",
+			"1435": "ourochar_files/ZZ_lost.png"
 		},
 		pestertag: {
 			"676": "zenithZero [ZZ]"
@@ -1294,7 +1310,10 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		pestercolor: {
 			"default": "#000000",
 			"721": "#9e469e"
-		}
+		},
+		lunarswing:{
+			"1429": "Prospit"
+		},
 	},
 	{
 		id: "Oxovuu",
@@ -1330,6 +1349,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		description: {
 			"809": `"Your name is GIMMIE APITHA. You aren’t supposed to show up yet in this form. But then again, you never were one for the rules. At some point, you will get a fancy introduction paragraph or two. Maybe you will have a funny naming joke as well. But that is for later. You have important business to attend to right now." (Page 809)`
+		},
+		pestertag: {
+			"1442": "totalityCriminal [TC]"
 		},
 		plotrelevance: 84,
 	},
@@ -1415,14 +1437,14 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"default": "#000000",
 			"858": "#a10000"
 		},
-		plotrelevance: 84,
+		plotrelevance: 99,
 		firstAppearance: 857,
 	},
 	{
 		id: "UM",
 		name: "UM",
 		names: {
-			"884": "unrequitedMechlord [UM]"
+			"884": "Desolo"
 		},
 		pestertag: {
 			"884": "unrequitedMechlord [UM]"
@@ -1435,7 +1457,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"884": "ourochar_files/UM.png",
 			"885": "ourochar_files/UMappear.png"
 		},
-		plotrelevance: 84,
+		plotrelevance: 99,
 		firstAppearance: 884,
 	},
 	{
@@ -1473,7 +1495,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		pestertag: {
 			"922": "graveyardGardener [GG]"
 		},
-		plotrelevance: 84, //1 billion in my heart </3
+		plotrelevance: 99, //1 billion in my heart </3
 		firstAppearance: 921
 	},
 	{
@@ -1526,6 +1548,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		plotrelevance: 100,
 		images: {
 			"1050": "ourochar_files/celosmile.png",
+			"1476": "ourochar_files/A_Cleo_2.png"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -1580,6 +1603,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		firstAppearance: 1112,
 		plotrelevance: 100,
+		hideafter: 1390
 	},
 	{
 		id: "Luxlux",
@@ -1652,6 +1676,158 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		pestercolor: {
 			"default": "#000000",
 			"1329": "#416600"
+		}
+	},
+	{
+		id: "Wynn",
+		name: "Wynn",
+		names: {
+			"1338": "Wynn Wyvern"
+		},
+		pestertag: {
+			"1338": "gibbousWinter [GW]"
+		},
+		images: {
+			"1338": "ourochar_files/early_GW"
+		},
+		firstAppearance: 1338,
+		plotrelevance: 99,
+		pestercolor: {
+			"default": "#000000",
+			"1338": "#00bd8a"
+		}
+	},
+	{
+		id: "TI",
+		name: "TI",
+		names: {
+			"1343": "tyrannyIronclad [TI]"
+		},
+		pestertag: {
+			"1343": "tyrannyIronclad [TI]"
+		},
+		images: {
+			"1343": "ourochar_files/early_TI.png"
+		},
+		plotrelevance: 84,
+		firstAppearance: 1343,
+		pestercolor: {
+			"default": "#000000",
+			"1343": "#3d003d"
+		}
+	},
+	{
+		id: "0",
+		name: "0",
+		names: {
+			"1352": "0"
+		},
+		images: {
+			"1352": "ourochar_files/Blank.png"
+		},
+		plotrelevance: 85,
+		firstAppearance: 1352,
+	},
+	{
+		id: "Lostjekto",
+		name: "Lostjekto",
+		names: {
+			"1398": "LOST JEKT-O"
+		},
+		images: {
+			"1392": "ourochar_files/LOSTJEKT_O.png",
+		},
+		plotrelevance: 93,
+		firstAppearance: 1398,
+	},
+	{
+		id: "Lief",
+		name: "Lief",
+		names: {
+			"1405": "Lief"
+		},
+		pestertag: {
+			"1405": "corvidaeStuntsmaestro [CS]"
+		},
+		images: {
+			"1405": "ourochar_files/early_CS.png",
+		},
+		plotrelevance: 84,
+		firstAppearance: 1405,
+		pestercolor: {
+			"default": "#000000",
+			"1405": "#00007b"
+		}
+	},
+	{
+		id: "ZEUS",
+		name: "ZEUS",
+		names: {
+			"1409": "Zeus"
+		},
+		images: {
+			"1409": "ourochar_files/ZEUS.png",
+		},
+		plotrelevance: 25,
+		firstAppearance: 1409,
+		pestercolor: {
+			"default": "#000000",
+			"1410": "#66c9ff"
+		}
+	},
+	{
+		id: "Lillia",
+		name: "Lillia",
+		names: {
+			"1424": "Lillia"
+		},
+		images: {
+			"1424": "ourochar_files/Blank.png",
+			"1426": "ourochar_files/Lillia.png",
+		},
+		plotrelevance: 24,
+		firstAppearance: 1424,
+		pestercolor: {
+			"default": "#000000",
+			"1424": "#92bb03"
+		}
+	},
+	{
+		id: "DO",
+		name: "DO",
+		names: {
+			"1491": "Fodder Pathos"
+		},
+		pestertag: {
+			"1491": "deadmanOffering [DO]"
+		},
+		images: {
+			"1491": "ourochar_files/early_DO.png",
+		},
+		plotrelevance: 84,
+		firstAppearance: 1491,
+		pestercolor: {
+			"default": "#000000",
+			"1491": "#6c6c6c"
+		}
+	},
+	{
+		id: "PB",
+		name: "PB",
+		names: {
+			"1494": "powpowBowwow [PB]"
+		},
+		pestertag: {
+			"1494": "powpowBowwow [PB]"
+		},
+		images: {
+			"1494": "ourochar_files/early_PB.png",
+		},
+		plotrelevance: 84,
+		firstAppearance: 1494,
+		pestercolor: {
+			"default": "#000000",
+			"1494": "#ff6d0f"
 		}
 	}
 ];	
