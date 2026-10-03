@@ -1688,7 +1688,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1338": "gibbousWinter [GW]"
 		},
 		images: {
-			"1338": "ourochar_files/early_GW"
+			"1338": "ourochar_files/early_GW.png"
 		},
 		firstAppearance: 1338,
 		plotrelevance: 99,
