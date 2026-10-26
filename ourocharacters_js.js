@@ -246,7 +246,7 @@ const characters = [
 			"default": "#000000",
 			"64": "#003d12"
 		},
-		plotrelevance: 85,
+		plotrelevance: 84,
 	},
 	{
 		id: "Clover",
@@ -912,7 +912,8 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"605": "ourochar_files/!REPLACEMEWHENUPDATE.dreamvivi.png",
 			"831": "ourochar_files/VIVIREVEAL.png", // holy lowquality image :tearful:
-			"1031": "ourochar_files/vivimasked.png"
+			"1031": "ourochar_files/vivimasked.png",
+			"1322": "ourochar_files/VIVIREVEAL.png",
 		},
 		firstAppearance: 605,
 		plotrelevance: 100,
@@ -1036,7 +1037,12 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"746": "ourochar_files/earlynora.png",
 			"935": "ourochar_files/noragame.png",
 			"974": "ourochar_files/earlynora.png",
-			"1031": "ourochar_files/noragame.png"
+			"1031": "ourochar_files/noragame.png",
+			"1100": "ourochar_files/earlynora.png",
+			"1109": "ourochar_files/noragame.png",
+			"1204": "ourochar_files/earlynora.png",
+			"1270": "ourochar_files/noragame.png",
+			"1357": "ourochar_files/earlynora.png",
 		},
 		pestertag: {
 			"676": "umbralEyes [UE]"
@@ -1215,7 +1221,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"704": `Ares`
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"704": "ourochar_files/Blank.png"
+			"704": "ourochar_files/Blank.png",
+			"1300": "ourochar_files/ares.gif"
 		},
 		firstAppearance: 704,
 		plotrelevance: 93,
@@ -1303,7 +1310,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"827": "Vista Nocturna"
 		},
 		images: {
-			"721": "ourochar_files/VISTA.png"
+			"721": "ourochar_files/VISTA.png",
+			"722": "ourochar_files/vistasprite.png", //yes im using the newer one. i lvoe her too much to hurt her like this TvT
+			"1544": "ourochar_files/vista_maskless.png"
 		},
 		firstAppearance: 721,
 		plotrelevance: 100, //LIKE A MILLION!!!!!!!!!!!
@@ -1829,6 +1838,51 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"default": "#000000",
 			"1494": "#ff6d0f"
 		}
+	},
+	{
+		id: "Hatman",
+		name: "Hatman",
+		names: {
+			"1518": "Hatman"
+		},
+		images: {
+			"1518": "ourochar_files/Blank.png", // im psure theres one but uhmm im lazy ill do it in one of the go overs TvT
+		},
+		plotrelevance: 25,
+		firstAppearance: 1518,
+		pestercolor: {
+			"default": "#000000",
+			"1518": "#ffffff"
+		}
+	},
+	{
+		id: "Thalos",
+		name: "Thalos",
+		names: {
+			"1520": "Thalos Passio"
+		},
+		images: {
+			"1520": "ourochar_files/LE.png"
+		},
+		plotrelevance: 84,
+		firstAppearance: 1520,
+		pestercolor: {
+			"default": "#000000",
+			"1520": "#ff0000"
+		}
+	},
+	{
+		id: "Sehn",
+		name: "Sehn",
+		names: {
+			"1521": "Sehn"
+		},
+		images: {
+			"1523": "ourochar_files/sehn_Shadow.png",
+			"1524": "ourochar_files/sehn.png" //ask ink for shen on page 1525;
+		},
+		plotrelevance: 25,
+		firstAppearance: 1521,
 	}
 ];	
 
@@ -2205,4 +2259,6 @@ function filterCharacters() {
 //⠀⠀⠀⠀⢀⣬⣿⣿⠛⠛⠃⠀⠀⠀
 //⠀⠀⢀⣤⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀
 //⠀⠀⠈⠉⠉⠉⠉⠉⠁⠀⠀⠀
-// (You have recieved an egg.)
+// There is a tree here.
+// All code is produced by Slimebo. No AI Used. Sorry AI </3
+// Some auto-correct was used. If you see any text that isn't accurate to the comic, its probably that.
