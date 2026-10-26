@@ -1035,14 +1035,14 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"676": "ourochar_files/Blank.png",
 			"746": "ourochar_files/earlynora.png",
-			"935": "ourochar_files/noragame.png",
-			"974": "ourochar_files/earlynora.png",
-			"1031": "ourochar_files/noragame.png",
-			"1100": "ourochar_files/earlynora.png",
-			"1109": "ourochar_files/noragame.png",
-			"1204": "ourochar_files/earlynora.png",
-			"1270": "ourochar_files/noragame.png",
-			"1357": "ourochar_files/earlynora.png",
+			"935": "ourochar_files/noragame.png", //masked
+			"974": "ourochar_files/earlynora.png", //unmasked
+			"1031": "ourochar_files/noragame.png", //masked
+			"1100": "ourochar_files/earlynora.png", //unmasked
+			"1109": "ourochar_files/noragame.png", //masked
+			"1204": "ourochar_files/earlynora.png", //unmasked
+			"1270": "ourochar_files/noragame.png", //masked
+			"1357": "ourochar_files/earlynora.png", //unmasked
 		},
 		pestertag: {
 			"676": "umbralEyes [UE]"
