@@ -1,5 +1,5 @@
 let currentchar = null;
-
+//slimebo. when you get back to here. figure out why dawn is missing. TvT
 const characters = [
 	{
 		id: "Inkwell",
@@ -17,6 +17,7 @@ const characters = [
 			"348": "ourochar_files/early_dmg_ink.png",
 			"398": "ourochar_files/capewell.png",
 			"611": "ourochar_files/!REPLACEMEWHENUPDATE.cotwell.png",
+			"1331": "ourochar_files/inkwellcovered",
 			"3676": "ourochar_files/3676inkwell.png" //test image 
 		},
 		firstAppearance: 3,
@@ -565,6 +566,8 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"728": "ourochar_files/jekto_gate.png"
+		},pestertag: {
+			"1578": "bloodySucker [BS]"
 		},
 		firstAppearance: 288,
 		plotrelevance: 100,
@@ -980,6 +983,9 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		pestercolor: {
 			"default": "#000000",
 			"647": "#a15203"
+		},
+		pestertag: {
+			"1596": "conscientiousRomantic [CR]"
 		},
 		plotrelevance: 84,
 	},
@@ -1433,7 +1439,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		names: {
 			"857": "???",
 			"858": "torchedBlindman [TB]",
-			"1256": `"RXTSKX AISTEI"`
+			"1256": `"RXTSKX AISTEI"`,
+			"1257": "Rotsko Aistei"
 		},
 		pestertag: {
 			"858": "torchedBlindman [TB]"
@@ -1446,7 +1453,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"default": "#000000",
 			"858": "#a10000"
 		},
-		plotrelevance: 99,
+		plotrelevance: 100,
 		firstAppearance: 857,
 	},
 	{
@@ -1466,7 +1473,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"884": "ourochar_files/UM.png",
 			"885": "ourochar_files/UMappear.png"
 		},
-		plotrelevance: 99,
+		plotrelevance: 100,
 		firstAppearance: 884,
 	},
 	{
@@ -1504,7 +1511,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		pestertag: {
 			"922": "graveyardGardener [GG]"
 		},
-		plotrelevance: 99, //1 billion in my heart </3
+		plotrelevance: 100, //1 billion in my heart </3
 		firstAppearance: 921
 	},
 	{
@@ -1642,7 +1649,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		images: {
 			"1281": "ourochar_files/AU.png",
 		},
-		plotrelevance: 99,
+		plotrelevance: 84,
 		firstAppearance: 1281,
 		pestercolor: {
 			"default": "#000000",
@@ -1665,7 +1672,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		images: {
 			"1288": "ourochar_files/CHAD.png"
 		},
-		plotrelevance: 99,
+		plotrelevance: 84,
 		firstAppearance: 1288,
 		pestertag: {
 			"1288": "pipersFanfare [PF]"
@@ -1700,7 +1707,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1338": "ourochar_files/early_GW.png"
 		},
 		firstAppearance: 1338,
-		plotrelevance: 99,
+		plotrelevance: 100,
 		pestercolor: {
 			"default": "#000000",
 			"1338": "#00bd8a"
@@ -1883,6 +1890,44 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		plotrelevance: 25,
 		firstAppearance: 1521,
+	},
+	{
+		id: "Jynx",
+		name: "Jynx",
+		names: {
+			"1553": "Jynx"
+		},
+		pestertag: {
+			"1553": "phantomWrit [PW]"
+		},
+		images: {
+			"1553": "ourochar_files/PW.png"
+		},
+		plotrelevance: 100,
+		firstAppearance: 1553,
+		pestercolor: {
+			"default": "#000000",
+			"1553": "#ffffff"
+		}
+	},
+	{
+		id: "Medusa",
+		name: "Medusa",
+		names: {
+			"1596": "qualitativeSuccubus [QS]"
+		},
+		images: {
+			"1596": "ourochar_files/QS.png"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1596": "#560000"
+		},
+		plotrelevance: 100,
+		firstAppearance: 1596,
+		pestertag: {
+			"1596": "qualitativeSuccubus [QS]"
+		}
 	}
 ];	
 
