@@ -17,7 +17,7 @@ const characters = [
 			"348": "ourochar_files/early_dmg_ink.png",
 			"398": "ourochar_files/capewell.png",
 			"611": "ourochar_files/!REPLACEMEWHENUPDATE.cotwell.png",
-			"1331": "ourochar_files/inkwellcovered",
+			"1331": "ourochar_files/inkwellcovered.png",
 			"3676": "ourochar_files/3676inkwell.png" //test image 
 		},
 		firstAppearance: 3,
@@ -2295,7 +2295,7 @@ function filterCharacters() {
 }
 */
 
-
+sortElementsByPlot()
 //⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⠀⠀⠀
 //⠀⠀⠀⢠⡶⠲⠶⢒⣓⡶⠮⢤⠀⠀
 //⢀⣀⣿⣏⣀⣀⠀⠘⠛⠃⠀⠈⠉⢹
