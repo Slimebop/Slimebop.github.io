@@ -1,5 +1,6 @@
 let currentchar = null;
 //slimebo. when you get back to here. figure out why dawn is missing. TvT
+// also add photos for luxlux & adams first full appearances to replace the mirror shots. k thx luv u future me
 const characters = [
 	{
 		id: "Inkwell",
