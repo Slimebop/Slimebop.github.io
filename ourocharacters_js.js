@@ -1763,15 +1763,17 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "TI",
 		name: "TI",
 		names: {
-			"1343": "tyrannyIronclad [TI]"
+			"1343": "tyrannyIronclad [TI]",
+			"1731": "Dismei Absulk"
 		},
 		pestertag: {
 			"1343": "tyrannyIronclad [TI]"
 		},
 		images: {
-			"1343": "ourochar_files/early_TI.png"
+			"1343": "ourochar_files/early_TI.png",
+			"1731": "ourochar_files/dismei.png"
 		},
-		plotrelevance: 84,
+		plotrelevance: 100,
 		firstAppearance: 1343,
 		pestercolor: {
 			"default": "#000000",
@@ -2093,6 +2095,22 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		plotrelevance: 100,
 		firstAppearance: 1714,
+	},
+	{
+		id: "Phobos Captok",
+		name: "Phobos Captok",
+		names: {
+			"1731": `Phobos Captok`
+		},
+		images: {
+			"1731": "ourochar_files/phobos.png"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"444444": "#ff0000"
+		},
+		plotrelevance: 100,
+		firstAppearance: 1731,
 	},
 ];	
 
