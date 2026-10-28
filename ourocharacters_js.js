@@ -239,7 +239,8 @@ const characters = [
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"64": "ourochar_files/earlySD.png",
-			"1213": "ourochar_files/sd_shadow.png"
+			"1213": "ourochar_files/sd_shadow.png",
+			"1670": "ourochar_files/wait_SD.png"
 		},
 		firstAppearance: 64,
 		pestertag: {
@@ -601,7 +602,8 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"735": "Whispy Dewblu"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"306": "ourochar_files/early_whispy.png"
+			"306": "ourochar_files/early_whispy.png",
+			"1635": "ourochar_files/wait_whispy.png"
 		},
 		pestertag: {
 			"1392": "currentWanderer [CW]"
@@ -1082,6 +1084,8 @@ In addition to these silly interests for a cat girl, you love ANIMALS OF MANY KI
 			"712": `Squintly Depresso`,
 			"712": `Johann Sterling`, //Ties dont currently work: Maybe impliment it?
 			"713": "Penn Aphelionx`"
+		},weapon_kind: {
+			"1679": "Crossbowkind"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"676": "ourochar_files/Blank.png",
@@ -1469,7 +1473,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "UM",
 		name: "UM",
 		names: {
-			"884": "Desolo"
+			"884": "Desolo",
+			"1668": "Desolo Naenap"
 		},
 		pestertag: {
 			"884": "unrequitedMechlord [UM]"
@@ -1480,7 +1485,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"884": "ourochar_files/UM.png",
-			"885": "ourochar_files/UMappear.png"
+			"885": "ourochar_files/UMappear.png",
+			"1666": "ourochar_files/desolosprite.png"
 		},
 		plotrelevance: 100,
 		firstAppearance: 884,
@@ -1659,6 +1665,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1281": "ourochar_files/AU.png",
+			"1670": "ourochar_files/wait_hank.png"
 		},
 		plotrelevance: 84,
 		firstAppearance: 1281,
@@ -1681,7 +1688,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1288": "#63b4ff"
 		},	
 		images: {
-			"1288": "ourochar_files/CHAD.png"
+			"1288": "ourochar_files/CHAD.png",
+			"1670": "ourochar_files/wait_chad.png"
 		},
 		plotrelevance: 84,
 		firstAppearance: 1288,
@@ -1734,7 +1742,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1338": "gibbousWinter [GW]"
 		},
 		images: {
-			"1338": "ourochar_files/early_GW.png"
+			"1338": "ourochar_files/early_GW.png",
+			"1666": "ourochar_files/wynnsprite.png"
 		},
 		firstAppearance: 1338,
 		plotrelevance: 100,
@@ -2019,6 +2028,27 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		pestertag: {
 			"1615": "digitalSarcophagus [DS]"
 		}
+	},{
+		id: "desolokernel",
+		name: "desolokernel",
+		names: {
+			"1671": "???",
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"1671": "ourochar_files/desolokernel.png",
+		},
+		firstAppearance: 1671,
+		status: {
+			"1671": "Kernel'd",
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1671": "#004183"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1671": "ourochar_files/jekto_gate.png"
+		},
+		plotrelevance: 50,
 	},
 ];	
 
