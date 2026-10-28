@@ -1460,7 +1460,10 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"857": "ourochar_files/TB.png",
-			"859": "ourochar_files/TB_img.png"
+			"859": "ourochar_files/TB_img.png",
+			"1701": "ourochar_files/Rotsko.png"
+		},weapon_kind: {
+			"1718": "Pizzactrkind"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -1513,7 +1516,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "Bloomi",
 		name: "Bloomi",
 		names: {
-			"921": "Bloomi"
+			"921": "Bloomi",
+			"1680": "Bloomi Caduxi"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -1521,7 +1525,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"921": "ourochar_files/bloomicon.png",
-			"922": "ourochar_files/bloomishadow.png"
+			"922": "ourochar_files/bloomishadow.png",
+			"1680": "ourochar_files/bloomi.png"
 		},
 		pestertag: {
 			"922": "graveyardGardener [GG]"
@@ -1534,10 +1539,12 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		name: "butlerdive",
 		names: {
 			"1039": "Dive?????",
-			"1040": "Dive"
+			"1040": "Dive",
+			"1719": "LavaDiveKernel"
 		},
 		images: {
 			"1039": "ourochar_files/butlerdive.png",
+			"1719": "ourochar_files/lampdivekernel.png"
 		},
 		plotrelevance: 50,
 		firstAppearance: 1039
@@ -1975,7 +1982,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1596": "qualitativeSuccubus [QS]"
 		},
 		images: {
-			"1596": "ourochar_files/QS.png"
+			"1596": "ourochar_files/QS.png",
+			"1704": "ourochar_files/medusa.png"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -2046,9 +2054,45 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1671": "#004183"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
-			"1671": "ourochar_files/jekto_gate.png"
 		},
 		plotrelevance: 50,
+	},{
+		id: "ZZkernel",
+		name: "ZZkernel",
+		names: {
+			"1706": "???",
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"1706": "ourochar_files/ZZkernel.png",
+		},
+		firstAppearance: 1706,
+		status: {
+			"1706": "Kernel'd",
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1706": "#ff3817"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+		},
+		plotrelevance: 50,
+	},{
+		id: "Memeni Clotho",
+		name: "Memeni Clotho",
+		names: {
+			"1714": "Memeni",
+			"1715": `Memeni Clotho`
+		},
+		images: {
+			"1714": "ourochar_files/Blank.png",
+			"1715": "ourochar_files/memeni.png"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1714": "#ff0000"
+		},
+		plotrelevance: 100,
+		firstAppearance: 1714,
 	},
 ];	
 
