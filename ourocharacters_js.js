@@ -1,6 +1,7 @@
 let currentchar = null;
-//slimebo. when you get back to here. figure out why dawn is missing. TvT
-// also add photos for luxlux & adams first full appearances to replace the mirror shots. k thx luv u future me
+// slimebo. when you get back to here. figure out why dawn is missing. TvT DONE.
+// also add photos for luxlux & adams first full appearances to replace the mirror shots. k thx luv u future me 
+// luv u too past me. okay yay i did that now <3
 const characters = [
 	{
 		id: "Inkwell",
@@ -234,7 +235,7 @@ const characters = [
 		name: "SD",
 		names: {
 			"64": "stringlessDevil [SD]",
-			"822": "Roko"
+			"669": "Roko"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"64": "ourochar_files/earlySD.png",
@@ -975,10 +976,13 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		id: "ADAM",
 		name: "ADAM",
 		names: {
-			"647": `"Adam!"`
+			"647": `"Adam!"`,
+			"1230": "Adamnt",
+			"1584": "Adamnt Vaulat",
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"647": "ourochar_files/!REPLACEMEWHENUPDATE.adammirror.png"
+			"647": "ourochar_files/!REPLACEMEWHENUPDATE.adammirror.png",
+			"1598": "ourochar_files/1598_adam.png"
 		},
 		firstAppearance: 647,
 		pestercolor: {
@@ -1050,6 +1054,7 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"1204": "ourochar_files/earlynora.png", //unmasked
 			"1270": "ourochar_files/noragame.png", //masked
 			"1357": "ourochar_files/earlynora.png", //unmasked
+			"1387": "ourochar_files/norahairstreak.png", //masked
 		},
 		pestertag: {
 			"676": "umbralEyes [UE]"
@@ -1345,6 +1350,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"default": "#000000",
 			"755": "#008282"
 		},
+		pestertag: {
+			"1615": "quadraticVendetta [QV]"
+		},
 		plotrelevance: 84,
 	},{
 		id: "Gimmie",
@@ -1630,6 +1638,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1130": "ourochar_files/mirrorluxlux.png",
+			"1580": "ourochar_files/1580_luxlux.png"
 		},
 		pestertag: {
 			"1272": "nocturneOperator [NO]"
@@ -1645,7 +1654,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "HANK",
 		name: "HANK",
 		names: {
-			"1281": "accretionUnberufen [AU]"
+			"1281": "accretionUnberufen [AU]",
+			"1460": "Hank Havokar"
 		},
 		images: {
 			"1281": "ourochar_files/AU.png",
@@ -1677,6 +1687,25 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		firstAppearance: 1288,
 		pestertag: {
 			"1288": "pipersFanfare [PF]"
+		}
+	},
+	{
+		id: "Dawn",
+		name: "Dawn",
+		names: {
+			"1318": "Dawn"
+		},
+		images: {
+			"1318": "ourochar_files/HR.png"
+		},
+		plotrelevance: 84,
+		firstAppearance: 1318,
+		pestercolor: {
+			"default": "#000000",
+			"1318": "#ff516e"
+		},
+		pestertag: {
+			1318: "hypocriteRibbons [HR]"
 		}
 	},
 	{
@@ -1810,6 +1839,25 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		}
 	},
 	{
+		id: "RH",
+		name: "RH",
+		names: {
+			"1490": "Dusk"
+		},
+		images: {
+			"1490": "ourochar_files/RH.png"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1490": "#5dd7b6"
+		},
+		plotrelevance: 84,
+		firstAppearance: 1490,
+		pestertag: {
+			"1490": "requiemHeroine [RH]"
+		}
+	},
+	{
 		id: "DO",
 		name: "DO",
 		names: {
@@ -1929,7 +1977,49 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		pestertag: {
 			"1596": "qualitativeSuccubus [QS]"
 		}
-	}
+	},
+	{
+		id: "SS",
+		name: "SS",
+		names: {
+			"1615": "slayerSombra [SS]"
+		},
+		images: {
+			"1615": "ourochar_files/Blank.png"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1615": "#d30000"
+		},
+		plotrelevance: 84,
+		firstAppearance: 1615,
+		pestertag: {
+			"1615": "slayerSombra [SS]"
+		}
+	},
+	{
+		id: "DS",
+		name: "DS",
+		names: {
+			"1615": `Chip`
+		},
+		images: {
+			"1615": "ourochar_files/Blank.png"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1615": "#00ff41"
+		},
+		pesterhighlight: {
+			"default": "#000000",
+			"1615": "#000000"
+		},
+		plotrelevance: 84,
+		firstAppearance: 1615,
+		pestertag: {
+			"1615": "digitalSarcophagus [DS]"
+		}
+	},
 ];	
 
 
