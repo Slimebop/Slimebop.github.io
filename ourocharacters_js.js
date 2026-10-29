@@ -933,6 +933,9 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		pestercolor: {
 			"default": "#000000",
 			"590": "#5ba2c9"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1776": "ourochar_files/vivi_gate.png"
 		},
 		weapon_kind: {
 			"847": "rapierkind"
@@ -1074,6 +1077,10 @@ In addition to these silly interests for a cat girl, you love ANIMALS OF MANY KI
 		},
 		firstAppearance: 676,
 		plotrelevance: 100,
+		sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1776": "ourochar_files/nora_gate.png"
+		},
 	},
 	{
 		id: "Penn",
@@ -1114,6 +1121,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		sylladex:{
 			"798": "Poem"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1776": "ourochar_files/penn_gate.png"
 		},
 		firstAppearance: 676,
 		plotrelevance: 100,
@@ -1143,7 +1153,13 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"676": "#000000"
 		},
 		firstAppearance: 676,
-		plotrelevance: 100,
+		plotrelevance: 100,sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1776": "ourochar_files/nora_gate.png"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1776": "ourochar_files/ZZ_gate.png"
+		},
 	},
 	{
 		id: "Devari",
@@ -1337,7 +1353,10 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"721": "#9e469e"
 		},
 		lunarswing:{
-			"1429": "Prospit"
+			"1429": "Prospit",
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1776": "ourochar_files/penn_gate.png"
 		},
 	},
 	{
@@ -1416,21 +1435,11 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		pesterhighlight: {
 			"default": "#FFFFFF00",
 			"861": "#949494"
-		}
-	},
-	{
-		id: "Ashe",
-		name: "Ashe",
-		names: {
-			"835": "???",
-			"837": "ASHE WITHERSCOWL",
-			"838": "Ashe Witherscowl"
 		},
-		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"835": "ourochar_files/ASHe.png"
+		sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1776": "ourochar_files/vivi_gate.png"
 		},
-		firstAppearance: 835,
-		plotrelevance: 100,
 	},
 	{
 		id: "Curi",
@@ -1464,6 +1473,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1701": "ourochar_files/Rotsko.png"
 		},weapon_kind: {
 			"1718": "Pizzactrkind"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1778": "ourochar_files/rotsko_gate.png"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -1490,6 +1502,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"884": "ourochar_files/UM.png",
 			"885": "ourochar_files/UMappear.png",
 			"1666": "ourochar_files/desolosprite.png"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1780": "ourochar_files/desolo_gate.png"
 		},
 		plotrelevance: 100,
 		firstAppearance: 884,
@@ -1527,6 +1542,11 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"921": "ourochar_files/bloomicon.png",
 			"922": "ourochar_files/bloomishadow.png",
 			"1680": "ourochar_files/bloomi.png"
+		},weapon_kind: {
+			"1764": "Scissorskind"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1779": "ourochar_files/bloomi_gate.png"
 		},
 		pestertag: {
 			"922": "graveyardGardener [GG]"
@@ -1545,6 +1565,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		images: {
 			"1039": "ourochar_files/butlerdive.png",
 			"1719": "ourochar_files/lampdivekernel.png"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1776": "ourochar_files/vivi_gate.png"
 		},
 		plotrelevance: 50,
 		firstAppearance: 1039
@@ -1571,6 +1594,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1039": "ourochar_files/mimismile.png"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1776": "ourochar_files/ZZ_gate.png"
 		},
 		plotrelevance: 100,
 		firstAppearance: 1039
@@ -1772,6 +1798,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		images: {
 			"1343": "ourochar_files/early_TI.png",
 			"1731": "ourochar_files/dismei.png"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1777": "ourochar_files/dismei_gate.png"
 		},
 		plotrelevance: 100,
 		firstAppearance: 1343,
@@ -1968,14 +1997,20 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1553": "phantomWrit [PW]"
 		},
 		images: {
-			"1553": "ourochar_files/PW.png"
+			"1553": "ourochar_files/PW.png",
+			"1750": "ourochar_files/jynx.png",
+			"1752": "ourochar_files/jynxreveal.png"
 		},
 		plotrelevance: 100,
 		firstAppearance: 1553,
 		pestercolor: {
 			"default": "#000000",
-			"1553": "#ffffff"
-		}
+			"1553": "#ffffff",
+			"1752": "#59c488"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1776": "ourochar_files/nora_gate.png"
+		},
 	},
 	{
 		id: "Medusa",
@@ -1990,6 +2025,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		pestercolor: {
 			"default": "#000000",
 			"1596": "#560000"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1778": "ourochar_files/rotsko_gate.png"
 		},
 		plotrelevance: 100,
 		firstAppearance: 1596,
@@ -2076,6 +2114,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1706": "#ff3817"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
+			"1776": "ourochar_files/ZZ_gate.png"
 		},
 		plotrelevance: 50,
 	},{
@@ -2093,7 +2132,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"default": "#000000",
 			"1714": "#ff0000"
 		},
-		plotrelevance: 100,
+		plotrelevance: 99,
 		firstAppearance: 1714,
 	},
 	{
@@ -2111,6 +2150,48 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		plotrelevance: 100,
 		firstAppearance: 1731,
+	},{
+		id: "bloomikernel",
+		name: "bloomikernel",
+		names: {
+			"1760": "???",
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"1760": "ourochar_files/bloomikernel.png",
+		},
+		firstAppearance: 1760,
+		status: {
+			"1760": "Kernel'd",
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1760": "#658200"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1779": "ourochar_files/bloomi_gate.png"
+		},
+		plotrelevance: 50,
+	},{
+		id: "norakernel",
+		name: "norakernel",
+		names: {
+			"1772": "???",
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"1772": "ourochar_files/norakernel.png",
+		},
+		firstAppearance: 1772,
+		status: {
+			"1772": "Kernel'd",
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1772": "#bc00de"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1776": "ourochar_files/nora_gate.png"
+		},
+		plotrelevance: 50,
 	},
 ];	
 
