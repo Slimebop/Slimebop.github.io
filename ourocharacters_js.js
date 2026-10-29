@@ -1971,7 +1971,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		firstAppearance: 1520,
 		pestercolor: {
 			"default": "#000000",
-			"1520": "#ff0000"
+			"1520": "#004183"
 		}
 	},
 	{
