@@ -2,6 +2,7 @@ let currentchar = null;
 // slimebo. when you get back to here. figure out why dawn is missing. TvT DONE.
 // also add photos for luxlux & adams first full appearances to replace the mirror shots. k thx luv u future me 
 // luv u too past me. okay yay i did that now <3
+// TODO: ADD MAYARISPRITE IMAGE!!
 const characters = [
 	{
 		id: "Inkwell",
@@ -1181,7 +1182,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		name: "zeapersprite",
 		names: {
 			"688": "Reaper Kernel",
-			"908": "Zeapersprite"
+			"908": "ZEAPERSPRITE"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"688": "ourochar_files/reaperkernel.png",
@@ -1326,7 +1327,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1269": "Aria Erased"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"715": "ourochar_files/Silver_Poster.png"
+			"715": "ourochar_files/Silver_Poster.png",
+			"1783": "ourochar_files/maybe_dead_aria.png",
+			"1784": "ourochar_files/dead_aria.png"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -1560,7 +1563,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		names: {
 			"1039": "Dive?????",
 			"1040": "Dive",
-			"1719": "LavaDiveKernel"
+			"1719": "???"
 		},
 		images: {
 			"1039": "ourochar_files/butlerdive.png",
@@ -1860,6 +1863,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1409": "ourochar_files/ZEUS.png",
+			"1785": "ourochar_files/dead_zeus.png"
 		},
 		plotrelevance: 25,
 		firstAppearance: 1409,
@@ -2101,13 +2105,16 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		name: "ZZkernel",
 		names: {
 			"1706": "???",
+			"1838": "DANTESPRITE"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"1706": "ourochar_files/ZZkernel.png",
+			"1838": "ourochar_files/DANTESPRITE.png"
 		},
 		firstAppearance: 1706,
 		status: {
 			"1706": "Kernel'd",
+			"1838": "Sprite"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -2146,7 +2153,10 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		pestercolor: {
 			"default": "#000000",
-			"444444": "#ff0000"
+			"1883": "#a000a0"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1883": "ourochar_files/dismei_gate.png"
 		},
 		plotrelevance: 100,
 		firstAppearance: 1731,
@@ -2155,17 +2165,20 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		name: "bloomikernel",
 		names: {
 			"1760": "???",
+			"1823": "MAMAMPISPRITE"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"1760": "ourochar_files/bloomikernel.png",
+			"1823": "ourochar_files/MAMAMPISPRITE.png"
 		},
 		firstAppearance: 1760,
 		status: {
 			"1760": "Kernel'd",
+			"1823": "Sprite"
 		},
 		pestercolor: {
 			"default": "#000000",
-			"1760": "#658200"
+			"1760": "#a8d900"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"1779": "ourochar_files/bloomi_gate.png"
@@ -2176,6 +2189,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		name: "norakernel",
 		names: {
 			"1772": "???",
+			"1894": "MAYARISPRITE"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"1772": "ourochar_files/norakernel.png",
@@ -2192,6 +2206,142 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1776": "ourochar_files/nora_gate.png"
 		},
 		plotrelevance: 50,
+	},{
+		id: "Verita",
+		name: "Verita",
+		names: {
+			"1788": "Verita"
+		},
+		images: {
+			"1788": "ourochar_files/Blank.png",
+			"1789": "ourochar_files/verita.png"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1788": "#ff6100",
+		},
+		firstAppearance: 715,
+		plotrelevance: 25,
+	},{
+		id: "Jolly Regent",
+		name: "Jolly Regent",
+		names: {
+			"1792": "Jolly Regent",
+		},
+		images: {
+			"1792": "ourochar_files/jollyregent.png",
+		},
+		firstAppearance: 1792,
+		plotrelevance: 4,
+	},{
+		id: "The Pilot",
+		name: "The Pilot",
+		names: {
+			"1810": "The Pilot",
+			"1811": "Lamenting Poet"
+		},
+		images: {
+			"1810": "ourochar_files/thepilot.png",
+		},
+		firstAppearance: 1810,
+		plotrelevance: 4,
+	},{
+		id: "Roaming Sentry",
+		name: "Roaming Sentry",
+		names: {
+			"1821": "Roaming Sentry"
+		},
+		images: {
+			"1821": "ourochar_files/roaming_sentry.png",
+		},
+		firstAppearance: 1821,
+		plotrelevance: 4,
+	},{
+		id: "Assassin Retirer",
+		name: "Assassin Retirer",
+		names: {
+			"1831": "Assassin Retirer"
+		},
+		images: {
+			"1831": "ourochar_files/assassinretirer.png",
+		},
+		firstAppearance: 1831,
+		plotrelevance: 4,
+	},{
+		id: "Diburg",
+		name: "Diburg",
+		names: {
+			"1867": "Diburg Veizux"
+		},
+		pestertag: {
+			"1867": "stardestinedVagabond [SV]"
+		},
+		images: {
+			"1867": "ourochar_files/diburg_late2theparty.png",
+		},
+		plotrelevance: 100,
+		firstAppearance: 1867,
+		pestercolor: {
+			"default": "#000000",
+			"1867": "#0021cb",
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1867": "ourochar_files/bloomi_gate.png"
+		},
+	},{
+		id: "Missing Scamp",
+		name: "Missing Scamp",
+		names: {
+			"1871": "Missing Scamp"
+		},
+		images: {
+			"1871": "ourochar_files/MissingScamp.png",
+		},
+		firstAppearance: 1871,
+		plotrelevance: 4,
+	},{
+		id: "DD",
+		name: "DD",
+		names: {
+			"1881": "DD"
+		},
+		images: {
+			"1881": "ourochar_files/DD.png",
+		},
+		firstAppearance: 1881,
+		plotrelevance: 4,
+	},{
+		id: "MIMIKINGSPRITE",
+		name: "MIMIKINGSPRITE",
+		names: {
+			"1883": "MIMIKINGSPRITE"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"1883": "ourochar_files/MIMIKINGSPRITE.png",
+		},
+		firstAppearance: 1883,
+		status: {
+			"1883": "Sprite",
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1883": "#8e218e"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1883": "ourochar_files/dismei_gate.png"
+		},
+		plotrelevance: 50,
+	},{
+		id: "White Queen",
+		name: "White Queen",
+		names: {
+			"1881": "White Queen"
+		},
+		images: {
+			"1881": "ourochar_files/white_queen.png",
+		},
+		firstAppearance: 1881,
+		plotrelevance: 4,
 	},
 ];	
 
