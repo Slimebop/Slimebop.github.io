@@ -2338,7 +2338,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1881": "White Queen"
 		},
 		images: {
-			"1881": "ourochar_files/white_queen.png",
+			"1881": "ourochar_files/whitequeen.png",
 		},
 		firstAppearance: 1881,
 		plotrelevance: 4,
