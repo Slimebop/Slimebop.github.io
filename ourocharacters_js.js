@@ -1,7 +1,4 @@
 let currentchar = null;
-// slimebo. when you get back to here. figure out why dawn is missing. TvT DONE.
-// also add photos for luxlux & adams first full appearances to replace the mirror shots. k thx luv u future me 
-// luv u too past me. okay yay i did that now <3
 const characters = [
 	{
 		id: "Inkwell",
@@ -266,7 +263,8 @@ const characters = [
 			"65": "ourochar_files/clovericon.png",
 			"138": "ourochar_files/earlyclover.png",
 			"1014": "ourochar_files/owiedclover.png",
-			"1172": "ourochar_files/healingclover.png"
+			"1172": "ourochar_files/healingclover.png",
+			"1941": "ourochar_files/1941_clover.png"
 		},
 		firstAppearance: 65,
 		pestertag: {
@@ -501,7 +499,8 @@ Your interests are in MARINE BIOLOGY, ELDRITCH BEASTS, and DRAWING. You are also
 			"1078": "ourochar_files/wren.1078.png",
 			"1080": "ourochar_files/suitwren.png",
 			"1087": "ourochar_files/swagger.png",
-			"1092": "ourochar_files/awesomewren.png"
+			"1092": "ourochar_files/awesomewren.png",
+			"2573": "ourochar_files/wren_sohappy.png"
 		},
 		sylladex: {
 			"481": "Game Show"
@@ -592,7 +591,8 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"218": "ourochar_files/early_song.png",
 			"557": "ourochar_files/!REPLACEMEWHENUPDATE.songreveal.png",
-			"1153": "ourochar_files/song_1153.png"
+			"1153": "ourochar_files/song_1153.png",
+			"2590": "ourochar_files/song_the_siren.png"
 		},
 		firstAppearance: 302,
 		plotrelevance: 25,
@@ -610,7 +610,8 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"306": "ourochar_files/early_whispy.png",
-			"1635": "ourochar_files/wait_whispy.png"
+			"1635": "ourochar_files/wait_whispy.png",
+			"2519": "ourochar_files/whispy_sprite.png"
 		},
 		pestertag: {
 			"1392": "currentWanderer [CW]"
@@ -980,7 +981,8 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"640": "Salem"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"640": "ourochar_files/!REPLACEMEWHENUPDATE.salem.png" //this wont work for some reason while uploaded to github. T-T File garden is signifigantly slower at loading images though.
+			"640": "ourochar_files/!REPLACEMEWHENUPDATE.salem.png",
+			"2695": "ourochar_files/2695_salem.png"
 		},
 		firstAppearance: 640,
 		plotrelevance: 93,
@@ -1162,7 +1164,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"820": "ourochar_files/ZZ_shadow.png",
 			"1390": "ourochar_files/ZZ_real.png",
 			"1435": "ourochar_files/ZZ_lost.png",
-			"2423": "ourochar_files/ZoeyZ.png"
+			"2423": "ourochar_files/ZoeyZ.png",
+			"2659": "ourochar_files/ZoeyZ_cutes.png"
 		},
 		pestertag: {
 			"676": "zenithZero [ZZ]"
@@ -1724,7 +1727,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1130": "ourochar_files/mirrorluxlux.png",
-			"1580": "ourochar_files/1580_luxlux.png"
+			"1580": "ourochar_files/1580_luxlux.png",
+			"2528": "ourochar_files/2528_luxlux.png"
 		},
 		pestertag: {
 			"1272": "nocturneOperator [NO]"
@@ -1745,7 +1749,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1281": "ourochar_files/AU.png",
-			"1670": "ourochar_files/wait_hank.png"
+			"1670": "ourochar_files/wait_hank.png",
+			"2518": "ourochar_files/hank_sprite.png"
 		},
 		plotrelevance: 84,
 		firstAppearance: 1281,
@@ -1761,7 +1766,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "CHAD",
 		name: "CHAD",
 		names: {
-			"1288": "pipersFanfare [PF]"
+			"1288": "pipersFanfare [PF]",
+			"1368": "Chad",
+			"1745": "Chad Solos"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -1769,7 +1776,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},	
 		images: {
 			"1288": "ourochar_files/CHAD.png",
-			"1670": "ourochar_files/wait_chad.png"
+			"1670": "ourochar_files/wait_chad.png",
+			"2516": "ourochar_files/chadsolos.png"
 		},
 		plotrelevance: 84,
 		firstAppearance: 1288,
@@ -1853,7 +1861,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		images: {
 			"1343": "ourochar_files/early_TI.png",
 			"1731": "ourochar_files/dismei.png",
-			"2048": "ourochar_files/dismei_whitecoat.png"
+			"2048": "ourochar_files/dismei_whitecoat.png",
+			"2612": "ourochar_files/dismei_maskless.png"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"1777": "ourochar_files/dismei_gate.png"
@@ -2198,7 +2207,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1714": "ourochar_files/Blank.png",
-			"1715": "ourochar_files/memeni.png" //when u add the sprite. add it starting at pg 1964
+			"1715": "ourochar_files/memeni.png", //when u add the sprite. add it starting at pg 1964
+			"1964": "ourochar_files/2681_memeni.png" //this. needs a better image TvT
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -2474,6 +2484,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"1940": "ourochar_files/penn_gate.png"
+		},pestertag: {
+			"2631": "serenityCasketcall [SC]"
 		},
 		plotrelevance: 50,
 	},{
@@ -2516,6 +2528,17 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		plotrelevance: 50,
 	},{
+		id: "Mira",
+		name: "Mira",
+		names: {
+			"2019": "Mira",
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"2019": "ourochar_files/mira.png"
+		},
+		firstAppearance: 2019,
+		plotrelevance: 80,
+	},{
 		id: "Trix",
 		name: "Trix",
 		names: {
@@ -2538,6 +2561,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"2335": "ourochar_files/sam_intro.png",
+			"2550": "ourochar_files/2550_sam.png"
 		},
 		firstAppearance: 2335,
 		plotrelevance: 0, // even though we love you. i have to match skullys </3
@@ -2545,7 +2569,54 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"default": "#000000",
 			"2335": "#0093c2"
 		}
-	},
+	}, {
+		id: "Katzie",
+		name: "Katzie",
+		names: {
+			"2623": "Katzie"
+		},
+		images: {
+			"2623": "ourochar_files/katzie_icon.png"
+		},
+		firstAppearance: 2623,
+		plotrelevance: 84,
+		pestercolor: {
+			"default": "#000000",
+			"2623": "#5b9000"
+		},
+		pestertag: {
+			"2623": "radicalizedChampion [RC]"
+		}
+	}, {
+		id: "Juvi",
+		name: "Juvi",
+		names: {
+			"2671": "????",
+			"2673": "Juvi",
+			"2674": "Juvi Archivisper"
+		},
+		images: {
+			"2671": "ourochar_files/Juvi.png"
+		},
+		firstAppearance: 2671,
+		plotrelevance: 100,
+		pestercolor: {
+			"default": "#000000",
+			"2672": "#ee0068"
+		}
+	}, {
+		id: "Stanger",
+		name: "Stanger",
+		names: {
+			"2726": "Stanger"
+		},
+		images: {
+			"2726": "ourochar_files/stranger.png"
+		},
+		firstAppearance: 2726,
+		plotrelevance: 100,
+		hideafter: 2727,
+	}
 ];	
 
 
