@@ -888,7 +888,7 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"501": "ourochar_files/Someone.png",
 			"1000": "ourochar_files/spin_first_real_appearance.png",
-			"2007": "ourochar_files/spin_2007.png"
+			"2007": "ourochar_files/spin_2000.png"
 		},
 		firstAppearance: 501,
 		plotrelevance: 80,
