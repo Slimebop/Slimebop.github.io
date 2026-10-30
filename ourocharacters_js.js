@@ -2264,7 +2264,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"default": "#000000",
 			"1788": "#ff6100",
 		},
-		firstAppearance: 715,
+		firstAppearance: 1788,
 		plotrelevance: 25,
 	},{
 		id: "Jolly Regent",
