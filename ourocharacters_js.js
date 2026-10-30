@@ -2,7 +2,6 @@ let currentchar = null;
 // slimebo. when you get back to here. figure out why dawn is missing. TvT DONE.
 // also add photos for luxlux & adams first full appearances to replace the mirror shots. k thx luv u future me 
 // luv u too past me. okay yay i did that now <3
-// TODO: ADD MAYARISPRITE IMAGE!!
 const characters = [
 	{
 		id: "Inkwell",
@@ -563,7 +562,9 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"958": "ourochar_files/ouchedvladsly.png",
 			"959": "ourochar_files/poorbabyvladsly.png",
 			"961": "ourochar_files/smilesadvladsly.png",
-			"1132": "ourochar_files/vladslynoglasses.png"
+			"1132": "ourochar_files/vladslynoglasses.png",
+			"1394": "ourochar_files/vladsly_nobackbling.png",
+			"1527": "ourochar_files/vladsly_awesome.png"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -927,6 +928,8 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"831": "ourochar_files/VIVIREVEAL.png", // holy lowquality image :tearful:
 			"1031": "ourochar_files/vivimasked.png",
 			"1322": "ourochar_files/VIVIREVEAL.png",
+			"2172": "ourochar_files/vivi_academic.png",
+			"2178": "ourochar_files/vivi_academic_gloom.png"
 		},
 		firstAppearance: 605,
 		plotrelevance: 100,
@@ -1065,7 +1068,8 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"1204": "ourochar_files/earlynora.png", //unmasked
 			"1270": "ourochar_files/noragame.png", //masked
 			"1357": "ourochar_files/earlynora.png", //unmasked
-			"1387": "ourochar_files/norahairstreak.png", //masked
+			"1387": "ourochar_files/norahairstreak.png", 
+			"2071": "ourochar_files/noraial.png"
 		},
 		pestertag: {
 			"676": "umbralEyes [UE]"
@@ -1112,6 +1116,8 @@ In addition to these silly interests for a cat girl, you love ANIMALS OF MANY KI
 		},
 		pestertag: {
 			"676": "silentCadence [SC]"
+		},location:{
+			"2114": "Land of Choirs & Airships"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -1564,6 +1570,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		pestertag: {
 			"922": "graveyardGardener [GG]"
+		},location:{
+			"2099": "Land of Moss & Echoes"
 		},
 		plotrelevance: 100, //1 billion in my heart </3
 		firstAppearance: 921
@@ -1574,7 +1582,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		names: {
 			"1039": "Dive?????",
 			"1040": "Dive",
-			"1719": "???"
+			"1719": "???",
+			"2167": "DIVELASPRITE"
 		},
 		images: {
 			"1039": "ourochar_files/butlerdive.png",
@@ -1582,6 +1591,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"1776": "ourochar_files/vivi_gate.png"
+		},pesterhighlight: {
+			"default": "#000000",
+			"2167": "#ffe64f"
 		},
 		plotrelevance: 50,
 		firstAppearance: 1039
@@ -1779,6 +1791,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		pestercolor: {
 			"default": "#000000",
 			"1329": "#416600"
+		},
+		pestertag: {
+			"2148": "arbiterOverseer [AO]"
 		}
 	},
 	{
@@ -1816,7 +1831,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1343": "ourochar_files/early_TI.png",
-			"1731": "ourochar_files/dismei.png"
+			"1731": "ourochar_files/dismei.png",
+			"2048": "ourochar_files/dismei_whitecoat.png"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"1777": "ourochar_files/dismei_gate.png"
@@ -1856,7 +1872,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "Lief",
 		name: "Lief",
 		names: {
-			"1405": "Lief"
+			"1405": "Lief",
+			"2049": "Lief Damocles"
 		},
 		pestertag: {
 			"1405": "corvidaeStuntsmaestro [CS]"
@@ -2216,10 +2233,12 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"1772": "ourochar_files/norakernel.png",
+			"1894": "ourochar_files/MAYARISPRITE.png"
 		},
 		firstAppearance: 1772,
 		status: {
 			"1772": "Kernel'd",
+			"1894": "Sprite"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -2301,6 +2320,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1867": "ourochar_files/diburg_late2theparty.png",
+			"2054": "ourochar_files/diburg_appear.png"
 		},
 		plotrelevance: 100,
 		firstAppearance: 1867,
@@ -2394,8 +2414,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 	},
 	{
-		id: "Gimmie",
-		name: "Gimmie",
+		id: "DGimmie",
+		name: "DGimmie",
 		names: {
 			"1940": "Doomed Gimmie"
 		},
