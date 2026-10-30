@@ -438,10 +438,14 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"212": "Jekt-O Goner",
 			"954": "LITTLE O",
 			"955": "Jekt-O Goner",
+			"1918": "Junko"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"211": "ourochar_files/earlyjekt-o.png",
-			"214": "ourochar_files/earlyjekt-olight.png"
+			"214": "ourochar_files/earlyjekt-olight.png",
+			"1918": "ourochar_files/junko_icon.png",
+			"1922": "ourochar_files/junko.png",
+			"1940": "ourochar_files/earlyjekt-olight.png",
 		},
 		weapon_kind: {
 			"451": "Harpngunkind"
@@ -1101,7 +1105,9 @@ In addition to these silly interests for a cat girl, you love ANIMALS OF MANY KI
 			"710": "ourochar_files/realPenn.png",
 			"935": "ourochar_files/maskedpenn.png",
 			"985": "ourochar_files/realPenn.png",
-			"1031": "ourochar_files/maskedpenn.png"
+			"1031": "ourochar_files/maskedpenn.png",
+			"1918": "ourochar_files/altpenn.png",
+			"1940": "ourochar_files/realPenn.png",
 		},
 		pestertag: {
 			"676": "silentCadence [SC]"
@@ -1279,7 +1285,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "Lime",
 		name: "Lime",
 		names: {
-			"705": `Lime`
+			"705": `Lime`,
+			"1912": 'Eviala'
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"705": "ourochar_files/Lime.png"
@@ -1308,7 +1315,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "Mehx",
 		name: "Mehx",
 		names: {
-			"709": "???"
+			"709": "???",
+			"1914": "Mehx"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"709": "ourochar_files/Mehx.png"
@@ -1390,7 +1398,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"808": "ourochar_files/mirrorgimmie.png",
-			"809": "ourochar_files/gimmiereveal.png"
+			"809": "ourochar_files/gimmiereveal.png",
+			"1926": "ourochar_files/doomed_gimmie.png",
+			"1940": "ourochar_files/gimmiereveal.png",
 		},
 		firstAppearance: 808,
 		pestercolor: {
@@ -2342,6 +2352,70 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		firstAppearance: 1881,
 		plotrelevance: 4,
+	},{
+		id: "White King",
+		name: "White King",
+		names: {
+			"1901": "White King"
+		},
+		images: {
+			"1901": "ourochar_files/whiteking.png",
+		},
+		firstAppearance: 1901,
+		plotrelevance: 4,
+	},
+	{
+		id: "Junko",
+		name: "Junko",
+		names: {
+			"1940": "Doomed Junko"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"1940": "ourochar_files/junko.png",
+		},
+		firstAppearance: 1940,
+		plotrelevance: 3, // this character does jack shit but i added him anyway cuz this line is REALLY fucking funny.
+		pestercolor: {
+			"default": "#000000",
+			"1940": "#003f62"
+		},
+	},
+	{
+		id: "Gimmie",
+		name: "Gimmie",
+		names: {
+			"1940": "Doomed Gimmie"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"1940": "ourochar_files/doomed_gimmie.png",
+		},
+		firstAppearance: 1940,
+		plotrelevance: 3, // this character does jack shit but i added him anyway cuz this line is REALLY fucking funny.
+		pestercolor: {
+			"default": "#000000",
+			"1940": "#a1a100"
+		},
+	},{
+		id: "pennsprite",
+		name: "pennsprite",
+		names: {
+			"1940": "PENNSPRITE",
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"1940": "ourochar_files/pennsprite.png",
+		},
+		firstAppearance: 1940,
+		status: {
+			"1940": "Sprite",
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1940": "#3b3b3b"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1940": "ourochar_files/penn_gate.png"
+		},
+		plotrelevance: 50,
 	},
 ];	
 
