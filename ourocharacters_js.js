@@ -887,7 +887,8 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"501": "ourochar_files/Someone.png",
-			"1000": "ourochar_files/spin_first_real_appearance.png"
+			"1000": "ourochar_files/spin_first_real_appearance.png",
+			"2007": "ourochar_files/spin_2007.png"
 		},
 		firstAppearance: 501,
 		plotrelevance: 80,
@@ -1610,6 +1611,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"1776": "ourochar_files/ZZ_gate.png"
+		},weapon_kind: {
+			"2029": "wldwstkind"
 		},
 		plotrelevance: 100,
 		firstAppearance: 1039
@@ -1796,7 +1799,10 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		pestercolor: {
 			"default": "#000000",
 			"1338": "#00bd8a"
-		}
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1994": "ourochar_files/desolo_gate.png"
+		},
 	},
 	{
 		id: "TI",
@@ -1903,7 +1909,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "RH",
 		name: "RH",
 		names: {
-			"1490": "Dusk"
+			"1490": "Dusk",
+			"2040": "Dusk Shutterlan"
 		},
 		images: {
 			"1490": "ourochar_files/RH.png"
@@ -1941,7 +1948,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "PB",
 		name: "PB",
 		names: {
-			"1494": "powpowBowwow [PB]"
+			"1494": "powpowBowwow [PB]",
+			"2038": "Suki Fontaine"
 		},
 		pestertag: {
 			"1494": "powpowBowwow [PB]"
@@ -2075,7 +2083,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1615": `Chip`
 		},
 		images: {
-			"1615": "ourochar_files/Blank.png"
+			"1615": "ourochar_files/Blank.png",
+			"1975": "ourochar_files/chipicon.png"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -2095,19 +2104,23 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		name: "desolokernel",
 		names: {
 			"1671": "???",
+			"1990": "RUINSPRITE"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"1671": "ourochar_files/desolokernel.png",
+			"1990": "ourochar_files/RUINSPRITE.png"
 		},
 		firstAppearance: 1671,
 		status: {
 			"1671": "Kernel'd",
+			"1990": "Sprite"
 		},
 		pestercolor: {
 			"default": "#000000",
-			"1671": "#004183"
+			"1671": "#4677a9"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
+			"1990": "ourochar_files/desolo_gate.png"
 		},
 		plotrelevance: 50,
 	},{
@@ -2143,7 +2156,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1714": "ourochar_files/Blank.png",
-			"1715": "ourochar_files/memeni.png"
+			"1715": "ourochar_files/memeni.png" //when u add the sprite. add it starting at pg 1964
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -2414,6 +2427,45 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"1940": "ourochar_files/penn_gate.png"
+		},
+		plotrelevance: 50,
+	},{
+		id: "Geno",
+		name: "Geno",
+		names: {
+			"1947": "Geno Singsing",
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"1947": "ourochar_files/geno_icon.png",
+		},
+		firstAppearance: 1947,
+		pestertag: {
+			"1947": "fatesElegos [FE]"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1947": "#4e3d5a"
+		},
+		plotrelevance: 84,
+	},{
+		id: "DMSPRITE",
+		name: "DMSPRITE",
+		names: {
+			"1951": "DMSPRITE"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"1951": "ourochar_files/DMSPRITE.png"
+		},
+		firstAppearance: 1951,
+		status: {
+			"1951": "Sprite"
+		},
+		pestercolor: {
+			"default": "#000000",
+			"1951": "#851d1d"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1779": "ourochar_files/rotsko_gate.png"
 		},
 		plotrelevance: 50,
 	},
