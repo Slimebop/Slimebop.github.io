@@ -2056,7 +2056,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "Medusa",
 		name: "Medusa",
 		names: {
-			"1596": "qualitativeSuccubus [QS]"
+			"1596": "qualitativeSuccubus [QS]",
+			"1703": "Medusa"
 		},
 		images: {
 			"1596": "ourochar_files/QS.png",
