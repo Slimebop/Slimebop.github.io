@@ -20,6 +20,7 @@ const characters = [
 			"398": "ourochar_files/capewell.png",
 			"611": "ourochar_files/!REPLACEMEWHENUPDATE.cotwell.png",
 			"1331": "ourochar_files/inkwellcovered.png",
+			"2318": "ourochar_files/sleepy_inkwell.png",
 			"3676": "ourochar_files/3676inkwell.png" //test image 
 		},
 		firstAppearance: 3,
@@ -685,7 +686,8 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 			"347": "ourochar_files/init_sigmund.png",
 			"467": "ourochar_files/sigmundbabymode.png",
 			"1078": "ourochar_files/sigmund.png",
-			"1090": "ourochar_files/awesomesigmund.png"
+			"1090": "ourochar_files/awesomesigmund.png",
+			"2277": "ourochar_files/sigmund_afterchoice.png"
 		},
 		lunarswing:{
 			"590": "Derse"
@@ -848,7 +850,8 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		name: "Jack Noir",
 		names: {
 			"439": "???",
-			"441": "Jack Noir"
+			"441": "Jack Noir",
+			"2201": "Jack the Titleless"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"439": "ourochar_files/jack_noir.png"
@@ -865,16 +868,20 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		firstAppearance: 439,
 		plotrelevance: 50,
 	},{
-		id: "MysteryCreator",
-		name: "MysteryCreator",
+		id: "P",
+		name: "P",
 		names: {
 			"442": "???",
+			"2206": "P"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"442": "ourochar_files/mysterynoirvoice.png"
 		},pestercolor: {
 			"default": "#000000",
 			"435": "#5fee30"
+		},pesterhighlight: {
+			"default": "#FFFFFF00",
+			"435": "#FFFFFF"
 		},
 		firstAppearance: 442,
 		plotrelevance: 85,
@@ -1113,6 +1120,7 @@ In addition to these silly interests for a cat girl, you love ANIMALS OF MANY KI
 			"1031": "ourochar_files/maskedpenn.png",
 			"1918": "ourochar_files/altpenn.png",
 			"1940": "ourochar_files/realPenn.png",
+			"2238": "ourochar_files/conductorpenn.png"
 		},
 		pestertag: {
 			"676": "silentCadence [SC]"
@@ -1153,7 +1161,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"676": "ourochar_files/Blank.png",
 			"820": "ourochar_files/ZZ_shadow.png",
 			"1390": "ourochar_files/ZZ_real.png",
-			"1435": "ourochar_files/ZZ_lost.png"
+			"1435": "ourochar_files/ZZ_lost.png",
+			"2423": "ourochar_files/ZoeyZ.png"
 		},
 		pestertag: {
 			"676": "zenithZero [ZZ]"
@@ -1362,7 +1371,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		images: {
 			"721": "ourochar_files/VISTA.png",
 			"722": "ourochar_files/vistasprite.png", //yes im using the newer one. i lvoe her too much to hurt her like this TvT
-			"1544": "ourochar_files/vista_maskless.png"
+			"1544": "ourochar_files/vista_maskless.png",
+			"2239": "ourochar_files/vista_bestoutfit.png"
 		},
 		firstAppearance: 721,
 		plotrelevance: 100, //LIKE A MILLION!!!!!!!!!!!
@@ -1444,7 +1454,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"842": "Ashe Witherscowl"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"833": "ourochar_files/ASHe.png"
+			"833": "ourochar_files/ASHe.png",
+			"2219": "ourochar_files/ashe_redblue.png"
 		},
 		firstAppearance: 833,
 		plotrelevance: 100,
@@ -1490,7 +1501,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		images: {
 			"857": "ourochar_files/TB.png",
 			"859": "ourochar_files/TB_img.png",
-			"1701": "ourochar_files/Rotsko.png"
+			"1701": "ourochar_files/Rotsko.png",
+			"1956": "ourochar_files/glassko.png"
 		},weapon_kind: {
 			"1718": "Pizzactrkind"
 		},sburbicon: {
@@ -1620,12 +1632,18 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1126": "Mimi Snapdragon"
 		},
 		images: {
-			"1039": "ourochar_files/mimismile.png"
+			"1039": "ourochar_files/mimismile.png",
+			"2035": "ourochar_files/mimineedstransparency.png"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"1776": "ourochar_files/ZZ_gate.png"
 		},weapon_kind: {
 			"2029": "wldwstkind"
+		},pestercolor: {
+			"default": "#000000",
+			"1127": "#37379a"
+		},pestertag: {
+			"2028": "adventitiousGarde [AG]"
 		},
 		plotrelevance: 100,
 		firstAppearance: 1039
@@ -1809,6 +1827,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		images: {
 			"1338": "ourochar_files/early_GW.png",
 			"1666": "ourochar_files/wynnsprite.png"
+		},weapon_kind: {
+			"2466": "Hmmrnailkind"
 		},
 		firstAppearance: 1338,
 		plotrelevance: 100,
@@ -2039,7 +2059,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		images: {
 			"1553": "ourochar_files/PW.png",
 			"1750": "ourochar_files/jynx.png",
-			"1752": "ourochar_files/jynxreveal.png"
+			"1752": "ourochar_files/jynxreveal.png",
+			"2221": "ourochar_files/jynx_dead.png"
 		},
 		plotrelevance: 100,
 		firstAppearance: 1553,
@@ -2061,7 +2082,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1596": "ourochar_files/QS.png",
-			"1704": "ourochar_files/medusa.png"
+			"1704": "ourochar_files/medusa.png",
+			"1960": "ourochar_files/medusa_wool.png",
+			"2408": "ourochar_files/medusa_masked.png"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -2323,6 +2346,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		images: {
 			"1867": "ourochar_files/diburg_late2theparty.png",
 			"2054": "ourochar_files/diburg_appear.png"
+		},weapon_kind: {
+			"2428": "bulletkind"
 		},
 		plotrelevance: 100,
 		firstAppearance: 1867,
@@ -2490,6 +2515,36 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1779": "ourochar_files/rotsko_gate.png"
 		},
 		plotrelevance: 50,
+	},{
+		id: "Trix",
+		name: "Trix",
+		names: {
+			"2198": "Trix"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"2198": "ourochar_files/TRIX.png",
+		},
+		firstAppearance: 2198,
+		plotrelevance: 0, // even though we love you. i have to match skullys </3
+		pestercolor: {
+			"default": "#000000",
+			"2198": "#ff6b6b"
+		}
+	},{
+		id: "SAM",
+		name: "SAM",
+		names: {
+			"2335": "Sam"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"2335": "ourochar_files/sam_intro.png",
+		},
+		firstAppearance: 2335,
+		plotrelevance: 0, // even though we love you. i have to match skullys </3
+		pestercolor: {
+			"default": "#000000",
+			"2335": "#0093c2"
+		}
 	},
 ];	
 
@@ -2716,6 +2771,7 @@ function displayCharacterInfo(char, currentPage){
 	const CharCard_Name = document.getElementById("CharCard_Name");
 	CharCard_Name.style.background = 'none';
 	CharCard_Name.textContent = getHighestUnder(char.names,currentPage)
+	CharCard_Name.style.color = "#000000"
 	CharCard_Name.style.color = getHighestUnder(char.pestercolor,currentPage)
 	CharCard_Name.style.background = getHighestUnder(char.pesterhighlight,currentPage)
 	const CharCard_Page = document.getElementById("CharCard_Page");
