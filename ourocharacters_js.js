@@ -1587,7 +1587,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1039": "ourochar_files/butlerdive.png",
-			"1719": "ourochar_files/lampdivekernel.png"
+			"1719": "ourochar_files/lampdivekernel.png",
+			"2167": "ourochar_files/DIVELASPRITE.png"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"1776": "ourochar_files/vivi_gate.png"
