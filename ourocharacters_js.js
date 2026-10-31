@@ -1690,6 +1690,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1067": "ourochar_files/GDINKWELL.png",
+			"2768": "ourochar_files/gdevilinkwell.png"
 		},
 		firstAppearance: 1067,
 		plotrelevance: 93,
@@ -1789,10 +1790,12 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "Dawn",
 		name: "Dawn",
 		names: {
-			"1318": "Dawn"
+			"1318": "Dawn",
+			"1669": "Dawn Shutterlan"
 		},
 		images: {
-			"1318": "ourochar_files/HR.png"
+			"1318": "ourochar_files/HR.png",
+			"1669": "ourochar_files/dawn.png"
 		},
 		plotrelevance: 84,
 		firstAppearance: 1318,
@@ -1808,10 +1811,12 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "HADWAQ",
 		name: "HADWAQ",
 		names: {
-			"1329": "HADWAQ"
+			"1329": "HADWAQ",
+			"2746": "Hadwaq Waqhad"
 		},
 		images: {
-			"1329": "ourochar_files/hadwaqshadow.png"
+			"1329": "ourochar_files/hadwaqshadow.png",
+			"2740": "ourochar_files/hadwaq.png"
 		},
 		firstAppearance: 1329,
 		plotrelevance: 84,
@@ -1960,7 +1965,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"2040": "Dusk Shutterlan"
 		},
 		images: {
-			"1490": "ourochar_files/RH.png"
+			"1490": "ourochar_files/RH.png",
+			"2740": "ourochar_files/dusk.png"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -2596,14 +2602,19 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"2674": "Juvi Archivisper"
 		},
 		images: {
-			"2671": "ourochar_files/Juvi.png"
+			"2671": "ourochar_files/Juvi.png",
+			"2789": "ourochar_files/cuties_juvi.png"
 		},
 		firstAppearance: 2671,
 		plotrelevance: 100,
 		pestercolor: {
 			"default": "#000000",
 			"2672": "#ee0068"
-		}
+		},
+		sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"2673": "ourochar_files/nora_gate.png"
+		},
 	}, {
 		id: "Stanger",
 		name: "Stanger",
