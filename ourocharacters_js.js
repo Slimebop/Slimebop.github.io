@@ -2635,18 +2635,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		plotrelevance: 100,
 		hideafter: 2727,
 	},
-	{
-		id: "ʚɞ",
-		name: "ʚɞ",
-		names: {
-			"2816": "ʚɞ"
-		},
-		images: {
-			"2816": "ourochar_files/blank.png"
-		},
-		firstAppearance: 2816,
-		plotrelevance: 100,
-	},
+	
 	{
 		id: "Sans",
 		name: "Sans",
@@ -2660,7 +2649,20 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		plotrelevance: -1, 
 	},
 ];	
-
+/*
+{
+		id:`ʚɞ`,
+		name: `ʚɞ`,
+		names: {
+			"2816": `ʚɞ`
+		},
+		images: {
+			"2816": "ourochar_files/blank.png"
+		},
+		firstAppearance: 2816,
+		plotrelevance: 100,
+	},
+*/
 
 const pageInput = document.getElementById('page-input');
 const grid = document.getElementById('character-grid');
