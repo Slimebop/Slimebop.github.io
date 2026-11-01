@@ -108,6 +108,9 @@ const characters = [
 		status: {
 			"default": "Alive"
 		},
+		pestertag: {
+			"883": "questingTemptation [QT]"
+		},
 		additional_tags:{
 			"Demon": 26,
 			"Fiend": 380,
@@ -540,7 +543,8 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"263": "ourochar_files/early_bangol.png",
-			"778": "ourochar_files/bangol_mirror.png"
+			"778": "ourochar_files/bangol_mirror.png",
+			"3044": "ourochar_files/bangol_mad.png"
 		},
 		firstAppearance: 263,
 		pestercolor: {
@@ -613,7 +617,8 @@ When you are not TOPPLING EMPIRES, BLASTING BADDIES, and EXORCISING DEMONS, you 
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"306": "ourochar_files/early_whispy.png",
 			"1635": "ourochar_files/wait_whispy.png",
-			"2519": "ourochar_files/whispy_sprite.png"
+			"2519": "ourochar_files/whispy_sprite.png",
+			"3148": "ourochar_files/whispy_sweater.png"
 		},
 		pestertag: {
 			"1392": "currentWanderer [CW]"
@@ -908,11 +913,12 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		id: "VEILIA",
 		name: "VEILIA",
 		names: {
-			"571": `"Veilia Scwoll"`
+			"571": `Veilia Scwoll`
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"571": "ourochar_files/!REPLACEMEWHENUPDATE.veiliamirror.png",
-			"1215": "ourochar_files/veiliascwoll.png"
+			"1215": "ourochar_files/veiliascwoll.png",
+			"3022": "ourochar_files/veiliascwoll_cutes.png"
 		},
 		firstAppearance: 571,
 		pestertag: {
@@ -1007,7 +1013,8 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"647": "ourochar_files/!REPLACEMEWHENUPDATE.adammirror.png",
-			"1598": "ourochar_files/1598_adam.png"
+			"1598": "ourochar_files/1598_adam.png",
+			"3026": "ourochar_files/adamnt_cutes.png"
 		},
 		firstAppearance: 647,
 		pestercolor: {
@@ -1197,6 +1204,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"669": "ourochar_files/devarimirror.png",
+			"3026": "ourochar_files/devari_cutes.png"
 		},pestercolor: {
 			"default": "#000000",
 			"647": "#a15203"
@@ -1402,7 +1410,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"755": "Oxovuu"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"755": "ourochar_files/oxovuu_mirror.png"
+			"755": "ourochar_files/oxovuu_mirror.png",
+			"3025": "ourochar_files/oxovuusprite.png"
 		},
 		firstAppearance: 755,
 		pestercolor: {
@@ -1426,6 +1435,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"809": "ourochar_files/gimmiereveal.png",
 			"1926": "ourochar_files/doomed_gimmie.png",
 			"1940": "ourochar_files/gimmiereveal.png",
+			"3026": "ourochar_files/gimmie_cutes.png"
 		},
 		firstAppearance: 808,
 		pestercolor: {
@@ -1735,7 +1745,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		images: {
 			"1130": "ourochar_files/mirrorluxlux.png",
 			"1580": "ourochar_files/1580_luxlux.png",
-			"2528": "ourochar_files/2528_luxlux.png"
+			"2528": "ourochar_files/2528_luxlux.png",
+			"3031": "ourochar_files/luxlux_cutes.png"
 		},
 		pestertag: {
 			"1272": "nocturneOperator [NO]"
@@ -1996,6 +2007,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1491": "ourochar_files/early_DO.png",
+			"3026": "ourochar_files/fodder_cutes.png"
 		},
 		plotrelevance: 84,
 		firstAppearance: 1491,
@@ -2509,6 +2521,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"1947": "ourochar_files/geno_icon.png",
+			"3142": "ourochar_files/geno_sprite.png"
 		},
 		firstAppearance: 1947,
 		pestertag: {
@@ -2589,7 +2602,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"2623": "Katzie"
 		},
 		images: {
-			"2623": "ourochar_files/katzie_icon.png"
+			"2623": "ourochar_files/katzie_icon.png",
+			"3204": "ourochar_files/katzie.png"
 		},
 		firstAppearance: 2623,
 		plotrelevance: 84,
@@ -2611,6 +2625,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		images: {
 			"2671": "ourochar_files/Juvi.png",
 			"2789": "ourochar_files/cuties_juvi.png"
+		},weapon_kind: {
+			"3078": "Banishkind"
 		},
 		firstAppearance: 2671,
 		plotrelevance: 100,
