@@ -75,6 +75,7 @@ const characters = [
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"17": "ourochar_files/earlyshelly.png",
 			"608": "ourochar_files/!REPLACEMEWHENUPDATE.shellysmile.png",
+			"2885": "ourochar_files/shellybiology.png"
 		},
 		firstAppearance: 17,
 		descriptions: {
@@ -444,6 +445,7 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"1918": "ourochar_files/junko_icon.png",
 			"1922": "ourochar_files/junko.png",
 			"1940": "ourochar_files/earlyjekt-olight.png",
+			"2877": "ourochar_files/jektobiology.png"
 		},
 		weapon_kind: {
 			"451": "Harpngunkind"
@@ -1281,6 +1283,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"704": "ourochar_files/Blank.png",
 			"1300": "ourochar_files/ares.gif"
+		},weapon_kind: {
+			"2984": "Gungamekind"
 		},
 		firstAppearance: 704,
 		plotrelevance: 93,
@@ -1375,7 +1379,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"721": "ourochar_files/VISTA.png",
 			"722": "ourochar_files/vistasprite.png", //yes im using the newer one. i lvoe her too much to hurt her like this TvT
 			"1544": "ourochar_files/vista_maskless.png",
-			"2239": "ourochar_files/vista_bestoutfit.png"
+			"2239": "ourochar_files/vista_bestoutfit.png",
+			"2902": "ourochar_files/vsitabiology.png"
 		},
 		firstAppearance: 721,
 		plotrelevance: 100, //LIKE A MILLION!!!!!!!!!!!
@@ -1505,7 +1510,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"857": "ourochar_files/TB.png",
 			"859": "ourochar_files/TB_img.png",
 			"1701": "ourochar_files/Rotsko.png",
-			"1956": "ourochar_files/glassko.png"
+			"1956": "ourochar_files/glassko.png",
+			"2878": "ourochar_files/rotskobiology.png"
 		},weapon_kind: {
 			"1718": "Pizzactrkind"
 		},sburbicon: {
@@ -1867,7 +1873,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1343": "ourochar_files/early_TI.png",
 			"1731": "ourochar_files/dismei.png",
 			"2048": "ourochar_files/dismei_whitecoat.png",
-			"2612": "ourochar_files/dismei_maskless.png"
+			"2612": "ourochar_files/dismei_maskless.png",
+			"2834": "ourochar_files/dismei_2834.png"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"1777": "ourochar_files/dismei_gate.png"
@@ -2627,7 +2634,31 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		firstAppearance: 2726,
 		plotrelevance: 100,
 		hideafter: 2727,
-	}
+	},
+	{
+		id: "ʚɞ",
+		name: "ʚɞ",
+		names: {
+			"2816": "ʚɞ"
+		},
+		images: {
+			"2816": "ourochar_files/blank.png"
+		},
+		firstAppearance: 2816,
+		plotrelevance: 100,
+	},
+	{
+		id: "Sans",
+		name: "Sans",
+		names: {
+			"3019": "Sans"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"3019": "ourochar_files/sans.png",
+		},
+		firstAppearance: 3019,
+		plotrelevance: -1, 
+	},
 ];	
 
 
