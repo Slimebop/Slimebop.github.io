@@ -18,7 +18,10 @@ const characters = [
 			"611": "ourochar_files/!REPLACEMEWHENUPDATE.cotwell.png",
 			"1331": "ourochar_files/inkwellcovered.png",
 			"2318": "ourochar_files/sleepy_inkwell.png",
-			"3676": "ourochar_files/3676inkwell.png" //test image 
+			"3220": "ourochar_files/3220_inkwell.png",
+			"3222": "ourochar_files/3222_inkwell.png",
+			"3224": "ourochar_files/3224_inkwell.png",
+			"3237": "ourochar_files/3676inkwell.png" //test image 
 		},
 		firstAppearance: 3,
 		descriptions: {
@@ -242,7 +245,8 @@ const characters = [
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"64": "ourochar_files/earlySD.png",
 			"1213": "ourochar_files/sd_shadow.png",
-			"1670": "ourochar_files/wait_SD.png"
+			"1670": "ourochar_files/wait_SD.png",
+			"3150": "ourochar_files/shadowsroko.png"
 		},
 		firstAppearance: 64,
 		pestertag: {
@@ -945,7 +949,8 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"1031": "ourochar_files/vivimasked.png",
 			"1322": "ourochar_files/VIVIREVEAL.png",
 			"2172": "ourochar_files/vivi_academic.png",
-			"2178": "ourochar_files/vivi_academic_gloom.png"
+			"2178": "ourochar_files/vivi_academic_gloom.png",
+			"3159": "ourochar_files/vivi_academic.png",
 		},
 		firstAppearance: 605,
 		plotrelevance: 100,
@@ -1087,7 +1092,8 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"1270": "ourochar_files/noragame.png", //masked
 			"1357": "ourochar_files/earlynora.png", //unmasked
 			"1387": "ourochar_files/norahairstreak.png", 
-			"2071": "ourochar_files/noraial.png"
+			"2071": "ourochar_files/noraial.png",
+			"3290": "ourochar_files/nora_missing.png",
 		},
 		pestertag: {
 			"676": "umbralEyes [UE]"
@@ -1174,7 +1180,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1390": "ourochar_files/ZZ_real.png",
 			"1435": "ourochar_files/ZZ_lost.png",
 			"2423": "ourochar_files/ZoeyZ.png",
-			"2659": "ourochar_files/ZoeyZ_cutes.png"
+			"2659": "ourochar_files/ZoeyZ_cutes.png",
+			"3310": "ourochar_files/potentiallycyrazz.png"
 		},
 		pestertag: {
 			"676": "zenithZero [ZZ]"
@@ -1260,6 +1267,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"728": "ourochar_files/jekto_gate.png"
+		},pesterhighlight: {
+			"default": "#FFFFFF00",
+			"3220": "#FFFFFF"
 		},
 		plotrelevance: 50,
 	},
@@ -2663,6 +2673,29 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		firstAppearance: 3019,
 		plotrelevance: -1, 
+	},
+	{
+		id: "probably rokos squire",
+		name: "SD",
+		names: {
+			"3150": "???",
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"3150": "ourochar_files/mystery_lady.png",
+		},
+		firstAppearance: 3150,
+		plotrelevance: 84,
+	},{
+		id: "Losuna",
+		name: "Losuna",
+		names: {
+			"3199": "Losune"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"3199": "ourochar_files/losunareal.png",
+		},
+		firstAppearance: 3199,
+		plotrelevance: 84,
 	},
 ];	
 /*
