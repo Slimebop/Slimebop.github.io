@@ -2764,7 +2764,22 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"3810": "#170033"
 		},
 		plotrelevance: 84,
-	},
+	},{
+		id: "Samira",
+		name: "Samira",
+		names: {
+			"3834": "Samira"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"3834": "ourochar_files/3834_samira.png"
+		},
+		firstAppearance: 3834,
+		plotrelevance: 0, // even though we love you. i have to match skullys </3
+		pestercolor: {
+			"default": "#000000",
+			"3834": "#0074ff"
+		}
+	}, 
 ];	
 /*
 {
