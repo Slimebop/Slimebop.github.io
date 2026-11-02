@@ -21,7 +21,9 @@ const characters = [
 			"3220": "ourochar_files/3220_inkwell.png",
 			"3222": "ourochar_files/3222_inkwell.png",
 			"3224": "ourochar_files/3224_inkwell.png",
-			"3237": "ourochar_files/3676inkwell.png" //test image 
+			"3237": "ourochar_files/3676inkwell.png", //test image 
+			"3713": "ourochar_files/3713_inkwell.png",
+			"3721": "ourochar_files/gtier_inkwell.png",
 		},
 		firstAppearance: 3,
 		descriptions: {
@@ -78,7 +80,8 @@ const characters = [
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"17": "ourochar_files/earlyshelly.png",
 			"608": "ourochar_files/!REPLACEMEWHENUPDATE.shellysmile.png",
-			"2885": "ourochar_files/shellybiology.png"
+			"2885": "ourochar_files/shellybiology.png",
+			"3721": "ourochar_files/gtier_shelly.png",
 		},
 		firstAppearance: 17,
 		descriptions: {
@@ -246,7 +249,8 @@ const characters = [
 			"64": "ourochar_files/earlySD.png",
 			"1213": "ourochar_files/sd_shadow.png",
 			"1670": "ourochar_files/wait_SD.png",
-			"3150": "ourochar_files/shadowsroko.png"
+			"3150": "ourochar_files/shadowsroko.png",
+			"3810": "ourochar_files/SD_new_shoes.png"
 		},
 		firstAppearance: 64,
 		pestertag: {
@@ -452,7 +456,9 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"1918": "ourochar_files/junko_icon.png",
 			"1922": "ourochar_files/junko.png",
 			"1940": "ourochar_files/earlyjekt-olight.png",
-			"2877": "ourochar_files/jektobiology.png"
+			"2877": "ourochar_files/jektobiology.png",
+			"3622": "ourochar_files/3622_jekt-o.png",
+			"3625": "ourochar_files/3625_jekt-o.png"
 		},
 		weapon_kind: {
 			"451": "Harpngunkind"
@@ -922,7 +928,8 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"571": "ourochar_files/!REPLACEMEWHENUPDATE.veiliamirror.png",
 			"1215": "ourochar_files/veiliascwoll.png",
-			"3022": "ourochar_files/veiliascwoll_cutes.png"
+			"3022": "ourochar_files/veiliascwoll_cutes.png",
+			"3800": "ourochar_files/veilia_new_shoes.png"
 		},
 		firstAppearance: 571,
 		pestertag: {
@@ -1094,6 +1101,7 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"1387": "ourochar_files/norahairstreak.png", 
 			"2071": "ourochar_files/noraial.png",
 			"3290": "ourochar_files/nora_missing.png",
+			"3540": "ourochar_files/nora_return.png"
 		},
 		pestertag: {
 			"676": "umbralEyes [UE]"
@@ -1531,7 +1539,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"859": "ourochar_files/TB_img.png",
 			"1701": "ourochar_files/Rotsko.png",
 			"1956": "ourochar_files/glassko.png",
-			"2878": "ourochar_files/rotskobiology.png"
+			"2878": "ourochar_files/rotskobiology.png",
+			"3832": "ourochar_files/Rotsko_new_shoes.png"
 		},weapon_kind: {
 			"1718": "Pizzactrkind"
 		},sburbicon: {
@@ -1558,6 +1567,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		pestercolor: {
 			"default": "#000000",
 			"884": "#004183"
+		},weapon_kind: {
+			"3321": "Spdrlmbkind"
 		},
 		images: {
 			"884": "ourochar_files/UM.png",
@@ -1602,7 +1613,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		images: {
 			"921": "ourochar_files/bloomicon.png",
 			"922": "ourochar_files/bloomishadow.png",
-			"1680": "ourochar_files/bloomi.png"
+			"1680": "ourochar_files/bloomi.png",
+			"3340": "ourochar_files/3340_bloomi.png"
 		},weapon_kind: {
 			"1764": "Scissorskind"
 		},sburbicon: {
@@ -1663,6 +1675,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		images: {
 			"1039": "ourochar_files/mimismile.png",
 			"2035": "ourochar_files/mimineedstransparency.png"
+			//need new mimi outfit, page 3559
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"1776": "ourochar_files/ZZ_gate.png"
@@ -1688,7 +1701,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		plotrelevance: 100,
 		images: {
 			"1050": "ourochar_files/celosmile.png",
-			"1476": "ourochar_files/A_Cleo_2.png"
+			"1476": "ourochar_files/A_Cleo_2.png",
+			"3754": "ourochar_files/3754_cleo.png"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -1895,7 +1909,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1731": "ourochar_files/dismei.png",
 			"2048": "ourochar_files/dismei_whitecoat.png",
 			"2612": "ourochar_files/dismei_maskless.png",
-			"2834": "ourochar_files/dismei_2834.png"
+			"2834": "ourochar_files/dismei_2834.png",
+			"3658": "ourochar_files/dismei_maskless_pathetic.png",
+			"3816": "ourochar_files/Dismei_new_shoes.png"
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"1777": "ourochar_files/dismei_gate.png"
@@ -2017,7 +2033,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1491": "ourochar_files/early_DO.png",
-			"3026": "ourochar_files/fodder_cutes.png"
+			"3026": "ourochar_files/fodder_cutes.png",
+			"3806": "ourochar_files/fodder_new_shoes.png"
 		},
 		plotrelevance: 84,
 		firstAppearance: 1491,
@@ -2031,7 +2048,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		name: "PB",
 		names: {
 			"1494": "powpowBowwow [PB]",
-			"2038": "Suki Fontaine"
+			"2038": "Suki/Suzi Fontaine"
 		},
 		pestertag: {
 			"1494": "powpowBowwow [PB]"
@@ -2128,7 +2145,10 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1596": "ourochar_files/QS.png",
 			"1704": "ourochar_files/medusa.png",
 			"1960": "ourochar_files/medusa_wool.png",
-			"2408": "ourochar_files/medusa_masked.png"
+			"2408": "ourochar_files/medusa_masked.png",
+			"3816": "ourochar_files/medusa_new_shoes.png"
+		},weapon_kind: {
+			"3361": "2xstlttokind"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -2150,7 +2170,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1615": "slayerSombra [SS]"
 		},
 		images: {
-			"1615": "ourochar_files/Blank.png"
+			"1615": "ourochar_files/Blank.png",
+			"3150": "ourochar_files/mystery_lady.png",
+			"3810": "ourochar_files/SS_new_shoes.png"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -2170,7 +2192,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1615": "ourochar_files/Blank.png",
-			"1975": "ourochar_files/chipicon.png"
+			"1975": "ourochar_files/chipicon.png",
+			"3667": "ourochar_files/chip.png"
 		},
 		pestercolor: {
 			"default": "#000000",
@@ -2279,7 +2302,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"1760": "ourochar_files/bloomikernel.png",
-			"1823": "ourochar_files/MAMAMPISPRITE.png"
+			"1823": "ourochar_files/MAMAMPISPRITE.png",
+			"3490": "ourochar_files/3490_MAMAMPISPRITE.png"
 		},
 		firstAppearance: 1760,
 		status: {
@@ -2383,7 +2407,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		id: "Diburg",
 		name: "Diburg",
 		names: {
-			"1867": "Diburg Veizux"
+			"1867": "Diburg Veizux",
+			"3844": "Icarus"
 		},
 		pestertag: {
 			"1867": "stardestinedVagabond [SV]"
@@ -2508,6 +2533,7 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"1940": "ourochar_files/pennsprite.png",
+			"3534": "ourochar_files/3534_pennsprite.png"
 		},
 		firstAppearance: 1940,
 		status: {
@@ -2606,6 +2632,26 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"2335": "#0093c2"
 		}
 	}, {
+		id: "Kumoko",
+		name: "Kumoko",
+		names: {
+			"2300": "???",
+			"3328": "Robot",
+			"3332": "Robot Dawn",
+			"3570": "Kumoko"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"2300": "ourochar_files/robot.png",
+			"3331": "ourochar_files/robot_desolocoat.png",
+			"3569": "ourochar_files/evill_robot.png",
+			"3774": "ourochar_files/kumoko_new_shoes.png"
+		},sburbicon: {
+			"0": "ourochar_files/Blank.png",
+			"1780": "ourochar_files/desolo_gate.png"
+		},
+		firstAppearance: 2300,
+		plotrelevance: 100,
+	},{
 		id: "Katzie",
 		name: "Katzie",
 		names: {
@@ -2673,28 +2719,50 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		firstAppearance: 3019,
 		plotrelevance: -1, 
-	},
-	{
-		id: "probably rokos squire",
-		name: "SD",
-		names: {
-			"3150": "???",
-		},
-		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
-			"3150": "ourochar_files/mystery_lady.png",
-		},
-		firstAppearance: 3150,
-		plotrelevance: 84,
 	},{
 		id: "Losuna",
 		name: "Losuna",
 		names: {
-			"3199": "Losune"
+			"3199": "Losuna"
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"3199": "ourochar_files/losunareal.png",
 		},
 		firstAppearance: 3199,
+		plotrelevance: 84,
+	},{
+		id: "FG",
+		name: "FG",
+		names: {
+			"3747": "foolsGoldlich [FG]"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"3747": "ourochar_files/FG_icon.png",
+		},
+		firstAppearance: 3747,
+		pestertag: {
+			"3747": "foolsGoldlich [FG]"
+		},pestercolor: {
+			"default": "#000000",
+			"3747": "#12b3b3"
+		},
+		plotrelevance: 84,
+	},{
+		id: "XV",
+		name: "XV",
+		names: {
+			"3810": "xedVirtuoso [XV]"
+		},
+		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
+			"3810": "ourochar_files/XV_new_shoes.png",
+		},
+		firstAppearance: 3810,
+		pestertag: {
+			"3810": "xedVirtuoso [XV]"
+		},pestercolor: {
+			"default": "#000000",
+			"3810": "#170033"
+		},
 		plotrelevance: 84,
 	},
 ];	
