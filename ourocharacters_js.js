@@ -2689,6 +2689,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		pestercolor: {
 			"default": "#000000",
 			"2672": "#ee0068"
+		},pestertag: {
+			"3560": "alreadyWraith [AW]"
 		},
 		sburbicon: {
 			"0": "ourochar_files/Blank.png",
