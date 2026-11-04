@@ -949,7 +949,7 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"605": "???",
 			"606": "VIVI(AN)",
 			"711": "VIVIAN CRYSTALANCE",
-			"835": "VIVIAN CRYSTALANCE",
+			"838": "Vivian Crystalance",
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"605": "ourochar_files/!REPLACEMEWHENUPDATE.dreamvivi.png",
