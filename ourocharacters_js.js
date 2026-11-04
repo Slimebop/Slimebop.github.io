@@ -448,7 +448,8 @@ Also, you are a tad... skittish. You could line the walls with all your fears an
 			"212": "Jekt-O Goner",
 			"954": "LITTLE O",
 			"955": "Jekt-O Goner",
-			"1918": "Junko"
+			"1918": "Junko",
+			"1940": "Jekt-O Goner",
 		},
 		images: {//im pretty usre links should work here too?(if you wanted to use filegarden ^_^)
 			"211": "ourochar_files/earlyjekt-o.png",
