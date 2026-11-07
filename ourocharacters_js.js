@@ -1414,6 +1414,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		pestercolor: {
 			"default": "#000000",
 			"721": "#9e469e"
+		},pestertag: {
+			"3598": "twilightEmbrace [TE]"
 		},
 		lunarswing:{
 			"1429": "Prospit",
