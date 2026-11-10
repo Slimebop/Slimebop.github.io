@@ -959,6 +959,7 @@ Perhaps you should visit this intruder yourself." (Page 441)`
 			"2172": "ourochar_files/vivi_academic.png",
 			"2178": "ourochar_files/vivi_academic_gloom.png",
 			"3159": "ourochar_files/vivi_academic.png",
+			"3861": "ourochar_files/3861_vivi.png"
 		},
 		firstAppearance: 605,
 		plotrelevance: 100,
@@ -1408,7 +1409,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"722": "ourochar_files/vistasprite.png", //yes im using the newer one. i lvoe her too much to hurt her like this TvT
 			"1544": "ourochar_files/vista_maskless.png",
 			"2239": "ourochar_files/vista_bestoutfit.png",
-			"2902": "ourochar_files/vsitabiology.png"
+			"2902": "ourochar_files/vsitabiology.png",
+			"3864": "ourochar_files/3864_vista.png"
 		},
 		firstAppearance: 721,
 		plotrelevance: 100, //LIKE A MILLION!!!!!!!!!!!
