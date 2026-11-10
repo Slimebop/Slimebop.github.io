@@ -1190,7 +1190,8 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 			"1435": "ourochar_files/ZZ_lost.png",
 			"2423": "ourochar_files/ZoeyZ.png",
 			"2659": "ourochar_files/ZoeyZ_cutes.png",
-			"3310": "ourochar_files/potentiallycyrazz.png"
+			"3310": "ourochar_files/potentiallycyrazz.png",
+			"3854": "ourochar_files/3854_zz.png"
 		},
 		pestertag: {
 			"676": "zenithZero [ZZ]"
@@ -1677,8 +1678,9 @@ You see yourself as a shadow leader or sidekick to the rest of your friend group
 		},
 		images: {
 			"1039": "ourochar_files/mimismile.png",
-			"2035": "ourochar_files/mimineedstransparency.png"
-			//need new mimi outfit, page 3559
+			"2035": "ourochar_files/mimineedstransparency.png",
+			"3559": "ourochar_files/3559_mimi.png",
+			"3854": "ourochar_files/mimi_dont_cry.png",
 		},sburbicon: {
 			"0": "ourochar_files/Blank.png",
 			"1776": "ourochar_files/ZZ_gate.png"
