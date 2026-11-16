@@ -1134,7 +1134,7 @@ In addition to these silly interests for a cat girl, you love ANIMALS OF MANY KI
 			"712": `Gerald Way`,
 			"712": `Squintly Depresso`,
 			"712": `Johann Sterling`, //Ties dont currently work: Maybe impliment it?
-			"713": "Penn Aphelionx`"
+			"713": "Penn Aphelion"
 		},weapon_kind: {
 			"1679": "Crossbowkind"
 		},
